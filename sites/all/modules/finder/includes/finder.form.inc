@@ -13,12 +13,12 @@
 
 
 
-/** OWN stripos definition for PHP4 compatibility */
+/** OWN stripos definition for PHP4 compatibility 
 
 function stripos($haystack, $needle){
     return strpos($haystack, stristr( $haystack, $needle ));
 }
-
+*/
 function finder_form(&$form_state, $finder) {
 
   $form = array();
@@ -39,8 +39,6 @@ function finder_form(&$form_state, $finder) {
   $form['#action'] = url($finder->path);
   $form['finder_form'] = array(
     '#weight' => 0,
-    '#prefix' => '<div class="finder-form finder-'. $finder->finder_id .'">',
-    '#suffix' => '</div>',
   );
   if ($finder->settings['form']['prefix']) {
     $form['finder_form']['#prefix'] .=
@@ -63,11 +61,8 @@ function finder_form(&$form_state, $finder) {
       $element_default = $element->settings['form']['default_value'];
     }
     $form['finder_form'][$element->finder_element_id] = array(
-      '#title' => $element->title,
       '#weight' => $element->weight,
       '#description' => $element->description,
-      '#prefix' => check_markup($element->settings['form']['prefix'], $element->settings['form']['prefix_format'], FALSE),
-      '#suffix' => check_markup($element->settings['form']['suffix'], $element->settings['form']['prefix_format'], FALSE),
       '#default_value' => $element_default,
       '#required' => $element->settings['form']['required'],
       '#executes_submit_callback' => TRUE,

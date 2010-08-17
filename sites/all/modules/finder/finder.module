@@ -657,9 +657,8 @@ function finder_view($finder, $display) {
   }
 
   $rendered = '';
-  $rendered .= ($display == 'ahah') ? '' : '<div id="'. $finder->finder_view_build_id .'" class="finder-view-build-id">';
   $rendered .= theme('finder_view', $finder, $display, $output);
-  $rendered .= ($display == 'ahah') ? '' : '</div>';
+
 
   return $rendered;
 }

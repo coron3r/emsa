@@ -1,5 +1,5 @@
 <?php
-// $Id: jquerymenu.module,v 1.12 2009/02/17 21:51:36 aaronhawkins Exp $
+// $Id: jquerymenu.module,v 1.13 2009/11/16 08:44:48 aaronhawkins Exp $
 /**
  * @file
  * The JQuerymenu module parses hierarchical link arrays and renders them as click and expand menu blocks.
@@ -75,11 +75,17 @@ function jq_configuration_form() {
     '#multiple' => TRUE,
     '#description' => t('Choose which menus you wish to create a jquery version for. <p> Please note that this only creates the block. You will still have to activate the block on the blocks page.'),
   );
-   $form['jq_animate'] = array(
+  $form['jq_animate'] = array(
     '#type' => 'checkbox',
     '#title' => t('Disable animation.'),
     '#description' => t('If checked your menus will open without any transition effects.'),
     '#default_value' => variable_get('jq_menu_animate', 0),
+    );
+  $form['jq_editlink'] = array(
+    '#type' => 'checkbox',
+    '#title' => t('Display Edit Link.'),
+    '#description' => t('If checked the edit link will display when hovering over menu items to those having administration privileges. This setting will only affect menus directly created by the jquery menu module. Other modules that implement the edit link will have their own settings.'),
+    '#default_value' => variable_get('jq_edit_link', 1),
     );
   $form['jq_submit'] = array(
     '#type' => 'submit',
@@ -91,6 +97,8 @@ function jq_configuration_form() {
 function jq_configuration_form_submit($form, &$form_state) {
   $animate = $form_state['values']['jq_animate'];
   variable_set('jq_menu_animate', $animate);
+  $editlink = $form_state['values']['jq_editlink'];
+  variable_set('jq_edit_link', $editlink);
   $choices = $form_state['values']['jq_activate'];
   $result = db_query("SELECT menu_name FROM {jquerymenus}");
   $enabledmenus = array();
@@ -121,40 +129,43 @@ function jquerymenu_block($op = 'list', $delta = 0, $edit = array()) {
   $result = db_query("SELECT mid, menu_name FROM {jquerymenus}");
   $enabledmenus = array();
   while ($enabled = db_fetch_object($result)) {
-    $enabledmenus[] = $enabled->menu_name;
+    $enabledmenus[$enabled->mid] = $enabled->menu_name;
   }
   switch ($op) {
     case 'list':
-      $x = 0;
-      foreach ($enabledmenus as $name) {
+      foreach ($enabledmenus as $mid => $name) {
         $title = db_result(db_query("SELECT title FROM {menu_custom} WHERE menu_name = '%s'", $name));
-        $blocks[$x]['info'] = $title .' - Jquerymenu';
-        $blocks[$x]['cache'] = BLOCK_NO_CACHE;
-        $x++;
+        if (empty($title)) {
+          db_query("DELETE FROM {jquerymenus} WHERE menu_name = '%s'", $name);
+          db_query("DELETE FROM {blocks} WHERE module = 'jquerymenu' AND delta = %d", $mid);
+        }
+    
+        $blocks[$mid]['info']  = $title .' - Jquerymenu';
+        $blocks[$mid]['cache'] = BLOCK_NO_CACHE;
       }
     return $blocks;
     
     case 'view':
-      $d = 0;
       global $user;
       $old_activemenu = menu_get_active_menu_name();
       
-      foreach ($enabledmenus as $menuname) {
-        if ($delta == $d) {
-          if ($menuname == 'navigation' && !empty($user->uid)) {
-            $title = $user->name;
+      foreach ($enabledmenus as $mid => $menuname) {
+        $menutree = menu_tree_all_data($menuname);
+        if (!empty($menutree)) {
+          if ($delta == $mid) {
+            if ($menuname == 'navigation' && !empty($user->uid)) {
+              $title = theme('username', $user);
+            }
+            else {
+              $title = db_result(db_query("SELECT title FROM {menu_custom} WHERE menu_name = '%s'", $menuname));
+            }
+            menu_set_active_menu_name($menuname);
+            $trail = jqmenu_trail_creator();
+            $block['subject'] = $title;
+            $block['content'] = theme('menu_creation_by_array', $menutree, $trail);
+            
           }
-          else {
-            $title = db_result(db_query("SELECT title FROM {menu_custom} WHERE menu_name = '%s'", $menuname));
-          }
-          menu_set_active_menu_name($menuname);
-          $trail = jqmenu_trail_creator();
-          $block['subject'] = $title;
-          $menutree = menu_tree_all_data($menuname);
-          $block['content'] = theme('menu_creation_by_array', $menutree, $trail);
-          
-        }
-        $d++;
+        } 
       }
       menu_set_active_menu_name($old_activemenu);
   }
@@ -163,14 +174,17 @@ function jquerymenu_block($op = 'list', $delta = 0, $edit = array()) {
 }
 
 function theme_menu_creation_by_array($tree, $trail) {
+  $menu_output = recursive_link_creator($tree, $trail);
+  if (!empty($menu_output)) {
   //We create the shell to hold the menu outside the recursive function.
   // Add a div that only shows up for that pesky IE so that we can style it into obedience.
   $output  = '<!--[if IE]><div class="ie"><![endif]-->';
   $output .= '<ul class="menu jquerymenu">';
-  $output .= recursive_link_creator($tree, $trail);
+  $output .= $menu_output;
   $output .= '</ul>';
   $output .= '<!--[if IE]></div><![endif]-->';
   return $output;
+  }
 }
 
 function jqmenu_trail_creator() {
@@ -221,9 +235,26 @@ function recursive_link_creator($items = array(), $trail) {
     $options = array();
     if (isset($item['link']['options'])) {
       $options = $item['link']['options'];
-    }    
-
-
+    }
+    if (variable_get('jq_edit_link', 1) == 1) {
+      if (empty($item['link']['editpath'] )) {
+        if (!empty($item['link']['mlid'])) {
+          $editpath = 'admin/build/menu/item/'.$item['link']['mlid'].'/edit';
+        }
+      }
+      else {
+        $editpath = $item['link']['editpath'];
+      }
+    }
+    if (empty($item['link']['editaccess'])) {
+      $editaccess = 'administer menu';
+    }
+    else {
+      $editaccess = $item['link']['editaccess'];
+    }
+    if (empty($item['link']['edit_text'])) {
+      $edit_text = t('Edit this link');
+    }
     if (!empty($item['link']['to_arg_functions'])) {
       $toarg_array = array();
       $patharray = explode('/', $item['link']['href']);
@@ -249,7 +280,7 @@ function recursive_link_creator($items = array(), $trail) {
     }
     if ($item['link']['hidden'] != 1 && $item['link']['hidden'] != -1) {
       $output .= '<li'. (empty($classes) ? '>' : ' class="'. implode(' ', $classes) .'">');
-      $output .= theme('jqmenu_links', $item['link']['title'], $path, $options, $state, $classes, $item['link']['has_children']);
+      $output .= theme('jqmenu_links', $item['link']['title'], $path, $options, $state, $classes, $item['link']['has_children'], $editpath, $edit_text, $edit_access);
         if (!empty($item['link']['has_children'])) {
           if (!empty($nextlevel)) {
             $output .= '<ul>';
@@ -272,7 +303,8 @@ function jquerymenu_theme() {
         'options' => NULL,
         'state' => NULL,
         'classes' => NULL,
-        'has_children' => NULL),
+        'has_children' => NULL,
+        'editpath' => NULL,)
     ),
     'menu_creation_by_array' => array(
       'arguments' => array(
@@ -283,19 +315,24 @@ function jquerymenu_theme() {
   );
 }
 
+// Span uvnitř linku - CRN
+function l_span($title, $path, $options, $classes, $has_children) {
+	 if ($has_children != 0) {
+	 $plus = '<span'. (empty($classes) ? '>' : ' class="'. implode(' ', $classes) .'">') .'</span>';
+		return '<a href="'.url($path).'" title="'.$title.'">'.$plus. $title .'</a>';
+	} else {
+		return '<a href="'.url($path).'" title="'.$title.'"><span class="square"></span>'. $title .'</a>';
+	}
+}
+
 function theme_jqmenu_links($title, $path, $options, $state, $classes, $has_children) {
   global $base_path;
   $module_path = $base_path . drupal_get_path('module', 'jquerymenu');
   $output = '';
-  // This is the span that becomes the little plus and minus symbol.
-  $plus = '<span'. (empty($classes) ? '>' : ' class="'. implode(' ', $classes) .'">') .'</span>';
-  if ($has_children != 0) {
-    // OWN $title -> strip_tags(html_entity_decode($title)
-    $output .= $plus . l(strip_tags(html_entity_decode($title)), $path, $options);
-  }
-  else {
-    // OWN $title -> strip_tags(html_entity_decode($title)
-    $output .= l(strip_tags(html_entity_decode($title)), $path, $options);
-  }
+
+		// Upravený output - CRN
+    $output .= l_span(strip_tags(html_entity_decode($title)), $path, $options, $classes, $has_children);
+
+
   return $output;
 }

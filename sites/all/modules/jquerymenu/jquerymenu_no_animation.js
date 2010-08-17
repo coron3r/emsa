@@ -1,4 +1,4 @@
-// $Id: jquerymenu_no_animation.js,v 1.2 2009/02/04 21:54:54 aaronhawkins Exp $
+// $Id: jquerymenu_no_animation.js,v 1.3 2009/11/16 08:44:48 aaronhawkins Exp $
 Drupal.behaviors.jquerymenu = function(context) {
   $('ul.jquerymenu:not(.jquerymenu-processed)', context).addClass('jquerymenu-processed').each(function(){
     $(this).find("li.parent span.parent").click(function(){
@@ -12,5 +12,12 @@ Drupal.behaviors.jquerymenu = function(context) {
         $(this).removeClass('open').addClass('closed');
       }
     });
+    showit = function() {
+      $(this).children().show();
+    }
+    hideit = function() {
+      $(this).children().hide();
+    }
+    $(this).find(".editbox").hover(showit, hideit);
   });
 }

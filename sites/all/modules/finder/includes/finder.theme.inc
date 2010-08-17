@@ -84,10 +84,10 @@ function theme_finder_links($finder) {
     }
   }
   if (!empty($links)) {
-    $output .= '<div id="finder-links-'. $finder->finder_id .'" 
-              class="finder-links">';
+  //  $output .= '<div id="finder-links-'. $finder->finder_id .'" 
+    //          class="finder-links">';
     $output .= theme('item_list', $links, NULL, 'ul', array('class' => 'links'));
-    $output .= '</div>';
+    //$output .= '</div>';
   }
 
   return $output;
@@ -100,9 +100,7 @@ function theme_finder_links($finder) {
  *   The finder object.
  */
 function theme_finder_page($finder) {
-  $output = '<div id="finder-page-'. $finder->finder_id .'" class="finder-page">';
   $output .= finder_view($finder, 'page');
-  $output .= '</div>';
   return $output;
 }
 
@@ -113,9 +111,8 @@ function theme_finder_page($finder) {
  *   The finder object.
  */
 function theme_finder_block($finder) {
-  $output = '<div id="finder-block-'. $finder->finder_id .'" class="finder-block">';
+
   $output .= finder_view($finder, 'block');
-  $output .= '</div>';
   return $output;
 }
 
@@ -136,9 +133,8 @@ function theme_finder_block($finder) {
  */
 function theme_finder_view($finder, $display, $output_array) {
   drupal_add_css(drupal_get_path('module', 'finder') .'/finder.css');
-  $output = '<div class="finder-view-'. $finder->finder_id .' finder-view">';
+
   $output .= implode('', $output_array);
-  $output .= '</div>';
   return $output;
 }
 

@@ -2027,8 +2027,10 @@ function theme_token($element) {
  * @ingroup themeable
  */
 function theme_textfield($element) {
-  $size = empty($element['#size']) ? '' : ' size="'. $element['#size'] .'"';
-  $maxlength = empty($element['#maxlength']) ? '' : ' maxlength="'. $element['#maxlength'] .'"';
+  // Zase blbosti a nechci si to overridovat v souboru pac jsem čuně
+  
+  //$size = empty($element['#size']) ? '' : ' size="'. $element['#size'] .'"';
+  //$maxlength = empty($element['#maxlength']) ? '' : ' maxlength="'. $element['#maxlength'] .'"';
   $class = array('form-text');
   $extra = '';
   $output = '';
@@ -2067,7 +2069,7 @@ function theme_textfield($element) {
 function theme_form($element) {
   // Anonymous div to satisfy XHTML compliance.
   $action = $element['#action'] ? 'action="'. check_url($element['#action']) .'" ' : '';
-  return '<form '. $action .' accept-charset="UTF-8" method="'. $element['#method'] .'" id="'. $element['#id'] .'"'. drupal_attributes($element['#attributes']) .">\n<div>". $element['#children'] ."\n</div></form>\n";
+  return '<form '. $action .' accept-charset="UTF-8" method="'. $element['#method'] .'" id="'. $element['#id'] .'"'. drupal_attributes($element['#attributes']) .">\n<div class='". $element['#method'] ."'>". $element['#children'] ."\n</div></form>\n";
 }
 
 /**
@@ -2197,12 +2199,14 @@ function theme_file($element) {
 function theme_form_element($element, $value) {
   // This is also used in the installer, pre-database setup.
   $t = get_t();
-
-  $output = '<div class="form-item"';
+  
+//Zbytečný drupalovský divy
+/*  $output = '<div class="form-item"';
   if (!empty($element['#id'])) {
     $output .= ' id="'. $element['#id'] .'-wrapper"';
   }
   $output .= ">\n";
+ */ 
   $required = !empty($element['#required']) ? '<span class="form-required" title="'. $t('This field is required.') .'">*</span>' : '';
 
   if (!empty($element['#title'])) {
@@ -2221,7 +2225,7 @@ function theme_form_element($element, $value) {
     $output .= ' <div class="description">'. $element['#description'] ."</div>\n";
   }
 
-  $output .= "</div>\n";
+ // $output .= "</div>\n";
 
   return $output;
 }
