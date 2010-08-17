@@ -1,0 +1,290 @@
+# Czech translation of Drupal (6.4)
+# Copyright (c) 2008 by the Czech translation team
+# Generated from files:
+#  poll.pages.inc,v 1.4 2007/12/14 09:50:41 goba
+#  poll.module,v 1.263.2.2 2008/08/13 23:59:13 drumm
+#  poll.install,v 1.13 2007/12/18 12:59:21 dries
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Drupal (6.4)\n"
+"POT-Creation-Date: 2008-09-29 17:46+0200\n"
+"PO-Revision-Date: 2008-02-10 14:14+0100\n"
+"Language-Team: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1)?(0):(((n>=2)&&(n<=4))?(1):2));\n"
+
+#: modules/poll/poll.pages.inc:20
+msgid "open"
+msgstr "otevřené"
+
+#: modules/poll/poll.pages.inc:20
+msgid "closed"
+msgstr "zavřené"
+
+#: modules/poll/poll.pages.inc:32
+msgid ""
+"This table lists all the recorded votes for this poll. If anonymous users "
+"are allowed to vote, they will be identified by the IP address of the "
+"computer they used when they voted."
+msgstr ""
+"Tato tabulka uvádí přehled všech zaznamenaných hlasů v tomto hlasování. Bylo-"
+"li povoleno hlasování anonymním uživatelům, budou označeni IP adresou "
+"počítače použitého pro hlasování."
+
+#: modules/poll/poll.module:16
+msgid ""
+"The poll module can be used to create simple polls for site users. A poll is "
+"a simple, multiple choice questionnaire which displays the cumulative "
+"results of the answers to the poll. Having polls on the site is a good way "
+"to receive feedback from community members."
+msgstr ""
+"Modul anket lze využít pro vytváření jednoduchých anket pro uživatele webu. "
+"Anketa je jednoduchý formulář s možností výběru odpovědí, jenž zobrazuje "
+"souhrnné výsledky odpovědí na anketu. Ankety na webu usnadňují získávání "
+"zpětné vazby od uživatelské komunity."
+
+#: modules/poll/poll.module:17
+msgid ""
+"When creating a poll, enter the question being posed, as well as the "
+"potential choices (and beginning vote counts for each choice). The status "
+"and duration (length of time the poll remains active for new votes) can also "
+"be specified. Use the <a href=\"@poll\">poll</a> menu item to view all "
+"current polls. To vote in or view the results of a specific poll, click on "
+"the poll itself."
+msgstr ""
+"Při tvorbě ankety zadejte otázku a možné odpovědi na výběr, přičemž lze také "
+"nastavit počáteční počty hlasů pro každou možnou odpověď. Může být také "
+"nastavena délka trvání ankety (tedy doba po kterou má být anketa přístupná "
+"pro nové hlasy). Pro zobrazení aktuálních anket použijte nabídku <a href="
+"\"@poll\">ankety</a>. Zde, pokud chcete hlasovat, klikněte na samotnou "
+"anketu."
+
+#: modules/poll/poll.module:18
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@poll"
+"\">Poll module</a>."
+msgstr ""
+"Více informací naleznete v online příručce pro <a href=\"@poll\">modul Poll</"
+"a>."
+
+#: modules/poll/poll.module:133
+msgid "Most recent poll"
+msgstr "Aktuální anketa"
+
+#: modules/poll/poll.module:174
+msgid ""
+"A <em>poll</em> is a question with a set of possible responses. A <em>poll</"
+"em>, once created, automatically provides a simple running count of the "
+"number of votes received for each response."
+msgstr ""
+"<em>Anketa</em> je otázka se souborem možných odpovědí. Po vytvoření "
+"<em>ankety</em> se automaticky průběžně počítá počet hlasů obdržených pro "
+"jednotlivé odpovědi."
+
+#: modules/poll/poll.module:175
+msgid "Question"
+msgstr "Otázka"
+
+#: modules/poll/poll.module:237
+msgid "More choices"
+msgstr "Více možností"
+
+#: modules/poll/poll.module:238
+msgid ""
+"If the amount of boxes above isn't enough, click here to add more choices."
+msgstr ""
+"Není-li počet polí dostatečný, klikněte zde pro přidání dalších možností."
+
+#: modules/poll/poll.module:251
+msgid "Closed"
+msgstr "Zavřená"
+
+#: modules/poll/poll.module:257
+msgid "Poll settings"
+msgstr "Nastavení anket"
+
+#: modules/poll/poll.module:263
+msgid "Poll status"
+msgstr "Stav ankety"
+
+#: modules/poll/poll.module:266
+msgid "When a poll is closed, visitors can no longer vote for it."
+msgstr "Když je anketa zavřená, uživatelé již nemohou hlasovat."
+
+#: modules/poll/poll.module:271
+msgid "Poll duration"
+msgstr "Trvání ankety"
+
+#: modules/poll/poll.module:274
+msgid "After this period, the poll will be closed automatically."
+msgstr "Po této době se anketa automaticky uzavře."
+
+#: modules/poll/poll.module:306
+msgid "Choice @n"
+msgstr "Odpověď @n"
+
+#: modules/poll/poll.module:314
+msgid "Votes for choice @n"
+msgstr "Hlasů pro odpověď @n"
+
+#: modules/poll/poll.module:387
+msgid "Negative values are not allowed."
+msgstr "Záporné hodnoty nejsou dovoleny."
+
+#: modules/poll/poll.module:392
+msgid "You must fill in at least two choices."
+msgstr "Je třeba vyplnit alespoň dvě odpovědi."
+
+#: modules/poll/poll.module:513
+msgid "Older polls"
+msgstr "Starší ankety"
+
+#: modules/poll/poll.module:513
+msgid "View the list of polls on this site."
+msgstr "Zobrazit seznam anket."
+
+#: modules/poll/poll.module:515,98
+msgid "Results"
+msgstr "Výsledky"
+
+#: modules/poll/poll.module:515
+msgid "View the current poll results."
+msgstr "Zobrazit výsledky aktuální ankety."
+
+#: modules/poll/poll.module:618
+msgid "Your vote was recorded."
+msgstr "Váš hlas byl zaznamenán."
+
+#: modules/poll/poll.module:674
+msgid "Add another choice"
+msgstr "Přidat další možnost"
+
+#: modules/poll/poll.module:678
+msgid "Choice"
+msgstr "Možnost"
+
+#: modules/poll/poll.module:679
+msgid "Vote count"
+msgstr "Počet hlasů"
+
+#: modules/poll/poll.module:761
+msgid "Cancel your vote"
+msgstr "Zrušit Váš hlas"
+
+#: modules/poll/poll.module:57
+msgid "create poll content"
+msgstr "vytvořit anketu"
+
+#: modules/poll/poll.module:57
+msgid "edit any poll content"
+msgstr "upravit jakoukoli anketu"
+
+#: modules/poll/poll.module:57
+msgid "edit own poll content"
+msgstr "upravit vlastní anketu"
+
+#: modules/poll/poll.module:57
+msgid "vote on polls"
+msgstr "hlasovat v anketách"
+
+#: modules/poll/poll.module:57
+msgid "cancel own vote"
+msgstr "zrušit vlastní hlas"
+
+#: modules/poll/poll.module:57
+msgid "inspect all votes"
+msgstr "zobrazit výsledky"
+
+#: modules/poll/poll.module:79
+msgid "Polls"
+msgstr "Ankety"
+
+#: modules/poll/poll.module:87
+msgid "Votes"
+msgstr "Hlasy"
+
+#: modules/poll/poll.module:109
+msgid "Javascript Choice Form"
+msgstr "JavaScriptový výběrový formulář"
+
+#: modules/poll/poll.module:0
+msgid "poll"
+msgstr "anketa"
+
+#: modules/poll/poll.install:25
+msgid "Stores poll-specific information for poll nodes."
+msgstr "Ukládá do anketních uzlů informace po jednotlivé ankety."
+
+#: modules/poll/poll.install:32
+msgid "The poll's {node}.nid."
+msgstr "{node}.nid ankety."
+
+#: modules/poll/poll.install:38
+msgid ""
+"The number of seconds past {node}.created during which the poll is open."
+msgstr "Počet sekund po {node}.created během kterých bude anketa otevřena."
+
+#: modules/poll/poll.install:45
+msgid "Boolean indicating whether or not the poll is open."
+msgstr "Boolovská hodnota určující zda je anketa otevřená či nikoli."
+
+#: modules/poll/poll.install:52
+msgid "Stores information about all choices for all {poll}s."
+msgstr "Ukládá informace o všech volbách všech {poll}."
+
+#: modules/poll/poll.install:58
+msgid "Unique identifier for a poll choice."
+msgstr "Unikátní identifikátor volby v anketě."
+
+#: modules/poll/poll.install:65
+msgid "The {node}.nid this choice belongs to."
+msgstr "Kterému {node}.nid náleží tato volba."
+
+#: modules/poll/poll.install:72
+msgid "The text for this choice."
+msgstr "Text pro tento výběr."
+
+#: modules/poll/poll.install:78
+msgid "The total number of votes this choice has received by all users."
+msgstr "Celkem hlasů pro tuto volbu od všech uživatelů."
+
+#: modules/poll/poll.install:84
+msgid "The sort order of this choice among all choices for the same node."
+msgstr "Pořadí řazení této volby vzhledem ke všem volbám pro tento uzel."
+
+#: modules/poll/poll.install:94
+msgid "Stores per-{users} votes for each {poll}."
+msgstr "Ukládá hlasy podle {users} pro každou {poll}."
+
+#: modules/poll/poll.install:100
+msgid "The {poll} node this vote is for."
+msgstr "Volba pro uzel {poll}."
+
+#: modules/poll/poll.install:107
+msgid "The {users}.uid this vote is from unless the voter was anonymous."
+msgstr "Volba od {users}.uid bez anonymních voličů."
+
+#: modules/poll/poll.install:113
+msgid "The {users}'s vote for this poll."
+msgstr "Volba {users} pro tuto anketu."
+
+#: modules/poll/poll.install:120
+msgid "The IP address this vote is from unless the voter was logged in."
+msgstr "IP adresa ze které bylo hlasováno, pokud byl hlasující přihlášený."
+
+#: modules/poll/poll.module:57
+msgid "delete own poll content"
+msgstr "smazat vlastní anketu"
+
+#: modules/poll/poll.module:57
+msgid "delete any poll content"
+msgstr "smazat jakoukoliv anketu"
+
+#: modules/poll/poll.module:595
+msgid ""
+"Your vote could not be recorded because you did not select any of the "
+"choices."
+msgstr "Váš hlas nemůže být započítán, protože nebyly vybrány žádné volby."

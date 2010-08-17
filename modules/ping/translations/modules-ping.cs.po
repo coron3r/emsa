@@ -1,0 +1,56 @@
+# Czech translation of Drupal (6.4)
+# Copyright (c) 2008 by the Czech translation team
+# Generated from file: ping.module,v 1.52 2007/12/19 17:45:42 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Drupal (6.4)\n"
+"POT-Creation-Date: 2008-09-29 17:46+0200\n"
+"PO-Revision-Date: 2008-03-19 18:33+0100\n"
+"Language-Team: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1)?(0):(((n>=2)&&(n<=4))?(1):2));\n"
+
+#: modules/ping/ping.module:15
+msgid ""
+"The ping module is useful for notifying interested sites that your site has "
+"changed. It automatically sends notifications, or \"pings\", to the <a href="
+"\"@external-http-pingomatic-com\">pingomatic</a> service about new or "
+"updated content. In turn, <a href=\"@external-http-pingomatic-com"
+"\">pingomatic</a> notifies other popular services, including weblogs.com, "
+"Technorati, blo.gs, BlogRolling, Feedster.com, and Moreover."
+msgstr ""
+"Modul ping je užitečný pro upozornění ostatních webů na to, že se na tomto "
+"webu něco změnilo. Automaticky posílá upozornění o novém nebo aktualizovaném "
+"obsahu (tzv. „pingy“) službě <a href=\"@external-http-pingomatic-com"
+"\">pingomatic</a>. <a href=\"@external-http-pingomatic-com\">Pingomatic</a> "
+"pak obdobně upozorní další známé služby, např. weblogs.com, Technorati, blo."
+"gs, BlogRolling, Feedster.com a Moreover."
+
+#: modules/ping/ping.module:16
+msgid ""
+"The ping module requires a correctly configured <a href=\"@cron\">cron "
+"maintenance task</a>."
+msgstr "Modul ping vyžaduje správně nastavený <a href=\"@cron\">cron</a>."
+
+#: modules/ping/ping.module:17
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@ping"
+"\">Ping module</a>."
+msgstr ""
+"Více informací naleznete v online příručce pro <a href=\"@ping\">modul Ping</"
+"a>."
+
+#: modules/ping/ping.module:55
+msgid "directory ping"
+msgstr "directory ping"
+
+#: modules/ping/ping.module:55
+msgid "Failed to notify pingomatic.com (site)."
+msgstr "Selhalo upozornění pro pingomatic.com (web)."
+
+#: modules/ping/ping.module:0
+msgid "ping"
+msgstr "ping"

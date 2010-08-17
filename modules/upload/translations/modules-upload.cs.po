@@ -1,0 +1,282 @@
+# Czech translation of Drupal (6.4)
+# Copyright (c) 2008 by the Czech translation team
+# Generated from files:
+#  upload.admin.inc,v 1.7 2008/01/10 20:22:57 goba
+#  upload.module,v 1.197.2.2 2008/08/13 23:59:14 drumm
+#  upload.install,v 1.6.2.1 2008/02/08 18:01:14 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Drupal (6.4)\n"
+"POT-Creation-Date: 2008-09-29 17:46+0200\n"
+"PO-Revision-Date: 2008-03-25 23:24+0100\n"
+"Language-Team: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1)?(0):(((n>=2)&&(n<=4))?(1):2));\n"
+
+#: modules/upload/upload.admin.inc:10
+msgid ""
+"The maximum allowed image size expressed as WIDTHxHEIGHT (e.g. 640x480). Set "
+"to 0 for no restriction."
+msgstr ""
+"Maximální povolené rozlišení obrázků vyjádřené jako ŠÍŘKAxVÝŠKA (např. "
+"640x480). Zadejte 0 pro neomezené rozlišení."
+
+#: modules/upload/upload.admin.inc:21,24,39,42
+msgid "The %role file size limit must be a number and greater than zero."
+msgstr "Omezení velikosti souboru %role musí být větší než nula."
+
+#: modules/upload/upload.admin.inc:21,24,31
+msgid "default"
+msgstr "výchozí"
+
+#: modules/upload/upload.admin.inc:31,49
+msgid ""
+"The %role maximum file size per upload is greater than the total file size "
+"allowed per user"
+msgstr ""
+"Omezení velikosti souboru pro jedno nahrání %role je větší než omezení na "
+"jednoho uživatele."
+
+#: modules/upload/upload.admin.inc:64
+msgid "General settings"
+msgstr "Obecné nastavení"
+
+#: modules/upload/upload.admin.inc:69
+msgid "Maximum resolution for uploaded images"
+msgstr "Maximální rozlišení nahrávaných obrázků"
+
+#: modules/upload/upload.admin.inc:73
+msgid ""
+"The maximum allowed image size (e.g. 640x480). Set to 0 for no restriction. "
+"If an <a href=\"!image-toolkit-link\">image toolkit</a> is installed, files "
+"exceeding this value will be scaled down to fit."
+msgstr ""
+"Maximální povolené rozlišení obrázku (např. 800x600). Hodnota 0 - bez "
+"omezení. Pokud je nainstalován <a href=\"!image-toolkit-link\">soubor "
+"obrázkových nástrojů</a> obrázky přesahující tuto hodnotu budou zmenšeny."
+
+#: modules/upload/upload.admin.inc:74
+msgid "WIDTHxHEIGHT"
+msgstr "VÝŠKAxŠÍŘKA"
+
+#: modules/upload/upload.admin.inc:78
+msgid "List files by default"
+msgstr "Implicitně zobrazovat soubory"
+
+#: modules/upload/upload.admin.inc:81
+msgid "Display attached files when viewing a post."
+msgstr "Zobrazit přiložené soubory při prohlížení příspěvku."
+
+#: modules/upload/upload.admin.inc:97
+msgid ""
+"The default maximum file size a user can upload. If an image is uploaded and "
+"a maximum resolution is set, the size will be checked after the file has "
+"been resized."
+msgstr ""
+"Maximální výchozí velikost souboru, který může uživatel nahrát. Pokud "
+"nahraný obrázek přesahuje maximální rozlišení, velikost souboru bude "
+"zjištěna až po jeho zmenšení."
+
+#: modules/upload/upload.admin.inc:135
+msgid ""
+"The maximum size of a file a user can upload. If an image is uploaded and a "
+"maximum resolution is set, the size will be checked after the file has been "
+"resized."
+msgstr ""
+"Maximální velikost souboru, který může uživatel nahrát. Pokud nahraný "
+"obrázek přesahuje maximální rozlišení, velikost souboru bude zjištěna až po "
+"jeho zmenšení."
+
+#: modules/upload/upload.admin.inc:144
+msgid "The maximum size of all files a user can have on the site."
+msgstr ""
+"Maximální velikost všech souborů, které jeden uživatel smí mít na tomto webu."
+
+#: modules/upload/upload.module:16
+msgid ""
+"The upload module allows users to upload files to the site. The ability to "
+"upload files is important for members of a community who want to share work. "
+"It is also useful to administrators who want to keep uploaded files "
+"connected to posts."
+msgstr ""
+"Modul Upload umožňuje uživatelům nahrávat soubory na web. Schopnost nahrávat "
+"soubory je důležitá pro členy komunity, kteří chtějí sdílet práci. Také je "
+"to užitečné pro administrátory, kteří chtějí uchovávat nahrané soubory "
+"spojené s příspěvky."
+
+#: modules/upload/upload.module:17
+msgid ""
+"Users with the upload files permission can upload attachments to posts. "
+"Uploads may be enabled for specific content types on the content types "
+"settings page. Each user role can be customized to limit or control the file "
+"size of uploads, or the maximum dimension of image files."
+msgstr ""
+"Uživatelé, kteří mají oprávnění nahrávat soubory, mohou přidávat ke svým "
+"příspěvkům přílohy. Nahrávání může být povoleno pro specifické typy obsahu "
+"na stránce Administrace typů obsahu. Každá uživatelská role může mít jiná "
+"omezení (velikost, rozměry) nahrávání souborů."
+
+#: modules/upload/upload.module:18
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@upload"
+"\">Upload module</a>."
+msgstr ""
+"Více informací naleznete v online příručce pro <a href=\"@upload\">modul "
+"Upload</a>."
+
+#: modules/upload/upload.module:21
+msgid ""
+"Users with the <a href=\"@permissions\">upload files permission</a> can "
+"upload attachments. Users with the <a href=\"@permissions\">view uploaded "
+"files permission</a> can view uploaded attachments. You can choose which "
+"post types can take attachments on the <a href=\"@types\">content types "
+"settings</a> page."
+msgstr ""
+"Uživatelé s právem <a href=\"@permissions\">nahrát soubory</a> mohou "
+"uploadovat přílohy. Uživatelé s právem <a href=\"@permissions\">zobrazit "
+"nahrané soubory</a> si mohou prohlížet přílohy. Které typy obsahu je možno "
+"doplnit o přílohy, můžete určit na stránce <a href=\"@types\">nastavení typů "
+"obsahu</a>."
+
+#: modules/upload/upload.module:67
+msgid "Read full article to view attachments."
+msgstr "Pro zobrazení příloh si přečtěte celý článek."
+
+#: modules/upload/upload.module:213
+msgid "Attachments"
+msgstr "Přílohy"
+
+#: modules/upload/upload.module:226
+msgid "File attachments"
+msgstr "Přiložené soubory"
+
+#: modules/upload/upload.module:229
+msgid ""
+"Changes made to the attachments are not permanent until you save this post. "
+"The first \"listed\" file will be included in RSS feeds."
+msgstr ""
+"Změny provedené v přílohách nejsou trvalé, dokud neuložíte příspěvek. První "
+"vypsaný soubor bude zahrnut v RSS exportech."
+
+#: modules/upload/upload.module:247
+msgid ""
+"File attachments are disabled. The file directories have not been properly "
+"configured."
+msgstr ""
+"Přílohy uzlů jsou vypnuty. Adresář pro nahrávání souborů není správně "
+"zkonfigurován."
+
+#: modules/upload/upload.module:249
+msgid ""
+"Please visit the <a href=\"@admin-file-system\">file system configuration "
+"page</a>."
+msgstr ""
+"Prosím navštivte <a href=\"@admin-file-system\">stránku nastavení "
+"souborového systému</a>."
+
+#: modules/upload/upload.module:252
+msgid "Please contact the site administrator."
+msgstr "Kontaktujte prosím administrátora webu."
+
+#: modules/upload/upload.module:344
+msgid "Attachment"
+msgstr "Příloha"
+
+#: modules/upload/upload.module:344,517
+msgid "Size"
+msgstr "Velikost"
+
+#: modules/upload/upload.module:491
+msgid "Attach new file"
+msgstr "Připojit nový soubor"
+
+#: modules/upload/upload.module:493
+msgid "Images are larger than %resolution will be resized. "
+msgstr "Obrázky s rozlišením větším než %resolution budou zmenšeny. "
+
+#: modules/upload/upload.module:493
+msgid ""
+"The maximum upload size is %filesize. Only files with the following "
+"extensions may be uploaded: %extensions. "
+msgstr ""
+"Maximální velikost nahraného souboru je %filesize. Nahrány mohou být pouze "
+"soubory s následujícími příponami: %extensions. "
+
+#: modules/upload/upload.module:497
+msgid "Attach"
+msgstr "Připojit"
+
+#: modules/upload/upload.module:502
+msgid "Please wait..."
+msgstr "Prosím čekejte..."
+
+#: modules/upload/upload.module:65,309
+msgid "1 attachment"
+msgid_plural "@count attachments"
+msgstr[0] "@count příloha"
+msgstr[1] "@count přílohy"
+msgstr[2] "@count příloh"
+
+#: modules/upload/upload.module:46
+msgid "upload files"
+msgstr "nahrát soubory"
+
+#: modules/upload/upload.module:46
+msgid "view uploaded files"
+msgstr "zobrazit nahrané soubory"
+
+#: modules/upload/upload.module:86
+msgid "File uploads"
+msgstr "Nahrávání souborů"
+
+#: modules/upload/upload.module:87
+msgid "Control how files may be attached to content."
+msgstr "Umožňuje uživatelům nahrávat a připojovat soubory k obsahu."
+
+#: modules/upload/upload.module:0
+msgid "upload"
+msgstr "nahrát soubor"
+
+#: modules/upload/upload.install:29
+msgid "Stores uploaded file information and table associations."
+msgstr "Uchovává informace o nahraném souboru a tabulce spojení."
+
+#: modules/upload/upload.install:36
+msgid "Primary Key: The {files}.fid."
+msgstr "Primární klíč: {files}.fid."
+
+#: modules/upload/upload.install:43
+msgid "The {node}.nid associated with the uploaded file."
+msgstr "{node}.nid spojený s nahraným souborem."
+
+#: modules/upload/upload.install:50
+msgid "Primary Key: The {node}.vid associated with the uploaded file."
+msgstr "Primární klíč: {node}.vid spojený s nahraným souborem."
+
+#: modules/upload/upload.install:57
+msgid "Description of the uploaded file."
+msgstr "Popis nahraného souboru."
+
+#: modules/upload/upload.install:65
+msgid "Whether the file should be visibly listed on the node: yes(1) or no(0)."
+msgstr "Zda se má soubor u uzlu viditelně vypsat: ano(1) nebo ne(0)."
+
+#: modules/upload/upload.install:72
+msgid "Weight of this upload in relation to other uploads in this node."
+msgstr ""
+"Váha tohoto nahraného souboru ve vztahu vůči ostatním nahraným souborům u "
+"tohoto uzlu."
+
+#: modules/upload/upload.admin.inc:18
+msgid ""
+"Depending on your server environment, these settings may be changed in the "
+"system-wide php.ini file, a php.ini file in your Drupal root directory, in "
+"your Drupal site's settings.php file, or in the .htaccess file in your "
+"Drupal root directory."
+msgstr ""
+"V závislosti na nastavení serveru mohou být tyto možnosti změněny v "
+"systémovém souboru php.ini, v souboru php.ini v kořenovém adresáři Drupalu, "
+"v souboru settings.php nebo v souboru .htaccess v kořenovém adresáři Drupalu."

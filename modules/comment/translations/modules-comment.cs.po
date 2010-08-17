@@ -1,0 +1,679 @@
+# Czech translation of Drupal (6.4)
+# Copyright (c) 2008 by the Czech translation team
+# Generated from files:
+#  comment-folded.tpl.php,v 1.2 2007/08/07 08:39:35 goba
+#  comment.admin.inc,v 1.4.2.2 2008/05/19 07:27:35 goba
+#  comment.module,v 1.617.2.2 2008/04/25 20:58:46 goba
+#  comment.pages.inc,v 1.2.2.1 2008/02/07 18:53:38 goba
+#  comment.install,v 1.19 2008/01/16 21:45:30 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Drupal (6.4)\n"
+"POT-Creation-Date: 2008-09-29 17:46+0200\n"
+"PO-Revision-Date: 2008-05-14 09:54+0200\n"
+"Language-Team: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1)?(0):(((n>=2)&&(n<=4))?(1):2));\n"
+
+#: modules/comment/comment-folded.tpl.php:20
+msgid "by"
+msgstr "napsal"
+
+#: modules/comment/comment.admin.inc:56
+msgid "Posted in"
+msgstr "Příspěvek"
+
+#: modules/comment/comment.admin.inc:86
+msgid "Please select one or more comments to perform the update on."
+msgstr "Zvolte komentáře, které chcete aktualizovat."
+
+#: modules/comment/comment.admin.inc:142
+msgid "No comments available."
+msgstr "Bez komentářů."
+
+#: modules/comment/comment.admin.inc:183
+msgid ""
+"There do not appear to be any comments to delete or your selected comment "
+"was deleted by another administrator."
+msgstr ""
+"Nejsou žádné komentáře ke smazání nebo byl Váš komentář smazán jiným "
+"administrátorem."
+
+#: modules/comment/comment.admin.inc:188
+msgid "Are you sure you want to delete these comments and all their children?"
+msgstr "Určitě chcete smazat tyto komentáře a jejich potomky?"
+
+#: modules/comment/comment.admin.inc:190
+msgid "Delete comments"
+msgstr "Smazat komentáře"
+
+#: modules/comment/comment.admin.inc:207
+msgid "The comments have been deleted."
+msgstr "Komentáře byly smazány."
+
+#: modules/comment/comment.admin.inc:228
+msgid "The comment no longer exists."
+msgstr "Komentář již neexistuje."
+
+#: modules/comment/comment.admin.inc:245
+msgid "Are you sure you want to delete the comment %title?"
+msgstr "Opravdu smazat komentář %title?"
+
+#: modules/comment/comment.admin.inc:247
+msgid "Any replies to this comment will be lost. This action cannot be undone."
+msgstr ""
+"Budou odstraněny také reakce na tento komentář. Tuto akci nelze vrátit zpět."
+
+#: modules/comment/comment.admin.inc:257
+msgid "The comment and all its replies have been deleted."
+msgstr "Komentář a všechny odpovědi byly smazány."
+
+#: modules/comment/comment.admin.inc:280
+msgid "Cannot delete non-existent comment."
+msgstr "Nelze odstranit neexistující komentář."
+
+#: modules/comment/comment.admin.inc:286
+msgid "Comment: deleted %subject."
+msgstr "Komentář: smazán %subject."
+
+#: modules/comment/comment.module:558,1426
+msgid "Preview comment"
+msgstr "Náhled komentáře"
+
+#: modules/comment/comment.pages.inc:65,105
+msgid "You are not authorized to post comments."
+msgstr "Nemáte oprávnění posílat komentáře."
+
+#: modules/comment/comment.pages.inc:78,87
+msgid "The comment you are replying to does not exist."
+msgstr "Komentář, na který odpovídáte, neexistuje."
+
+#: modules/comment/comment.pages.inc:98
+msgid "This discussion is closed: you can't post new comments."
+msgstr "Tato diskuse je zavřená. Nemůžete psát nové komentáře."
+
+#: modules/comment/comment.pages.inc:102
+msgid "Reply"
+msgstr "Odpovědět"
+
+#: modules/comment/comment.pages.inc:111
+msgid "You are not authorized to view comments."
+msgstr "Nemáte povolení prohlížet komentáře."
+
+#: modules/comment/comment.module:129
+msgid ""
+"The comment module allows visitors to comment on your posts, creating ad hoc "
+"discussion boards. Any <a href=\"@content-type\">content type</a> may have "
+"its <em>Default comment setting</em> set to <em>Read/Write</em> to allow "
+"comments, or <em>Disabled</em>, to prevent comments. Comment display "
+"settings and other controls may also be customized for each content type "
+"(some display settings are customizable by individual users)."
+msgstr ""
+"Modul Comment umožňuje návštěvníkům diskutovat pod jednotlivými příspěvky na "
+"webu. Kterýkoli <a href=\"@content-type\">typ obsahu</a> může mít  "
+"<em>výchozí nastavení komentářů</em> nastavené na <em>Čtení/Psaní</em>, nebo "
+"<em>Vypnuto</em>. Nastavení zobrazení komentářů a další volby lze rovněž "
+"upravit pro každý typ obsahu zvlášť (některá nastavení zobrazení mohou být "
+"upravena jednotlivými uživateli)."
+
+#: modules/comment/comment.module:130
+msgid ""
+"Comment permissions are assigned to user roles, and are used to determine "
+"whether anonymous users (or other roles) are allowed to comment on posts. If "
+"anonymous users are allowed to comment, their individual contact information "
+"may be retained in cookies stored on their local computer for use in later "
+"comment submissions. When a comment has no replies, it may be (optionally) "
+"edited by its author. The comment module uses the same input formats and "
+"HTML tags available when creating other forms of content."
+msgstr ""
+"Jednotlivým uživatelským rolím mohou být nastavena práva k psaní komentářů. "
+"Pokud je nepřihlášeným uživatelům povoleno psát komentáře, jejich kontaktní "
+"informace, které mohou být použity při psaní dalších komentářů, jsou uloženy "
+"za pomocí tzv. Cookies na počítači uživatele. Uživatelé mohou upravovat "
+"svoje komentáře, pokud na ně ještě nikdo neodpověděl. Modul Comment používá "
+"stejné formáty textu jako jiné typy obsahu."
+
+#: modules/comment/comment.module:131
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@comment"
+"\">Comment module</a>."
+msgstr ""
+"Více informací naleznete v online příručce pro <a href=\"@comment\">modul "
+"Comment</a>."
+
+#: modules/comment/comment.module:134
+msgid ""
+"Below is a list of the latest comments posted to your site. Click on a "
+"subject to see the comment, the author's name to edit the author's user "
+"information, 'edit' to modify the text, and 'delete' to remove their "
+"submission."
+msgstr ""
+"Nejnovější komentáře na tomto webu. Kliknutím na předmět si přečtěte "
+"komentář, na jméno autora zobrazíte informace o autorovi. Komentář můžete "
+"upravit volbou <em>upravit</em>, a za pomocí odkazu <em>smazat</em> vybraný "
+"komentář odstraníte."
+
+#: modules/comment/comment.module:136
+msgid ""
+"Below is a list of the comments posted to your site that need approval. To "
+"approve a comment, click on 'edit' and then change its 'moderation status' "
+"to Approved. Click on a subject to see the comment, the author's name to "
+"edit the author's user information, 'edit' to modify the text, and 'delete' "
+"to remove their submission."
+msgstr ""
+"Na této stránce naleznete seznam komentářů, které čekají na schválení. Pro "
+"schválení komentáře klikněte na „upravit“ a poté změňte stav na Vydáno. Po "
+"kliknutí na předmět se zobrazí celý komentář, kliknutím na jméno autora "
+"můžete upravit informace uživatele, „upravit“ upraví text a ,smazat“ "
+"odstraní příspěvek."
+
+#: modules/comment/comment.module:285,289
+msgid "Recent comments"
+msgstr "Poslední komentáře"
+
+#: modules/comment/comment.module:421
+msgid "Jump to the first comment of this posting."
+msgstr "Skočit na první komentář tohoto příspěvku."
+
+#: modules/comment/comment.module:432
+msgid "Jump to the first new comment of this posting."
+msgstr "Skočit na první nový komentář tohoto příspěvku."
+
+#: modules/comment/comment.module:441,462
+msgid "Add new comment"
+msgstr "Přidat komentář"
+
+#: modules/comment/comment.module:443
+msgid "Add a new comment to this page."
+msgstr "Přidat komentář k této stránce."
+
+#: modules/comment/comment.module:464
+msgid "Share your thoughts and opinions related to this posting."
+msgstr "Podělte se o své myšlenky a názory k tomuto příspěvku."
+
+#: modules/comment/comment.module:493,576
+msgid "Comment settings"
+msgstr "Nastavení komentářů"
+
+#: modules/comment/comment.module:499
+msgid "Default comment setting"
+msgstr "Výchozí nastavení komentářů"
+
+#: modules/comment/comment.module:501,585
+msgid "Read only"
+msgstr "Jen pro čtení"
+
+#: modules/comment/comment.module:501,585
+msgid "Read/Write"
+msgstr "Čtení/Psaní"
+
+#: modules/comment/comment.module:502
+msgid ""
+"Users with the <em>administer comments</em> permission will be able to "
+"override this setting."
+msgstr ""
+"Uživatelé s právem <em>administrace komentářů</em> mohou toto nastavení "
+"změnit."
+
+#: modules/comment/comment.module:506
+msgid "Default display mode"
+msgstr "Standardní režim zobrazení"
+
+#: modules/comment/comment.module:509
+msgid ""
+"The default view for comments. Expanded views display the body of the "
+"comment. Threaded views keep replies together."
+msgstr ""
+"Standardní zobrazení komentářů. Při rozšířeném zobrazení je vidět tělo "
+"komentáře. Při vláknovém zobrazení se odpovědi drží u sebe."
+
+#: modules/comment/comment.module:513
+msgid "Default display order"
+msgstr "Standardní pořadí"
+
+#: modules/comment/comment.module:516
+msgid ""
+"The default sorting for new users and anonymous users while viewing "
+"comments. These users may change their view using the comment control panel. "
+"For registered users, this change is remembered as a persistent user "
+"preference."
+msgstr ""
+"Výchozí nastavení prohlížení komentářů pro nové a anonymní uživatele. Tito "
+"uživatelé si mohou změnit pohled za pomocí ovládacího panelu komentářů. Pro "
+"registrované uživatele je změna pohledu uložena jako stálé uživatelské "
+"nastavení."
+
+#: modules/comment/comment.module:520
+msgid "Default comments per page"
+msgstr "Výchozí počet komentářů na stránku"
+
+#: modules/comment/comment.module:523
+msgid ""
+"Default number of comments for each page: more comments are distributed in "
+"several pages."
+msgstr ""
+"Výchozí počet komentářů na každou stránku: více komentářů se rozdělí na "
+"několik stránek."
+
+#: modules/comment/comment.module:527
+msgid "Comment controls"
+msgstr "Ovládání komentářů"
+
+#: modules/comment/comment.module:530
+msgid "Display above the comments"
+msgstr "Zobrazit nad komentáři"
+
+#: modules/comment/comment.module:531
+msgid "Display below the comments"
+msgstr "Zobrazit pod komentáři"
+
+#: modules/comment/comment.module:532
+msgid "Display above and below the comments"
+msgstr "Zobrazit nad i pod komentáři"
+
+#: modules/comment/comment.module:533
+msgid "Do not display"
+msgstr "Nezobrazovat"
+
+#: modules/comment/comment.module:534
+msgid ""
+"Position of the comment controls box. The comment controls let the user "
+"change the default display mode and display order of comments."
+msgstr ""
+"Umístění ovládání komentářů. Uživatel může změnit standardní režim zobrazení "
+"a pořadí komentářů."
+
+#: modules/comment/comment.module:538
+msgid "Anonymous commenting"
+msgstr "Anonymní komentáře"
+
+#: modules/comment/comment.module:541
+msgid "Anonymous posters may not enter their contact information"
+msgstr "Anonymní uživatelé nesmí zadat kontaktní informace"
+
+#: modules/comment/comment.module:542
+msgid "Anonymous posters may leave their contact information"
+msgstr "Anonymní uživatelé mohou zadat kontaktní informace"
+
+#: modules/comment/comment.module:543
+msgid "Anonymous posters must leave their contact information"
+msgstr "Anonymní uživatelé musí zadat kontaktní informace"
+
+#: modules/comment/comment.module:544
+msgid ""
+"This option is enabled when anonymous users have permission to post comments "
+"on the <a href=\"@url\">permissions page</a>."
+msgstr ""
+"Toto nastavení má smysl pouze pokud mají anonymní uživatelé povoleno psát "
+"komentáře. Podívejte se na <a href=\"@url\">stránku oprávnění</a>."
+
+#: modules/comment/comment.module:551
+msgid "Comment subject field"
+msgstr "Předmět komentáře"
+
+#: modules/comment/comment.module:554
+msgid "Can users provide a unique subject for their comments?"
+msgstr "Mohou uživatelé uvádět nové téma v komentářích?"
+
+#: modules/comment/comment.module:561
+msgid ""
+"Forces a user to look at their comment by clicking on a 'Preview' button "
+"before they can actually add the comment"
+msgstr ""
+"Před přidáním nového komentáře bude třeba komentář zobrazit tlačítkem "
+"„náhled“"
+
+#: modules/comment/comment.module:565
+msgid "Location of comment submission form"
+msgstr "Umístění formuláře pro odeslání komentáře"
+
+#: modules/comment/comment.module:567
+msgid "Display on separate page"
+msgstr "Zobrazit na zvláštní stránce"
+
+#: modules/comment/comment.module:567
+msgid "Display below post or comments"
+msgstr "Zobrazit pod příspěvkem nebo komentářem"
+
+#: modules/comment/comment.module:779
+msgid ""
+"Your comment has been queued for moderation by site administrators and will "
+"be published after approval."
+msgstr ""
+"Váš komentář byl zařazen do fronty ke schválení administrátory webu a bude "
+"zveřejněn po schválení."
+
+#: modules/comment/comment.module:792,791
+msgid ""
+"Comment: unauthorized comment submitted or comment submitted to a closed "
+"post %subject."
+msgstr "Komentář není autorizován nebo byl napsán v uzavřeném tématu %subject."
+
+#: modules/comment/comment.module:815
+msgid "parent"
+msgstr "nadřazený"
+
+#: modules/comment/comment.module:832,844
+msgid "reply"
+msgstr "odpovědět"
+
+#: modules/comment/comment.module:1049
+msgid "Post new comment"
+msgstr "Poslat nový komentář"
+
+#: modules/comment/comment.module:1070,1082
+msgid "Publish the selected comments"
+msgstr "Zveřejnit vybrané komentáře"
+
+#: modules/comment/comment.module:1071,1077,1084
+msgid "Delete the selected comments"
+msgstr "Smazat vybrané komentáře"
+
+#: modules/comment/comment.module:1076,1083
+msgid "Unpublish the selected comments"
+msgstr "Schovat vybrané komentáře"
+
+#: modules/comment/comment.module:1193
+msgid "You have to specify a valid author."
+msgstr "Je třeba zadat platného autora."
+
+#: modules/comment/comment.module:1204
+msgid "The name you used belongs to a registered user."
+msgstr "Zadané jméno patří registrovanému uživateli."
+
+#: modules/comment/comment.module:1209
+msgid "You have to leave your name."
+msgstr "Je třeba zadat jméno."
+
+#: modules/comment/comment.module:1214
+msgid "The e-mail address you specified is not valid."
+msgstr "Zadaná e-mailová adresa není platná."
+
+#: modules/comment/comment.module:1218
+msgid "You have to leave an e-mail address."
+msgstr "Je třeba zadat e-mailovou adresu."
+
+#: modules/comment/comment.module:1223
+msgid ""
+"The URL of your homepage is not valid. Remember that it must be fully "
+"qualified, i.e. of the form <code>http://example.com/directory</code>."
+msgstr ""
+"URL stránky není platné. Adresa musí být kompletní, tj. například "
+"<code>http://example.com/directory</code>."
+
+#: modules/comment/comment.module:1279
+msgid "Administration"
+msgstr "Administrace"
+
+#: modules/comment/comment.module:1322,1347,1354
+msgid "Homepage"
+msgstr "Homepage"
+
+#: modules/comment/comment.module:1528
+msgid "(No subject)"
+msgstr "(Žádný předmět)"
+
+#: modules/comment/comment.module:1614
+msgid "!a comments per page"
+msgstr "Počet komentářů na stránce: !a"
+
+#: modules/comment/comment.module:1641
+msgid ""
+"Select your preferred way to display the comments and click \"Save settings"
+"\" to activate your changes."
+msgstr ""
+"Vyberte si, jak chcete zobrazovat komentáře a klikněte na „Uložit změny“."
+
+#: modules/comment/comment.module:1642
+msgid "Comment viewing options"
+msgstr "Volby prohlížení komentářů"
+
+#: modules/comment/comment.module:1795
+msgid ""
+"<a href=\"@login\">Login</a> or <a href=\"@register\">register</a> to post "
+"comments"
+msgstr ""
+"Pro možnost psaní komentářů se <a href=\"@login\">přihlašte</a> nebo <a href="
+"\"@register\">zaregistrujte</a>."
+
+#: modules/comment/comment.module:1799
+msgid "<a href=\"@login\">Login</a> to post comments"
+msgstr "Pro psaní komentářů se <a href=\"@login\">přihlašte</a>"
+
+#: modules/comment/comment.module:1827
+msgid "Submitted by !username on @datetime."
+msgstr "Napsal uživatel !username dne @datetime."
+
+#: modules/comment/comment.module:1842
+msgid "Flat list - collapsed"
+msgstr "Bez vláken - sbaleno"
+
+#: modules/comment/comment.module:1843
+msgid "Flat list - expanded"
+msgstr "Bez vláken - rozbaleno"
+
+#: modules/comment/comment.module:1844
+msgid "Threaded list - collapsed"
+msgstr "Vlákna - sbalené"
+
+#: modules/comment/comment.module:1845
+msgid "Threaded list - expanded"
+msgstr "Vlákna - rozbaleno"
+
+#: modules/comment/comment.module:2001
+msgid "After saving a new comment"
+msgstr "Po uložení nového komentáře"
+
+#: modules/comment/comment.module:2004
+msgid "After saving an updated comment"
+msgstr "Po uložení změněného komentáře"
+
+#: modules/comment/comment.module:2007
+msgid "After deleting a comment"
+msgstr "Po smazání komentáře"
+
+#: modules/comment/comment.module:2010
+msgid "When a comment is being viewed by an authenticated user"
+msgstr "Pokud je komentář prohlížen ověřeným uživatelem"
+
+#: modules/comment/comment.module:2023
+msgid "Unpublish comment"
+msgstr "Schovat komentář"
+
+#: modules/comment/comment.module:2031
+msgid "Unpublish comment containing keyword(s)"
+msgstr "Schovat komentáře obsahující klíčová slova"
+
+#: modules/comment/comment.module:2071
+msgid ""
+"The comment will be unpublished if it contains any of the character "
+"sequences above. Use a comma-separated list of character sequences. Example: "
+"funny, bungee jumping, \"Company, Inc.\". Character sequences are case-"
+"sensitive."
+msgstr ""
+"Komentář bude schován, pokud obsahuje některá z klíčových slov. Pro oddělení "
+"klíčových slov použijte čárku. Příklad: Viagra, Cialis, „Telecom, a.s.“. V "
+"klíčových slovech jsou rozlišovány malé a velké znaky."
+
+#: modules/comment/comment.module:769
+msgid "Comment: added %subject."
+msgstr "Komentář: přidán %subject."
+
+#: modules/comment/comment.module:2059,2099
+msgid "Unpublished comment %subject."
+msgstr "Komentář schován: %subject."
+
+#: modules/comment/comment.module:429
+msgid "1 new comment"
+msgid_plural "@count new comments"
+msgstr[0] "@count nový komentář"
+msgstr[1] "@count nové komentáře"
+msgstr[2] "@count nových komentářů"
+
+#: modules/comment/comment.module:275
+msgid "access comments"
+msgstr "přístup ke komentářům"
+
+#: modules/comment/comment.module:275
+msgid "post comments"
+msgstr "psát komentáře"
+
+#: modules/comment/comment.module:275
+msgid "administer comments"
+msgstr "administrace komentářů"
+
+#: modules/comment/comment.module:275
+msgid "post comments without approval"
+msgstr "psát komentáře bez schválení"
+
+#: modules/comment/comment.module:199
+msgid "List and edit site comments and the comment moderation queue."
+msgstr "Vypsat komentáře a frontu komentářů k moderování."
+
+#: modules/comment/comment.module:207
+msgid "Published comments"
+msgstr "Zveřejněné komentáře"
+
+#: modules/comment/comment.module:212
+msgid "Approval queue"
+msgstr "Fronta ke schválení"
+
+#: modules/comment/comment.module:220
+msgid "Delete comment"
+msgstr "Smazat komentář"
+
+#: modules/comment/comment.module:228
+msgid "Edit comment"
+msgstr "Upravit komentář"
+
+#: modules/comment/comment.module:235
+msgid "Reply to comment"
+msgstr "Odpovědět na komentář"
+
+#: modules/comment/comment.module:0
+msgid "comment"
+msgstr "komentář"
+
+#: modules/comment/comment.install:76
+msgid "Stores comments and associated data."
+msgstr "Uloží komentáře a přidružená data."
+
+#: modules/comment/comment.install:81
+msgid "Primary Key: Unique comment ID."
+msgstr "Primární klíč: Unikátní ID komentáře."
+
+#: modules/comment/comment.install:87
+msgid ""
+"The {comments}.cid to which this comment is a reply. If set to 0, this "
+"comment is not a reply to an existing comment."
+msgstr ""
+"{comments}.cid komentáře ke kterému je tento komentář odpovědí. Pokud je "
+"nastaveno na 0, pak tento komentář není odpovědí na existující komentář."
+
+#: modules/comment/comment.install:93
+msgid "The {node}.nid to which this comment is a reply."
+msgstr "{node}.nid na který je tento komentář reakcí."
+
+#: modules/comment/comment.install:99
+msgid ""
+"The {users}.uid who authored the comment. If set to 0, this comment was "
+"created by an anonymous user."
+msgstr ""
+"{users}.uid uživatele který stvořil komentář. Pokud je 0, komentář byl "
+"utvořen anonymním uživatelem."
+
+#: modules/comment/comment.install:106
+msgid "The comment title."
+msgstr "Nadpis komentáře."
+
+#: modules/comment/comment.install:112
+msgid "The comment body."
+msgstr "Tělo komentáře."
+
+#: modules/comment/comment.install:119
+msgid "The author's host name."
+msgstr "Jméno hostitele autora."
+
+#: modules/comment/comment.install:125
+msgid ""
+"The time that the comment was created, or last edited by its author, as a "
+"Unix timestamp."
+msgstr "Časové razítko vzniku nebo poslední editace komentáře autorem."
+
+#: modules/comment/comment.install:133
+msgid "The published status of a comment. (0 = Published, 1 = Not Published)"
+msgstr "Status komentáře (0 = Vydáno, 1 = Nevydáno)"
+
+#: modules/comment/comment.install:140
+msgid "The {filter_formats}.format of the comment body."
+msgstr "{filter_formats}.format těla komentáře."
+
+#: modules/comment/comment.install:146
+msgid "The vancode representation of the comment's place in a thread."
+msgstr "Umístění komentáře ve vláknu v kódu vancode."
+
+#: modules/comment/comment.install:152
+msgid ""
+"The comment author's name. Uses {users}.name if the user is logged in, "
+"otherwise uses the value typed into the comment form."
+msgstr ""
+"Jméno autora komentáře. Pokud byl uživatel přihlášen, je použita hodnota "
+"{users}.name, v jiných případech je použita hodnota z formuláře komentáře."
+
+#: modules/comment/comment.install:158
+msgid ""
+"The comment author's e-mail address from the comment form, if user is "
+"anonymous, and the 'Anonymous users may/must leave their contact "
+"information' setting is turned on."
+msgstr ""
+"E-mail autora komentáře, pokud je autor anonymní a je nastaveno, že anonymní "
+"uživatelé mohou nebo musí vepsat své kontaktní informace."
+
+#: modules/comment/comment.install:164
+msgid ""
+"The comment author's home page address from the comment form, if user is "
+"anonymous, and the 'Anonymous users may/must leave their contact "
+"information' setting is turned on."
+msgstr ""
+"Web autora komentáře, pokud je autor anonymní a je nastaveno, že anonymní "
+"uživatelé mohou nebo musí vepsat své kontaktní informace."
+
+#: modules/comment/comment.install:176
+msgid ""
+"Maintains statistics of node and comments posts to show \"new\" and \"updated"
+"\" flags."
+msgstr ""
+"Udržuje statistiky uzlu a komentářů pro zobrazení stavu „Nový“ a "
+"„Aktualizováno“."
+
+#: modules/comment/comment.install:183
+msgid "The {node}.nid for which the statistics are compiled."
+msgstr "{node}.nid pro který jsou sestaveny statistiky."
+
+#: modules/comment/comment.install:189
+msgid ""
+"The Unix timestamp of the last comment that was posted within this node, "
+"from {comments}.timestamp."
+msgstr ""
+"Časové razítko posledního komentáře který byl odeslán v tomto uzlu, z "
+"{comments}.timestamp."
+
+#: modules/comment/comment.install:195
+msgid ""
+"The name of the latest author to post a comment on this node, from "
+"{comments}.name."
+msgstr "Jméno autora posledního komentáře k tomuto uzlu, z {comments}.name."
+
+#: modules/comment/comment.install:201
+msgid ""
+"The user ID of the latest author to post a comment on this node, from "
+"{comments}.uid."
+msgstr ""
+"ID uživatele autora posledního komentáře k tomuto uzlu, z {comments}.uid."
+
+#: modules/comment/comment.install:208
+msgid "The total number of comments on this node."
+msgstr "Celkový počet komentářů k tomuto uzlu."

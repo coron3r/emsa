@@ -1,0 +1,234 @@
+# Czech translation of Drupal (6.4)
+# Copyright (c) 2008 by the Czech translation team
+# Generated from files:
+#  translation.pages.inc,v 1.2 2008/01/07 13:18:40 goba
+#  translation.module,v 1.23 2008/01/28 11:38:58 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Drupal (6.4)\n"
+"POT-Creation-Date: 2008-09-29 17:46+0200\n"
+"PO-Revision-Date: 2008-03-25 23:25+0100\n"
+"Language-Team: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1)?(0):(((n>=2)&&(n<=4))?(1):2));\n"
+
+#: modules/translation/translation.pages.inc:41
+msgid "outdated"
+msgstr "zastaralé"
+
+#: modules/translation/translation.pages.inc:50
+msgid "add translation"
+msgstr "přidat překlad"
+
+#: modules/translation/translation.pages.inc:52
+msgid "Not translated"
+msgstr "Nepřeloženo"
+
+#: modules/translation/translation.pages.inc:57
+msgid "Translations of %title"
+msgstr "Překlady názvu %title"
+
+#: modules/translation/translation.module:34
+msgid ""
+"The content translation module allows content to be translated into "
+"different languages. Working with the <a href=\"@locale\">locale module</a> "
+"(which manages enabled languages and provides translation for the site "
+"interface), the content translation module is key to creating and "
+"maintaining translated site content."
+msgstr ""
+"Modul Content translation umožňuje překlad obsahu do různých jazyků. Pracuje "
+"s modulem <a href=\"@locale\">Lokalizace</a> (který spravuje jazyky a "
+"poskytuje překlad rozhraní webu),  modul Content translation je klíčem k "
+"vytváření a spravování přeloženého obsahu webu."
+
+#: modules/translation/translation.module:35
+msgid "Configuring content translation and translation-enabled content types:"
+msgstr "Nastavení překladu obsahu a typů obsahu, které lze překládat:"
+
+#: modules/translation/translation.module:36
+msgid ""
+"Assign the <em>translate content</em> permission to the appropriate user "
+"roles at the <a href=\"@permissions\">Permissions configuration page</a>."
+msgstr ""
+"Přidělte právo <em>translate content</em> příslušným uživatelským rolím na "
+"stránce <a href=\"@permissions\">Nastavení práv</a>."
+
+#: modules/translation/translation.module:37
+msgid ""
+"Add and enable desired languages at the <a href=\"@languages\">Languages "
+"configuration page</a>."
+msgstr ""
+"Přidejte a povolte požadovaný jazyk na stránce <a href=\"@languages"
+"\">Nastavení jazyků</a>."
+
+#: modules/translation/translation.module:38
+msgid ""
+"Determine which <a href=\"@content-types\">content types</a> should support "
+"translation features. To enable translation support for a content type, edit "
+"the type and at the <em>Multilingual support</em> drop down, select "
+"<em>Enabled, with translation</em>. (<em>Multilingual support</em> is "
+"located within <em>Workflow settings</em>.) Be sure to save each content "
+"type after enabling multilingual support."
+msgstr ""
+"Rozhodněte, které <a href=\"@content-types\">typy obsahu</a> by měly "
+"podporovat překlad. Pro zapnutí podpory překladu pro typ obsahu je potřeba "
+"upravit typ a ve výběru <em>Podpora více jazyků</em> zvolit <em>Zapnuto, s "
+"překladem</em>. (<em>Podpora více jazyků</em> se nachází uvnitř "
+"<em>Nastavení postupu práce</em>) Ujistěte se, že každý typ obsahu po "
+"zapnutí podpory více jazyků uložíte."
+
+#: modules/translation/translation.module:39
+msgid "Working with translation-enabled content types:"
+msgstr "Práce s typy obsahu, které lze překládat:"
+
+#: modules/translation/translation.module:40
+msgid ""
+"Use the <em>Language</em> drop down to select the appropriate language when "
+"creating or editing posts."
+msgstr ""
+"Při vytváření nebo úpravě obsahu zvolte patřičný jazyk přes výběr <em>Jazyk</"
+"em> ."
+
+#: modules/translation/translation.module:41
+msgid ""
+"Provide new or edit current translations for existing posts via the "
+"<em>Translation</em> tab. Only visible while viewing a post as a user with "
+"the <em>translate content</em> permission, this tab allows translations to "
+"be added or edited using a specialized editing form that also displays the "
+"content being translated."
+msgstr ""
+"Nový překlad nebo úprava existujícího překladu pro existující obsah se dělá "
+"přes záložku <em>Překlad</em>. Je viditelná pouze v případě, že si příspěvek "
+"prohlíží uživatel s právy <em>přeložit obsah</em> a umožňuje, aby byly "
+"překlady přidány nebo upraveny za použití specializovaného editačního "
+"formuláře zobrazujícího rovněž obsah, který se má přeložit."
+
+#: modules/translation/translation.module:42
+msgid ""
+"Update translations as needed, so that they accurately reflect changes in "
+"the content of the original post. The translation status flag provides a "
+"simple method for tracking outdated translations. After editing a post, for "
+"example, select the <em>Flag translations as outdated</em> check box to mark "
+"all of its translations as outdated and in need of revision. Individual "
+"translations may be marked for revision by selecting the <em>This "
+"translation needs to be updated</em> check box on the translation editing "
+"form."
+msgstr ""
+"Upravujte překlady podle potřeby, aby přesně odrážely změny v obsahu "
+"originálního příspěvku. Značka stavu překladu umožňuje jednoduchou metodu "
+"pro sledování zastaralých překladů. Při úpravě příspěvku např. zaškrtněte "
+"zaškrtávací políčko<em>Označit překlad jako zastaralý</em> k označení všech "
+"jeho překladů jako zastaralých a potřebujících opravu. Jednotlivé překlady "
+"mohou být označeny pro opravu zaškrtnutím políčka <em>Tento překlad "
+"potřebuje úpravu</em> v editačním formuláři překladu."
+
+#: modules/translation/translation.module:43
+msgid ""
+"The <a href=\"@content-node\">Content management administration page</a> "
+"displays the language of each post, and also allows filtering by language or "
+"translation status."
+msgstr ""
+"Stránka <a href=\"@content-node\">administrace obsahu</a> zobrazuje jazyk "
+"každého uzlu a také umožňuje filtrování podle jazyka nebo stavu překladu."
+
+#: modules/translation/translation.module:45
+msgid ""
+"For more information, see the online handbook entry for <a href="
+"\"@translation\">Translation module</a>."
+msgstr ""
+"Více informací naleznete v online příručce pro <a href=\"@translation"
+"\">modul Translation</a>."
+
+#: modules/translation/translation.module:48
+msgid ""
+"Translations of a piece of content are managed with translation sets. Each "
+"translation set has one source post and any number of translations in any of "
+"the <a href=\"!languages\">enabled languages</a>. All translations are "
+"tracked to be up to date or outdated based on whether the source post was "
+"modified significantly."
+msgstr ""
+"Překlad části obsahu je spravován přes překladatelskou množinu. Každá "
+"překladatelská množina má svůj zdrojový příspěvek a několik překladů v "
+"některém z <a href=\"!languages\">povolených jazyků</a>. Všechny překlady "
+"jsou sledovány, zda jsou aktuální nebo zastaralé podle toho, zda se zdrojový "
+"příspěvek významně změnil."
+
+#: modules/translation/translation.module:102
+msgid "Enabled, with translation"
+msgstr "Zapnuto, s překladem"
+
+#: modules/translation/translation.module:104
+msgid ""
+"Enable multilingual support for this content type. If enabled, a language "
+"selection field will be added to the editing form, allowing you to select "
+"from one of the <a href=\"!languages\">enabled languages</a>. You can also "
+"turn on translation for this content type, which lets you have content "
+"translated to any of the enabled languages. If disabled, new posts are saved "
+"with the default language. Existing content will not be affected by changing "
+"this option."
+msgstr ""
+"Povolte vícejazyčnou podporu tomuto typu obsahu. Pokud je povoleno, do "
+"změnového formuláře bude přidáno pole výběru jazyka, které umožní vybrání "
+"jednoho z <a href=\"!languages\">povolených jazyků</a>.  Také můžete zapnout "
+"překlad pro tento typ obsahu, který vám umožní přeložit obsah do některého z "
+"povolených jazyků. Pokud je vypnuto, nové příspěvky budou uloženy ve "
+"výchozím jazyku. Existující obsah nebude změnou této volby dotčen."
+
+#: modules/translation/translation.module:127
+msgid "Translation settings"
+msgstr "Nastavení překladů"
+
+#: modules/translation/translation.module:138
+msgid "Flag translations as outdated"
+msgstr "Označit překlad jako zastaralý"
+
+#: modules/translation/translation.module:140
+msgid ""
+"If you made a significant change, which means translations should be "
+"updated, you can flag all translations of this post as outdated. This will "
+"not change any other property of those posts, like whether they are "
+"published or not."
+msgstr ""
+"Pokud byla provedena významná změna, která znamená, že by se překlady měly "
+"upravit, mohou být všechny překlady tohoto příspěvku označeny jako "
+"zastaralé. Nezmění to žádné další vlastnosti těchto příspěvku, jako "
+"například zda jsou či nejsou vydané."
+
+#: modules/translation/translation.module:147
+msgid "This translation needs to be updated"
+msgstr "Tento překlad potřebuje úpravu"
+
+#: modules/translation/translation.module:149
+msgid ""
+"When this option is checked, this translation needs to be updated because "
+"the source post has changed. Uncheck when the translation is up to date "
+"again."
+msgstr ""
+"Pokud je zaškrtnuto toto políčko, je potřeba tento překlad upravit, protože "
+"se změnil zdrojový příspěvek. Až bude překlad opět aktuální, toto políčko "
+"odškrtněte."
+
+#: modules/translation/translation.module:89
+msgid "translate content"
+msgstr "přeložit obsah"
+
+#: modules/translation/translation.module:59
+msgid "Translate"
+msgstr "Přeložit"
+
+#: modules/translation/translation.module:0
+msgid "translation"
+msgstr "překlad"
+
+#: modules/translation/translation.module:44
+msgid ""
+"Use the <a href=\"@blocks\">language switcher block</a> provided by locale "
+"module to allow users to select a language. If available, both the site "
+"interface and site content are presented in the language selected."
+msgstr ""
+"Pro možnost změny jazyka uživateli je třeba použít <a href=\"@blocks\">blok "
+"Přepínač jazyka</a>, který je vytvořen modulem Locale. Pokud je k dispozici, "
+"tak je tímto přepínačem změněn jak obsah webu, tak jeho rozhraní."

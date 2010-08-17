@@ -1,0 +1,217 @@
+# Czech translation of Drupal (6.4)
+# Copyright (c) 2008 by the Czech translation team
+# Generated from files:
+#  path.admin.inc,v 1.7 2008/01/08 10:35:42 goba
+#  path.module,v 1.138.2.2 2008/06/21 18:22:53 dries
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Drupal (6.4)\n"
+"POT-Creation-Date: 2008-09-29 17:46+0200\n"
+"PO-Revision-Date: 2008-02-13 16:17+0100\n"
+"Language-Team: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1)?(0):(((n>=2)&&(n<=4))?(1):2));\n"
+
+#: modules/path/path.admin.inc:30
+msgid "Alias"
+msgstr "Alias"
+
+#: modules/path/path.admin.inc:54
+msgid "No URL aliases found."
+msgstr "Nebyly nalezeny žádné URL aliasy."
+
+#: modules/path/path.admin.inc:54
+msgid "No URL aliases available."
+msgstr "Nejsou k dispozici žádné URL aliasy."
+
+#: modules/path/path.admin.inc:93
+msgid "Existing system path"
+msgstr "Existující systémová cesta"
+
+#: modules/path/path.admin.inc:97
+msgid ""
+"Specify the existing path you wish to alias. For example: node/28, forum/1, "
+"taxonomy/term/1+2."
+msgstr ""
+"Zadejte existující systémovou cestu, pro kterou chcete vytvořit alias. "
+"Například: node/28, forum/1, taxonomy/term/1+2."
+
+#: modules/path/path.admin.inc:103
+msgid "Path alias"
+msgstr "Alias cesty"
+
+#: modules/path/path.admin.inc:107
+msgid ""
+"Specify an alternative path by which this data can be accessed. For example, "
+"type \"about\" when writing an about page. Use a relative path and don't add "
+"a trailing slash or the URL alias won't work."
+msgstr ""
+"Zadejte alternativní cestu, pod kterou budou data přístupná. Například "
+"„informace“ pro informační stránku. Používejte relativní cestu a "
+"nepřidávejte na konec lomítko, jinak nebude URL fungovat."
+
+#: modules/path/path.admin.inc:118
+msgid "Update alias"
+msgstr "Aktualizovat alias"
+
+#: modules/path/path.admin.inc:121
+msgid "Create new alias"
+msgstr "Vytvořit nový alias"
+
+#: modules/path/path.admin.inc:139
+msgid "The alias %alias is already in use in this language."
+msgstr "Alias %alias je v tomto jazyce již použit."
+
+#: modules/path/path.admin.inc:154
+msgid "The alias has been saved."
+msgstr "Alias byl uložen."
+
+#: modules/path/path.admin.inc:167
+msgid "Are you sure you want to delete path alias %title?"
+msgstr "Určitě smazat alias %title?"
+
+#: modules/path/path.admin.inc:194
+msgid "Filter aliases"
+msgstr "Filtrovat aliasy"
+
+#: modules/path/path.module:15
+msgid ""
+"The path module allows you to specify aliases for Drupal URLs. Such aliases "
+"improve readability of URLs for your users and may help internet search "
+"engines to index your content more effectively. More than one alias may be "
+"created for a given page."
+msgstr ""
+"Modul path umožňuje určit aliasy pro URL Drupalu. Tyto aliasy zlepšují "
+"čitelnost URL pro uživatele webu a mohou pomoci vyhledávacím robotům v "
+"efektivnější indexaci tohoto webu. Pro každou stránku je možno vytvořit i "
+"více aliasů."
+
+#: modules/path/path.module:16
+msgid ""
+"<p>Some examples of URL aliases are:</p>\n"
+"<ul>\n"
+"<li>user/login =&gt; login</li>\n"
+"<li>image/tid/16 =&gt; store</li>\n"
+"<li>taxonomy/term/7+19+20+21 =&gt; store/products/whirlygigs</li>\n"
+"<li>node/3 =&gt; contact</li>\n"
+"</ul>\n"
+msgstr ""
+"<p>Příklady URL aliasů:</p>\n"
+"<ul>\n"
+"<li>user/login =&gt; login</li>\n"
+"<li>image/tid/16 =&gt; store</li>\n"
+"<li>taxonomy/term/7+19+20+21 =&gt; store/products/whirlygigs</li>\n"
+"<li>node/3 =&gt; contact</li>\n"
+"</ul>\n"
+
+#: modules/path/path.module:24
+msgid ""
+"The path module enables appropriately permissioned users to specify an "
+"optional alias in all node input and editing forms, and provides an "
+"interface to view and edit all URL aliases. The two permissions related to "
+"URL aliasing are <em>administer url aliases</em> and <em>create url aliases</"
+"em>. "
+msgstr ""
+"Modul Path umožňuje uživatelům s příslušným oprávněním určit volitelný alias "
+"ve všech formulářích pro vstup a editaci uzlů a poskytuje rozhraní pro "
+"prohlížení a editaci všech URL aliasů. S URL aliasy jsou spojena tato dvě "
+"oprávnění: <em>administrace url aliasů</em> a <em>vytvořit url aliasy</em>. "
+
+#: modules/path/path.module:25
+msgid ""
+"This module also provides user-defined mass URL aliasing capabilities, which "
+"is useful if you wish to uniformly use URLs different from the default. For "
+"example, you may want to have your URLs presented in a different language. "
+"Access to the Drupal source code on the web server is required to set up "
+"mass URL aliasing. "
+msgstr ""
+"Tento modul rovněž poskytuje uživatelem definované možnosti hromadného "
+"vytváření URL aliasů, což je výhodné pokud je potřeba jednotně používat URL "
+"adresy odlišné od výchozích adres, například v případě URL adres uváděných v "
+"jiném jazyce. Pro nastavení hromadného vytváření URL aliasů je vyžadován "
+"přístup ke zdrojovému kódu Drupalu na webovém serveru. "
+
+#: modules/path/path.module:26
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@path"
+"\">Path module</a>."
+msgstr ""
+"Více informací naleznete v online příručce pro <a href=\"@path\">modul Path</"
+"a>."
+
+#: modules/path/path.module:29
+msgid ""
+"Drupal provides complete control over URLs through aliasing, which is often "
+"used to make URLs more readable or easy to remember. For example, the alias "
+"'about' may be mapped onto the post at the system path 'node/1', creating a "
+"more meaningful URL. Each system path can have multiple aliases."
+msgstr ""
+"Drupal poskytuje úplnou kontrolu nad podobou URL adresy prostřednictvím tzv. "
+"aliasů, pomocí nichž lze vytvářet snáze čitelné a zapamatovatelné URL "
+"adresy. Například uloženému obsahu se systémovou cestou 'node/1' lze "
+"přidělit  alias 'informace', čímž se vytvoří smysluplnější URL adresa. Každá "
+"systémová cesta může mít více aliasů."
+
+#: modules/path/path.module:31
+msgid ""
+"Enter the path you wish to create the alias for, followed by the name of the "
+"new alias."
+msgstr ""
+"Zadejte cestu, pro kterou chcete vytvořit alias, a poté název nového aliasu."
+
+#: modules/path/path.module:82
+msgid "The alias has been deleted."
+msgstr "Alias byl smazán."
+
+#: modules/path/path.module:143
+msgid "The path is already in use."
+msgstr "Cesta je již používána."
+
+#: modules/path/path.module:186
+msgid "URL path settings"
+msgstr "Nastavení URL"
+
+#: modules/path/path.module:198
+msgid ""
+"Optionally specify an alternative URL by which this node can be accessed. "
+"For example, type \"about\" when writing an about page. Use a relative path "
+"and don't add a trailing slash or the URL alias won't work."
+msgstr ""
+"Volitelně můžete zadat alternativní URL, pod kterým bude uzel přístupný. "
+"Například „informace“ pro informační stránku. Používejte relativní cestu a "
+"nepřidávejte na konec lomítko, jinak nebude URL fungovat."
+
+#: modules/path/path.module:213
+msgid "create url aliases"
+msgstr "vytvořit url aliasy"
+
+#: modules/path/path.module:213
+msgid "administer url aliases"
+msgstr "administrace url aliasů"
+
+#: modules/path/path.module:40
+msgid "URL aliases"
+msgstr "Url aliasy"
+
+#: modules/path/path.module:41
+msgid "Change your site's URL paths by aliasing them."
+msgstr "Měnit URL cesty ke stránkám na tomto webu pomocí aliasů."
+
+#: modules/path/path.module:47
+msgid "Edit alias"
+msgstr "Upravit alias"
+
+#: modules/path/path.module:54
+msgid "Delete alias"
+msgstr "Smazat alias"
+
+#: modules/path/path.module:67
+msgid "Add alias"
+msgstr "Přidat alias"
+
+#: modules/path/path.module:0
+msgid "path"
+msgstr "cesta"

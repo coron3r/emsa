@@ -1,0 +1,761 @@
+# Czech translation of Drupal (6.4)
+# Copyright (c) 2008 by the Czech translation team
+# Generated from files:
+#  filter.admin.inc,v 1.8.2.1 2008/02/12 14:25:34 goba
+#  filter.pages.inc,v 1.2 2007/11/10 17:41:18 dries
+#  filter.module,v 1.204.2.4 2008/08/13 23:59:13 drumm
+#  filter.install,v 1.5 2007/12/18 12:59:21 dries
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Drupal (6.4)\n"
+"POT-Creation-Date: 2008-09-29 17:46+0200\n"
+"PO-Revision-Date: 2008-03-25 23:26+0100\n"
+"Language-Team: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1)?(0):(((n>=2)&&(n<=4))?(1):2));\n"
+
+#: modules/filter/filter.admin.inc:33
+msgid "All roles may use default format"
+msgstr "Výchozí formát mohou použít všechny role"
+
+#: modules/filter/filter.admin.inc:33
+msgid "No roles may use this format"
+msgstr "Tento formát nemohou používat žádné role"
+
+#: modules/filter/filter.admin.inc:38
+msgid "Set default format"
+msgstr "Nastavit výchozí formát"
+
+#: modules/filter/filter.admin.inc:45
+msgid "Default format updated."
+msgstr "Výchozí formát aktualizován."
+
+#: modules/filter/filter.admin.inc:97
+msgid "All roles for the default format must be enabled and cannot be changed."
+msgstr "Výchozí formát musí být povolen pro všechny role."
+
+#: modules/filter/filter.admin.inc:104
+msgid "Specify a unique name for this filter format."
+msgstr "Zadat unikátní název tohoto vstupního formátu."
+
+#: modules/filter/filter.admin.inc:111
+msgid ""
+"Choose which roles may use this filter format. Note that roles with the "
+"\"administer filters\" permission can always use all the filter formats."
+msgstr ""
+"Vybrat role, které mohou používat tento filtr. Poznámka: role s právem "
+"„administrace filtrů“ mohou vždy použít všechny filtry."
+
+#: modules/filter/filter.admin.inc:130
+msgid "Filters"
+msgstr "Filtry"
+
+#: modules/filter/filter.admin.inc:131
+msgid "Choose the filters that will be used in this filter format."
+msgstr "Vybrat filtry, které se použijí v tomto formátu."
+
+#: modules/filter/filter.admin.inc:149
+msgid "No guidelines available."
+msgstr "Nejsou k dispozici žádné rady."
+
+#: modules/filter/filter.admin.inc:151
+msgid ""
+"These are the guidelines that users will see for posting in this input "
+"format. They are automatically generated from the filter settings."
+msgstr ""
+"Toto jsou rady, které uživatelé uvidí při psaní v tomto formátu textu. "
+"Automaticky se generují z nastavení filtrů."
+
+#: modules/filter/filter.admin.inc:168
+msgid ""
+"Filter format names need to be unique. A format named %name already exists."
+msgstr "Název filtru musí být jedinečný. Formát %name již existuje."
+
+#: modules/filter/filter.admin.inc:187
+msgid "Added input format %format."
+msgstr "Přidán vstupní formát %format."
+
+#: modules/filter/filter.admin.inc:190
+msgid "The input format settings have been updated."
+msgstr "Nastavení formátu textu bylo aktualizováno."
+
+#: modules/filter/filter.admin.inc:252
+msgid "Are you sure you want to delete the input format %format?"
+msgstr "Opravdu odstranit formát vstupu %format?"
+
+#: modules/filter/filter.admin.inc:252
+msgid ""
+"If you have any content left in this input format, it will be switched to "
+"the default input format. This action cannot be undone."
+msgstr ""
+"Pokud máte nějaký obsah v tomto formátu, přepne se na výchozí formát vstupu. "
+"Tuto akci nelze vrátit zpět."
+
+#: modules/filter/filter.admin.inc:255
+msgid "The default format cannot be deleted."
+msgstr "Výchozí formát nelze odstranit."
+
+#: modules/filter/filter.admin.inc:278
+msgid "Deleted input format %format."
+msgstr "Smazán vstupní formát %format."
+
+#: modules/filter/filter.admin.inc:289
+msgid "Configure %format"
+msgstr "Nastavit %format"
+
+#: modules/filter/filter.admin.inc:312
+msgid "No settings are available."
+msgstr "Žádná nastavení nejsou k dispozici."
+
+#: modules/filter/filter.admin.inc:330
+msgid "Rearrange %format"
+msgstr "Znovu uspořádat %format"
+
+#: modules/filter/filter.admin.inc:391
+msgid "The filter ordering has been saved."
+msgstr "Pořadí filtrů bylo uloženo."
+
+#: modules/filter/filter.pages.inc:35
+msgid "input formats"
+msgstr "vstupní formáty"
+
+#: modules/filter/filter.module:23
+msgid ""
+"The filter module allows administrators to configure text input formats for "
+"use on your site. An input format defines the HTML tags, codes, and other "
+"input allowed in both content and comments, and is a key feature in guarding "
+"against potentially damaging input from malicious users. Two input formats "
+"included by default are <em>Filtered HTML</em> (which allows only an "
+"administrator-approved subset of HTML tags) and <em>Full HTML</em> (which "
+"allows the full set of HTML tags). Additional input formats may be created "
+"by an administrator."
+msgstr ""
+"Modul Filter dovoluje administrátorům nastavit vstupní formáty textu, které "
+"mohou být použity na webu. Vstupní formát definuje HTML značky, kódy a jiné "
+"dovolené vstupy pro komentáře i obsah, a je hlavní obrannou linií proti "
+"možnému špatnému až nebezpečnému vstupu od uživatelů. Výchozí instalace "
+"Drupalu obsahuje dva formáty - <em>Filtrované HTML</em> (které dovoluje "
+"použití značek HTML pouze v administrátorem určené míře) a <em>Plné HTML</"
+"em> (který dovoluje použití všech HTML značek). Další vstupní formáty mohou "
+"být přidány administrátorem."
+
+#: modules/filter/filter.module:24
+msgid ""
+"Each input format uses filters to manipulate text, and most input formats "
+"apply several different filters to text in a specific order. Each filter is "
+"designed for a specific purpose, and generally either adds, removes or "
+"transforms elements within user-entered text before it is displayed. A "
+"filter does not change the actual content of a post, but instead, modifies "
+"it temporarily before it is displayed. A filter may remove unapproved HTML "
+"tags, for instance, while another automatically adds HTML to make links "
+"referenced in text clickable."
+msgstr ""
+"Každý vstupní formát používá filtry pro manipulaci s textem, a většina "
+"vstupních formátů používá několik různých filtrů ve specifickém pořadí. "
+"Každý filtr má specifické určení a obecně buď přidává, odebírá nebo mění "
+"elementy textu od uživatele před jeho zobrazením. Filtr nemění aktuální "
+"obsah příspěvku, ale dočasně jej mění před jeho zobrazením. První filtr může "
+"například odstranit nepovolené HTML značky, a druhý může zaměnit URL "
+"obsažené v textu na klikatelný odkaz."
+
+#: modules/filter/filter.module:25
+msgid ""
+"Users can choose between the available input formats when creating or "
+"editing content. Administrators can configure which input formats are "
+"available to which user roles, as well as choose a default input format."
+msgstr ""
+"Uživatelé si mohou vybrat mezi dostupnými vstupními formáty při tvorbě nebo "
+"editaci obsahu. Administrátoři mohou nastavit které vstupní formáty budou "
+"dostupné pro jednotlivé uživatelské role, stejně jako výběr výchozího "
+"vstupního formátu."
+
+#: modules/filter/filter.module:26
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@filter"
+"\">Filter module</a>."
+msgstr ""
+"Více informací naleznete v online příručce pro <a href=\"@filter\">modul "
+"Filter</a>."
+
+#: modules/filter/filter.module:29
+msgid ""
+"<em>Input formats</em> define a way of processing user-supplied text in "
+"Drupal. Each input format uses filters to manipulate text, and most input "
+"formats apply several different filters to text, in a specific order. Each "
+"filter is designed to accomplish a specific purpose, and generally either "
+"removes elements from or adds elements to text before it is displayed. Users "
+"can choose between the available input formats when submitting content."
+msgstr ""
+"<em>Vstupní formáty</em> definují, jak Drupal přetváří uživatelem vložený "
+"text. Každý vstupní formát používá filtry pro manipulaci s textem, a většina "
+"vstupních formátů používá několik různých filtrů ve konkrétním pořadí. Každý "
+"filtr má specifický účel a obecně buď přidává, odebírá nebo mění prvky textu "
+"od uživatele před jeho zobrazením. Uživatelé si mohou při tvorbě obsahu "
+"vybrat mezi dostupnými formáty."
+
+#: modules/filter/filter.module:30
+msgid ""
+"Use the list below to configure which input formats are available to which "
+"roles, as well as choose a default input format (used for imported content, "
+"for example). The default format is always available to users. All input "
+"formats are available to users in a role with the \"administer filters\" "
+"permission."
+msgstr ""
+"Použijte níže uvedený seznam pro nastavení dostupnosti vstupních formátů "
+"určitým rolím a nastavení výchozího formátu vstupu (použije se např. pro "
+"importovaný obsah). Výchozí formát je uživatelům vždy dostupný. Uživatelům, "
+"kteří mají právo „administrovat filtry“, jsou vždy dostupné všechny vstupní "
+"formáty."
+
+#: modules/filter/filter.module:33
+msgid ""
+"Every <em>filter</em> performs one particular change on the user input, for "
+"example stripping out malicious HTML or making URLs clickable. Choose which "
+"filters you want to apply to text in this input format. If you notice some "
+"filters are causing conflicts in the output, you can <a href=\"@rearrange"
+"\">rearrange them</a>."
+msgstr ""
+"Každý <em>filtr</em> provádí jednu určitou změnu uživatelského vstupu, např. "
+"odstranění HTML značek nebo převedení URL na klikací odkazy. Vyberte filtry, "
+"které chcete použít na text v tomto vstupním formátu. Pokud zjistíte, že "
+"některé filtry způsobují konflikty ve výstupu, můžete <a href=\"@rearrange"
+"\">změnit jejich pořadí</a>."
+
+#: modules/filter/filter.module:35
+msgid ""
+"If you cannot find the settings for a certain filter, make sure you have "
+"enabled it on the <a href=\"@url\">view tab</a> first."
+msgstr ""
+"Pokud nemůžete najít nastavení určitého filtru, přesvědčte se, zda je zapnut "
+"v záložce <a href=\"@url\">seznam filtrů</a>."
+
+#: modules/filter/filter.module:37
+msgid ""
+"Because of the flexible filtering system, you might encounter a situation "
+"where one filter prevents another from doing its job. For example: a word in "
+"an URL gets converted into a glossary term, before the URL can be converted "
+"to a clickable link. When this happens, rearrange the order of the filters."
+msgstr ""
+"Vzhledem k flexibilitě filtrovacího systému můžete narazit na situaci, kdy "
+"jeden filtr brání v činnosti jinému filtru. Například: slovo z URL se "
+"převede na termín glosáře dříve, než se URL změní v odkaz. Když k tomu "
+"dojde, musíte upravit pořadí, v jakém se filtry spouštějí."
+
+#: modules/filter/filter.module:180,182
+msgid "Allowed HTML tags: @tags"
+msgstr "Povolené HTML značky: @tags"
+
+#: modules/filter/filter.module:187
+msgid ""
+"\n"
+"<p>This site allows HTML content. While learning all of HTML may feel "
+"intimidating, learning how to use a very small number of the most basic HTML "
+"\"tags\" is very easy. This table provides examples for each tag that is "
+"enabled on this site.</p>\n"
+"<p>For more information see W3C's <a href=\"http://www.w3.org/TR/html/"
+"\">HTML Specifications</a> or use your favorite search engine to find other "
+"sites that explain HTML.</p>"
+msgstr ""
+"\n"
+"<p>Tento web povoluje HTML obsah. Učení se HTML zní děsivě, ale naučit se "
+"používat několik málo nejzákladnějších HTML „značek“ je velice snadné. Tato "
+"tabulka poskytuje příklady pro každou značku povolenou na tomto webu.</p>\r\n"
+"<p>Více informací lze nalézt ve <a href=\"http://www.w3.org/TR/html/"
+"\">specifikaci HTML</a> u W3C nebo ve vyhledávači.</p>"
+
+#: modules/filter/filter.module:191
+msgid "Anchors are used to make links to other pages."
+msgstr "Odkazy na jiné stránky"
+
+#: modules/filter/filter.module:192
+msgid ""
+"By default line break tags are automatically added, so use this tag to add "
+"additional ones. Use of this tag is different because it is not used with an "
+"open/close pair like all the others. Use the extra \" /\" inside the tag to "
+"maintain XHTML 1.0 compatibility"
+msgstr ""
+"Implicitně se zalomení řádku vkládá automaticky, takže touto značkou přidáte "
+"další. Tato značka se liší, protože nemá otevírací a ukončovací značku jako "
+"ostatní. Pro kompatibilitu s XHTML 1.0 vložte do značky navíc „ /“."
+
+#: modules/filter/filter.module:192
+msgid "Text with <br />line break"
+msgstr "Text s <br />zalomením řádku"
+
+#: modules/filter/filter.module:193
+msgid ""
+"By default paragraph tags are automatically added, so use this tag to add "
+"additional ones."
+msgstr ""
+"Implicitně se odstavce přidávají automaticky, takže touto značkou přidáte "
+"další."
+
+#: modules/filter/filter.module:193
+msgid "Paragraph one."
+msgstr "Odstavec jedna."
+
+#: modules/filter/filter.module:193
+msgid "Paragraph two."
+msgstr "Odstavec dvě."
+
+#: modules/filter/filter.module:194
+msgid "Strong"
+msgstr "Tučné"
+
+#: modules/filter/filter.module:195
+msgid "Emphasized"
+msgstr "Zvýrazněné"
+
+#: modules/filter/filter.module:196
+msgid "Cited"
+msgstr "Citace"
+
+#: modules/filter/filter.module:197
+msgid "Coded text used to show programming source code"
+msgstr "Zobrazení zdrojového kódu"
+
+#: modules/filter/filter.module:197
+msgid "Coded"
+msgstr "Kód"
+
+#: modules/filter/filter.module:198
+msgid "Bolded"
+msgstr "Tučné"
+
+#: modules/filter/filter.module:199
+msgid "Underlined"
+msgstr "Podtržené"
+
+#: modules/filter/filter.module:200
+msgid "Italicized"
+msgstr "Kurzíva"
+
+#: modules/filter/filter.module:201
+msgid "Superscripted"
+msgstr "Horní index"
+
+#: modules/filter/filter.module:201
+msgid "<sup>Super</sup>scripted"
+msgstr "<sup>Horní</sup> index"
+
+#: modules/filter/filter.module:202
+msgid "Subscripted"
+msgstr "Dolní index"
+
+#: modules/filter/filter.module:202
+msgid "<sub>Sub</sub>scripted"
+msgstr "<sub>Dolní</sub> index"
+
+#: modules/filter/filter.module:203
+msgid "Preformatted"
+msgstr "Předformátované"
+
+#: modules/filter/filter.module:204
+msgid "Abbreviation"
+msgstr "Zkratka"
+
+#: modules/filter/filter.module:204
+msgid "<abbr title=\"Abbreviation\">Abbrev.</abbr>"
+msgstr "<abbr title=\"Zkratka\">Zkr.</abbr>"
+
+#: modules/filter/filter.module:205
+msgid "Acronym"
+msgstr "Zkratka"
+
+#: modules/filter/filter.module:205
+msgid "<acronym title=\"Three-Letter Acronym\">TLA</acronym>"
+msgstr "<acronym title=\"Dvojznaková zkratka\">DZ</acronym>"
+
+#: modules/filter/filter.module:206
+msgid "Block quoted"
+msgstr "Odsazení bloku"
+
+#: modules/filter/filter.module:207
+msgid "Quoted inline"
+msgstr "Vložená citace"
+
+#: modules/filter/filter.module:209
+msgid "Table"
+msgstr "Tabulka"
+
+#: modules/filter/filter.module:209
+msgid "Table header"
+msgstr "Záhlaví tabulky"
+
+#: modules/filter/filter.module:209
+msgid "Table cell"
+msgstr "Buňka tabulky"
+
+#: modules/filter/filter.module:211
+msgid "Deleted"
+msgstr "Smazáno"
+
+#: modules/filter/filter.module:212
+msgid "Inserted"
+msgstr "Vloženo"
+
+#: modules/filter/filter.module:214
+msgid "Ordered list - use the &lt;li&gt; to begin each list item"
+msgstr ""
+"Číslovaný seznam - použijte &lt;li&gt; na začátku každé položky seznamu"
+
+#: modules/filter/filter.module:214,215
+msgid "First item"
+msgstr "První položka"
+
+#: modules/filter/filter.module:214,215
+msgid "Second item"
+msgstr "Druhá položka"
+
+#: modules/filter/filter.module:215
+msgid "Unordered list - use the &lt;li&gt; to begin each list item"
+msgstr ""
+"Nečíslovaný seznam - použijte &lt;li&gt; na začátku každé položky seznamu"
+
+#: modules/filter/filter.module:218
+msgid ""
+"Definition lists are similar to other HTML lists. &lt;dl&gt; begins the "
+"definition list, &lt;dt&gt; begins the definition term and &lt;dd&gt; begins "
+"the definition description."
+msgstr ""
+"Seznam definice je podobný ostatním HTML seznamům. &lt;dl&gt; začíná seznam "
+"definic, &lt;dt&gt; začíná termín a &lt;dd&gt; začíná popis definice."
+
+#: modules/filter/filter.module:218
+msgid "First term"
+msgstr "První termín"
+
+#: modules/filter/filter.module:218
+msgid "First definition"
+msgstr "První definice"
+
+#: modules/filter/filter.module:218
+msgid "Second term"
+msgstr "Druhý termín"
+
+#: modules/filter/filter.module:218
+msgid "Second definition"
+msgstr "Druhá definice"
+
+#: modules/filter/filter.module:221
+msgid "Subtitle"
+msgstr "Podnadpis"
+
+#: modules/filter/filter.module:222
+msgid "Subtitle three"
+msgstr "Podnadpis tři"
+
+#: modules/filter/filter.module:223
+msgid "Subtitle four"
+msgstr "Podnadpis čtyři"
+
+#: modules/filter/filter.module:224
+msgid "Subtitle five"
+msgstr "Podnadpis pět"
+
+#: modules/filter/filter.module:225
+msgid "Subtitle six"
+msgstr "Podnadpis šest"
+
+#: modules/filter/filter.module:227
+msgid "Tag Description"
+msgstr "Popis značky"
+
+#: modules/filter/filter.module:227,256
+msgid "You Type"
+msgstr "Napíšete"
+
+#: modules/filter/filter.module:227,256
+msgid "You Get"
+msgstr "Získáte"
+
+#: modules/filter/filter.module:241
+msgid "No help provided for tag %tag."
+msgstr "Chybí nápověda pro značku %tag."
+
+#: modules/filter/filter.module:247
+msgid ""
+"\n"
+"<p>Most unusual characters can be directly entered without any problems.</"
+"p>\n"
+"<p>If you do encounter problems, try using HTML character entities. A common "
+"example looks like &amp;amp; for an ampersand &amp; character. For a full "
+"list of entities see HTML's <a href=\"http://www.w3.org/TR/html4/sgml/"
+"entities.html\">entities</a> page. Some of the available characters include:"
+"</p>"
+msgstr ""
+"\n"
+"<p>Většinu neobvyklých znaků můžete zadávat bez problémů.</p>\r\n"
+"<p>Pokud narazíte na problémy, zkuste použít HTML entity. Např. zapište &amp;"
+"amp; pro znak ampersandu &amp;. Kompletní seznam HTML entit naleznete na "
+"stránce <a href=\"http://www.w3.org/TR/html4/sgml/entities.html\">entit</a>. "
+"Mezi nejpoužívanější patří:</p>"
+
+#: modules/filter/filter.module:251
+msgid "Ampersand"
+msgstr "Ampersand"
+
+#: modules/filter/filter.module:252
+msgid "Greater than"
+msgstr "Větší než"
+
+#: modules/filter/filter.module:253
+msgid "Less than"
+msgstr "Menší než"
+
+#: modules/filter/filter.module:254
+msgid "Quotation mark"
+msgstr "Uvozovky"
+
+#: modules/filter/filter.module:256
+msgid "Character Description"
+msgstr "Popis znaku"
+
+#: modules/filter/filter.module:270
+msgid "No HTML tags allowed"
+msgstr "Nejsou povoleny HTML značky"
+
+#: modules/filter/filter.module:278
+msgid "Lines and paragraphs break automatically."
+msgstr "Řádky a odstavce se zalomí automaticky."
+
+#: modules/filter/filter.module:280
+msgid ""
+"Lines and paragraphs are automatically recognized. The &lt;br /&gt; line "
+"break, &lt;p&gt; paragraph and &lt;/p&gt; close paragraph tags are inserted "
+"automatically. If paragraphs are not recognized simply add a couple blank "
+"lines."
+msgstr ""
+"Řádky a odstavce se rozeznávají automaticky . Automaticky se vloží značky "
+"pro zalomení řádku &lt;br /&gt;, začátek &lt;p&gt; a konec &lt;/p&gt; "
+"odstavce. Pokud nejsou odstavce rozeznány, jednoduše přidejte pár prázdných "
+"řádků."
+
+#: modules/filter/filter.module:284
+msgid "Web page addresses and e-mail addresses turn into links automatically."
+msgstr "Webové a e-mailové adresy jsou automaticky převedeny na odkazy."
+
+#: modules/filter/filter.module:488
+msgid "Input format"
+msgstr "Formát vstupu"
+
+#: modules/filter/filter.module:608,659
+msgid "HTML filter"
+msgstr "HTML filtr"
+
+#: modules/filter/filter.module:608
+msgid "Line break converter"
+msgstr "Zlom konců řádek"
+
+#: modules/filter/filter.module:608,719
+msgid "URL filter"
+msgstr "URL filtr"
+
+#: modules/filter/filter.module:608
+msgid "HTML corrector"
+msgstr "HTML korektor"
+
+#: modules/filter/filter.module:613
+msgid ""
+"Allows you to restrict whether users can post HTML and which tags to filter "
+"out. It will also remove harmful content such as JavaScript events, "
+"JavaScript URLs and CSS styles from those tags that are not removed."
+msgstr ""
+"Umožňuje omezit HTML v příspěvcích od uživatelů a nastavit, jaké značky se "
+"odfiltrují. Nebezpečný obsah, jako např. JavaScript události, bude také "
+"odstraněn. JavaScriptové odkazy a CSS odstraněny nebudou."
+
+#: modules/filter/filter.module:615
+msgid "Converts line breaks into HTML (i.e. &lt;br&gt; and &lt;p&gt; tags)."
+msgstr "Převádí odřádkování na HTML (tj. značky &lt;br&gt; a &lt;p&gt;)."
+
+#: modules/filter/filter.module:617
+msgid "Turns web and e-mail addresses into clickable links."
+msgstr "Převede webové a e-mailové adresy na klikací odkazy."
+
+#: modules/filter/filter.module:619
+msgid "Corrects faulty and chopped off HTML in postings."
+msgstr "Opravuje poškozené HTML formátování v příspěvcích."
+
+#: modules/filter/filter.module:664
+msgid "Filter HTML tags"
+msgstr "Filtrovat HTML značky"
+
+#: modules/filter/filter.module:666
+msgid "Strip disallowed tags"
+msgstr "Odstraňovat nepovolené značky"
+
+#: modules/filter/filter.module:666
+msgid "Escape all tags"
+msgstr "Použít escape sekvence pro všechny značky"
+
+#: modules/filter/filter.module:667
+msgid ""
+"How to deal with HTML tags in user-contributed content. If set to \"Strip "
+"disallowed tags\", dangerous tags are removed (see below). If set to "
+"\"Escape tags\", all HTML is escaped and presented as it was typed."
+msgstr ""
+"Jak nakládat s HTML značkami v uživatelském textu. Pokud je nastaveno na "
+"„Odstraňovat nepovolené značky“, nebezpečné značky jsou odstraněny (viz "
+"níže). Pokud je nastaveno na „Použít escape sekvence na všechny značky“, "
+"všechny HTML značky jsou escapovány a zobrazeny tak, jak byly napsány."
+
+#: modules/filter/filter.module:675
+msgid ""
+"If \"Strip disallowed tags\" is selected, optionally specify tags which "
+"should not be stripped. JavaScript event attributes are always stripped."
+msgstr ""
+"Pokud je zvoleno „Odstraňovat nepovolené značky“, lze zadat značky, které "
+"budou povoleny. JavaScriptové události se vždy odstraní."
+
+#: modules/filter/filter.module:679
+msgid "Display HTML help"
+msgstr "Zobrazit HTML nápovědu"
+
+#: modules/filter/filter.module:681
+msgid ""
+"If enabled, Drupal will display some basic HTML help in the long filter tips."
+msgstr ""
+"Pokud je povoleno, Drupal zobrazí v delších tipech pro filtry základní "
+"nápovědu k HTML."
+
+#: modules/filter/filter.module:685
+msgid "Spam link deterrent"
+msgstr "Zabránit spamovým odkazům"
+
+#: modules/filter/filter.module:687
+msgid ""
+"If enabled, Drupal will add rel=\"nofollow\" to all links, as a measure to "
+"reduce the effectiveness of spam links. Note: this will also prevent valid "
+"links from being followed by search engines, therefore it is likely most "
+"effective when enabled for anonymous users."
+msgstr ""
+"Pokud je pole zaškrtnuto, Drupal přidá ke všem odkazům rel=\"nofollow\", "
+"které snižuje účinnost spamových odkazů. Poznámka: vyhledávače potom "
+"neprocházejí ani přes platné odkazy, takže je nejlepší tuto možnost zapnout "
+"jen pro filtr pro anonymní uživatele."
+
+#: modules/filter/filter.module:724
+msgid "Maximum link text length"
+msgstr "Maximální délka textu odkazu"
+
+#: modules/filter/filter.module:727
+msgid ""
+"URLs longer than this number of characters will be truncated to prevent long "
+"strings that break formatting. The link itself will be retained; just the "
+"text portion of the link will be truncated."
+msgstr ""
+"URL delší než toto číslo budou zkráceny, aby se předešlo dlouhým textům, "
+"které ničí formátování. Samotný odkaz bude zachován, zkrátí se pouze textová "
+"část odkazu."
+
+#: modules/filter/filter.module:157
+msgid "administer filters"
+msgstr "administrovat filtry"
+
+#: modules/filter/filter.module:71
+msgid "Input formats"
+msgstr "Vstupní formáty"
+
+#: modules/filter/filter.module:72
+msgid ""
+"Configure how content input by users is filtered, including allowed HTML "
+"tags. Also allows enabling of module-provided filters."
+msgstr ""
+"Nastavit formátování obsahu vkládaného uživateli a povolit vybrané HTML "
+"značky či PHP kód. Umožňuje zapnutí filtrů poskytovaných moduly."
+
+#: modules/filter/filter.module:91
+msgid "Delete input format"
+msgstr "Smazat formát vstupu"
+
+#: modules/filter/filter.module:99
+msgid "Compose tips"
+msgstr "Rady pro psaní"
+
+#: modules/filter/filter.module:131
+msgid "Rearrange"
+msgstr "Přeuspořádat"
+
+#: modules/filter/filter.module:0
+msgid "filter"
+msgstr "filtr"
+
+#: modules/filter/filter.install:9
+msgid ""
+"Table that maps filters (HTML corrector) to input formats (Filtered HTML)."
+msgstr ""
+"Tabulka, která mapuje filtry (HTML korektor) na vstupní formáty (Filtrované "
+"HTML)."
+
+#: modules/filter/filter.install:14
+msgid "Primary Key: Auto-incrementing filter ID."
+msgstr "Primární klíč: Automaticky se zvyšující ID filtru."
+
+#: modules/filter/filter.install:20
+msgid ""
+"Foreign key: The {filter_formats}.format to which this filter is assigned."
+msgstr "Cizí klíč: {filter_formats}.format ke kterému je přiřazen tento filtr."
+
+#: modules/filter/filter.install:27
+msgid "The origin module of the filter."
+msgstr "Modul, ze kterého filtr pochází."
+
+#: modules/filter/filter.install:34
+msgid "ID to identify which filter within module is being referenced."
+msgstr "ID pro identifikaci filtru z modulu, na který je odkazováno."
+
+#: modules/filter/filter.install:41
+msgid "Weight of filter within format."
+msgstr "Váha filtru v tomto formátu"
+
+#: modules/filter/filter.install:53
+msgid ""
+"Stores input formats: custom groupings of filters, such as Filtered HTML."
+msgstr ""
+"Ukládá vstupní formáty: nastavené řazení filtrů, jako např. Filtrované HTML."
+
+#: modules/filter/filter.install:58
+msgid "Primary Key: Unique ID for format."
+msgstr "Primární klíč: Unikátní ID formátu."
+
+#: modules/filter/filter.install:65
+msgid "Name of the input format (Filtered HTML)."
+msgstr "Název formátu vstupu (Filtrované HTML)."
+
+#: modules/filter/filter.install:72
+msgid "A comma-separated string of roles; references {role}.rid."
+msgstr "Čárkou oddělené řetězce rolí. Reference na {role}.rid."
+
+#: modules/filter/filter.install:79
+msgid ""
+"Flag to indicate whether format is cachable. (1 = cachable, 0 = not cachable)"
+msgstr ""
+"Značka ukazující, zda formát může být cacheován. (1 = ano, může, 0 = ne, "
+"nemůže)"
+
+#: modules/filter/filter.install:87
+msgid ""
+"Cache table for the Filter module to store already filtered pieces of text, "
+"identified by input format and md5 hash of the text."
+msgstr ""
+"Tabulka cache modulu Filter pro uložení již filtrovaných kusů textu. "
+"Identifikovány jsou formátem vstupu a md5 hashem textu."
+
+#: modules/filter/filter.module:38
+msgid ""
+"Filters are executed from top-to-bottom. To change the order of the filters, "
+"modify the values in the <em>Weight</em> column or grab a drag-and-drop "
+"handle under the <em>Name</em> column and drag filters to new locations in "
+"the list. (Grab a handle by clicking and holding the mouse while hovering "
+"over a handle icon.) Remember that your changes will not be saved until you "
+"click the <em>Save configuration</em> button at the bottom of the page."
+msgstr ""
+"Filtry se spouštějí shora dolů. Pro změnu pořadí filtru je třeba změnit "
+"hodnoty v sloupci <em>Váha</em> nebo je přeuspořádat tažením myší pod "
+"sloupcem <em>Název</em>. (Klikněte na ovládací prvek a během přesunu držte "
+"levé tlačítko myši.) Nezapomeňte, že změny nebudou uloženy dokud nekliknete "
+"na tlačítko <em>Uložit nastavení</em> na konci stránky."

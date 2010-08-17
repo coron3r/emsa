@@ -1,0 +1,460 @@
+# Czech translation of Drupal (6.4)
+# Copyright (c) 2008 by the Czech translation team
+# Generated from files:
+#  forum-list.tpl.php,v 1.4 2007/08/30 18:58:12 goba
+#  forum-submitted.tpl.php,v 1.3 2007/08/07 08:39:35 goba
+#  forum-topic-navigation.tpl.php,v 1.2 2007/08/07 08:39:35 goba
+#  forum.admin.inc,v 1.8 2008/01/30 10:14:42 goba
+#  forum.module,v 1.448.2.4 2008/04/25 20:39:54 goba
+#  forum.install,v 1.16.2.1 2008/06/25 07:47:34 dries
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Drupal (6.4)\n"
+"POT-Creation-Date: 2008-09-29 17:46+0200\n"
+"PO-Revision-Date: 2008-03-25 23:25+0100\n"
+"Language-Team: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1)?(0):(((n>=2)&&(n<=4))?(1):2));\n"
+
+#: modules/forum/forum-list.tpl.php:38
+msgid "Topics"
+msgstr "Témat"
+
+#: modules/forum/forum-list.tpl.php:39
+msgid "Posts"
+msgstr "Příspěvků"
+
+#: modules/forum/forum-list.tpl.php:40
+msgid "Last post"
+msgstr "Poslední"
+
+#: modules/forum/forum-submitted.tpl.php:21
+msgid "@time ago<br />by !author"
+msgstr "napsal !author<br />před @time"
+
+#: modules/forum/forum-topic-navigation.tpl.php:29
+msgid "Go to previous forum topic"
+msgstr "Přejít na předchozí téma."
+
+#: modules/forum/forum-topic-navigation.tpl.php:32
+msgid "Go to next forum topic"
+msgstr "Přejít na následující téma."
+
+#: modules/forum/forum.admin.inc:38
+msgid "Forum name"
+msgstr "Název fóra"
+
+#: modules/forum/forum.admin.inc:41
+msgid "Short but meaningful name for this collection of threaded discussions."
+msgstr "Krátký a výstižný název této kolekce diskusí."
+
+#: modules/forum/forum.admin.inc:47
+msgid "Description and guidelines for discussions within this forum."
+msgstr "Popis a nápověda pro diskuse v tomto fóru."
+
+#: modules/forum/forum.admin.inc:54
+msgid ""
+"Forums are displayed in ascending order by weight (forums with equal weights "
+"are displayed alphabetically)."
+msgstr ""
+"Fóra jsou zobrazena ve vzestupném pořadí dle váhy (fóra se stejnou váhou se "
+"seřadí abecedně)."
+
+#: modules/forum/forum.admin.inc:75
+msgid "forum container"
+msgstr "kontejner"
+
+#: modules/forum/forum.admin.inc:90
+msgid "Created new @type %term."
+msgstr "Vytvořeno: @type %term."
+
+#: modules/forum/forum.admin.inc:93
+msgid "The @type %term has been updated."
+msgstr "Aktualizováno: @type %term."
+
+#: modules/forum/forum.admin.inc:116
+msgid "Container name"
+msgstr "Název kontejneru"
+
+#: modules/forum/forum.admin.inc:120
+msgid "Short but meaningful name for this collection of related forums."
+msgstr "Krátký a výstižný název této kolekce souvisejících fór."
+
+#: modules/forum/forum.admin.inc:128
+msgid "Description and guidelines for forums within this container."
+msgstr "Popis a nápověda pro fóra v tomto kontejneru."
+
+#: modules/forum/forum.admin.inc:136
+msgid ""
+"Containers are displayed in ascending order by weight (containers with equal "
+"weights are displayed alphabetically)."
+msgstr ""
+"Kontejnery jsou zobrazeny ve vzestupném pořadí podle váhy (kontejnery se "
+"stejnou váhou jsou seřazeny abecedně)."
+
+#: modules/forum/forum.admin.inc:168
+msgid "Are you sure you want to delete the forum %name?"
+msgstr "Opravdu smazat fórum %name?"
+
+#: modules/forum/forum.admin.inc:176
+msgid ""
+"The forum %term and all sub-forums and associated posts have been deleted."
+msgstr "Fórum %term, všechna podřízená fóra a příspěvky byly odstraněny."
+
+#: modules/forum/forum.admin.inc:192
+msgid "Hot topic threshold"
+msgstr "Mez oblíbené diskuse"
+
+#: modules/forum/forum.admin.inc:195
+msgid "The number of posts a topic must have to be considered \"hot\"."
+msgstr "Počet příspěvků v diskusi, aby byla považována za oblíbenou."
+
+#: modules/forum/forum.admin.inc:199
+msgid "Topics per page"
+msgstr "Témat na stránku"
+
+#: modules/forum/forum.admin.inc:202
+msgid "Default number of forum topics displayed per page."
+msgstr "Počet diskusních témat na stránku."
+
+#: modules/forum/forum.admin.inc:204
+msgid "Posts - most active first"
+msgstr "Příspěvky - nejprve nejaktivnější"
+
+#: modules/forum/forum.admin.inc:204
+msgid "Posts - least active first"
+msgstr "Příspěvky - nejprve nejméně aktivní"
+
+#: modules/forum/forum.admin.inc:206
+msgid "Default order"
+msgstr "Výchozí pořadí"
+
+#: modules/forum/forum.admin.inc:209
+msgid "Default display order for topics."
+msgstr "Výchozí řazení témat."
+
+#: modules/forum/forum.admin.inc:230
+msgid "edit container"
+msgstr "upravit kontejner"
+
+#: modules/forum/forum.admin.inc:233
+msgid "edit forum"
+msgstr "upravit fórum"
+
+#: modules/forum/forum.admin.inc:245
+msgid ""
+"There are no existing containers or forums. Containers and forums may be "
+"added using the <a href=\"@container\">add container</a> and <a href=\"@forum"
+"\">add forum</a> pages."
+msgstr ""
+"Nejsou založeny žádné kontejnery nebo fóra. Můžete <a href=\"@container"
+"\">přidat kontejner</a> nebo <a href=\"@forum\">přidat fórum</a>."
+
+#: modules/forum/forum.admin.inc:286
+msgid ""
+"Containers are usually placed at the top (root) level, but may also be "
+"placed inside another container or forum."
+msgstr ""
+"Kontejnery jsou většinou umístěny jako hlavní kategorie, ale mohou být "
+"rovněž umístěny uvnitř jiného kontejneru či fóra."
+
+#: modules/forum/forum.admin.inc:289
+msgid ""
+"Forums may be placed at the top (root) level, or inside another container or "
+"forum."
+msgstr ""
+"Fóra mohou být umístěna jako hlavní kategorie nebo uvnitř jiného kontejneru "
+"či fóra."
+
+#: modules/forum/forum.admin.inc:177
+msgid "forum: deleted %term and all its sub-forums and associated posts."
+msgstr "forum: odstraněno %term, všechna podřízená fóra a příspěvky"
+
+#: modules/forum/forum.module:15
+msgid ""
+"The forum module lets you create threaded discussion forums with "
+"functionality similar to other message board systems. Forums are useful "
+"because they allow community members to discuss topics with one another "
+"while ensuring those conversations are archived for later reference. The <a "
+"href=\"@create-topic\">forum topic</a> menu item (under <em>Create content</"
+"em> on the Navigation menu) creates the initial post of a new threaded "
+"discussion, or thread."
+msgstr ""
+"Modul Forum umožňuje tvořit strukturované diskusní fórum s funkcionalitou "
+"velmi podobnou tradičním systémům fóra. Fóra dovolují uživatelům diskutovat "
+"nad určitými tématy a zároveň zajišťují ukládání těchto diskusí pro pozdější "
+"referenci. Položka menu <a href=\"@create-topic\">příspěvek do diskuse</a> "
+"(pod <em>Vytvořit obsah</em>) umožňuje vytvořit novou strukturovanou diskusi "
+"či vlákno."
+
+#: modules/forum/forum.module:16
+msgid ""
+"A threaded discussion occurs as people leave comments on a forum topic (or "
+"on other comments within that topic). A forum topic is contained within a "
+"forum, which may hold many similar or related forum topics. Forums are "
+"(optionally) nested within a container, which may hold many similar or "
+"related forums. Both containers and forums may be nested within other "
+"containers and forums, and provide structure for your message board. By "
+"carefully planning this structure, you make it easier for users to find and "
+"comment on a specific forum topic."
+msgstr ""
+"Diskuse vzniká tím, že uživatelé vkládají komentáře k příspěvku ve fóru (či "
+"k dalším komentářům v rámci tématu diskuse). Téma diskuse je obsaženo uvnitř "
+"fóra, které může obsahovat mnoho podobných nebo příbuzných témat. Fóra jsou "
+"(volitelně) umístěna uvnitř kontejneru, který může obsahovat mnoho podobných "
+"nebo příbuzných fór. Kontejnery i fóra mohou být umístěny uvnitř kontejnerů "
+"a fór,  čímž se vytváří struktura příspěvků. Pečlivým naplánováním této "
+"struktury ulehčujete uživatelům nalezení příspěvku v konkrétním tématu."
+
+#: modules/forum/forum.module:17
+msgid "When administering a forum, note that:"
+msgstr "Při administraci fóra mějte na paměti, že:"
+
+#: modules/forum/forum.module:18
+msgid ""
+"a forum topic (and all of its comments) may be moved between forums by "
+"selecting a different forum while editing a forum topic."
+msgstr ""
+"příspěvek ve fóru (a všechny komentáře k němu) lze přesouvat mezi fóry "
+"výběrem jiného fóra při editaci příspěvku."
+
+#: modules/forum/forum.module:19
+msgid ""
+"when moving a forum topic between forums, the <em>Leave shadow copy</em> "
+"option creates a link in the original forum pointing to the new location."
+msgstr ""
+"přesouváte-li příspěvek z jednoho fóra do jiného,  použijte možnost "
+"<em>Zanechat stínovou kopii</em> pro vytvoření odkazu, který v původním fóru "
+"odkazuje na nové umístění."
+
+#: modules/forum/forum.module:20
+msgid ""
+"selecting <em>Read only</em> under <em>Comment settings</em> while editing a "
+"forum topic will lock (prevent new comments) on the thread."
+msgstr ""
+"volba <em>Pouze pro čtení</em> pod položkou <em>Nastavení komentářů</em> v "
+"editaci příspěvku zamezí možnosti vkládat do vlákna nové komentáře."
+
+#: modules/forum/forum.module:21
+msgid ""
+"selecting <em>Disabled</em> under <em>Comment settings</em> while editing a "
+"forum topic will hide all existing comments on the thread, and prevent new "
+"ones."
+msgstr ""
+"volba <em>Vypnuto</em> pod položkou <em>Nastavení komentářů</em> v editaci "
+"příspěvku skryje všechny dosavadní komentáře u vlákna a zamezí možnosti "
+"vkládat k němu nové komentáře."
+
+#: modules/forum/forum.module:22
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@forum"
+"\">Forum module</a>."
+msgstr ""
+"Více informací naleznete v online příručce pro <a href=\"@forum\">modul "
+"Forum</a>."
+
+#: modules/forum/forum.module:25
+msgid ""
+"This page displays a list of existing forums and containers. Containers "
+"(optionally) hold forums, and forums hold forum topics (a forum topic is the "
+"initial post to a threaded discussion). To provide structure, both "
+"containers and forums may be placed inside other containers and forums. To "
+"rearrange forums and containers, grab a drag-and-drop handle under the "
+"<em>Name</em> column and drag the forum or container to a new location in "
+"the list. (Grab a handle by clicking and holding the mouse while hovering "
+"over a handle icon.) Remember that your changes will not be saved until you "
+"click the <em>Save</em> button at the bottom of the page."
+msgstr ""
+"Tato stránka ukazuje existující fóra a kontejnery. V kontejnerech jsou "
+"(volitelně) umístěna fóra a ve fórech témata (téma fóra je první příspěvek "
+"do určité diskuse). Kontejnery i fóra mohou být umístěny do jiných "
+"kontejnerů a fór. Pro změnu struktury fór a kontejnerů použijte drag-and-"
+"drop šipku pod sloupcem <em>Název</em> a přesuňte fórum či kontejner na nové "
+"umístění. (Klikněte na ovládací prvek a během přesunu držte levé tlačítko "
+"myši.) Nezapomeňte, že změny se neuloží dokud nekliknete na tlačítko "
+"<em>Uložit</em> na konci stránky."
+
+#: modules/forum/forum.module:27
+msgid ""
+"By grouping related or similar forums, containers help organize forums. For "
+"example, a container named \"Food\" may hold two forums named \"Fruit\" and "
+"\"Vegetables\", respectively."
+msgstr ""
+"Kontejnery usnadňují organizaci fór seskupováním podobných či příbuzných "
+"fór. Např. kontejner s názvem „Jídlo“ může obsahovat dvě fóra nazvaná "
+"„Ovoce“ a „Zelenina“."
+
+#: modules/forum/forum.module:29
+msgid ""
+"A forum holds related or similar forum topics (a forum topic is the initial "
+"post to a threaded discussion). For example, a forum named \"Fruit\" may "
+"contain forum topics titled \"Apples\" and \"Bananas\", respectively."
+msgstr ""
+"Fórum obsahuje diskuse, které spolu souvisejí či jsou příbuzné (téma diskuse "
+"je určeno počátečním příspěvkem do vlákna diskuse). Např. fórum pojmenované "
+"„Ovoce“ může obsahovat diskuse nazvané „Jablka“ a „Banány“."
+
+#: modules/forum/forum.module:31
+msgid ""
+"These settings allow you to adjust the display of your forum topics. The "
+"content types available for use within a forum may be selected by editing "
+"the <em>Content types</em> on the <a href=\"@forum-vocabulary\">forum "
+"vocabulary page</a>."
+msgstr ""
+"Tato nastavení umožňují podrobněji upravit zobrazení témat fóra. Typy obsahu "
+"dostupné pro použití ve fóru lze vybrat pomocí nastavení <em>Typy obsahu</"
+"em> na stránce <a href=\"@forum-vocabulary\">slovník fóra</a>."
+
+#: modules/forum/forum.module:236
+msgid ""
+"The item %forum is only a container for forums. Please select one of the "
+"forums below it."
+msgstr ""
+"Položka %forum je jen kontejner pro diskuse. Prosím, vyberte jednu z diskusí "
+"pod ní."
+
+#: modules/forum/forum.module:302
+msgid "Forum topic"
+msgstr "Příspěvek do diskuse"
+
+#: modules/forum/forum.module:304
+msgid ""
+"A <em>forum topic</em> is the initial post to a new discussion thread within "
+"a forum."
+msgstr "<em>Téma fóra</em> je první příspěvek do nové diskuse ve fóru."
+
+#: modules/forum/forum.module:367
+msgid ""
+"This is the designated forum vocabulary. Some of the normal vocabulary "
+"options have been removed."
+msgstr ""
+"Toto je slovník vyhrazený pro fórum. Byly odstraněny některé volby běžných "
+"slovníků."
+
+#: modules/forum/forum.module:409,425
+msgid "Active forum topics"
+msgstr "Aktivní témata"
+
+#: modules/forum/forum.module:410,432
+msgid "New forum topics"
+msgstr "Nová témata"
+
+#: modules/forum/forum.module:414
+msgid "Number of topics"
+msgstr "Počet diskusí"
+
+#: modules/forum/forum.module:441
+msgid "Read the latest forum topics."
+msgstr "Přečíst nejnovější diskuse."
+
+#: modules/forum/forum.module:460
+msgid "Leave shadow copy"
+msgstr "Ponechat stínovou kopii"
+
+#: modules/forum/forum.module:460
+msgid ""
+"If you move this topic, you can leave a link in the old forum to the new "
+"forum."
+msgstr ""
+"Když toto téma přesunete, můžete ve starém fóru nechat odkaz na nové fórum."
+
+#: modules/forum/forum.module:567
+msgid "Topic"
+msgstr "Téma"
+
+#: modules/forum/forum.module:569
+msgid "Created"
+msgstr "Vytvořeno"
+
+#: modules/forum/forum.module:570
+msgid "Last reply"
+msgstr "Poslední"
+
+#: modules/forum/forum.module:683
+msgid "Post new @node_type"
+msgstr "Zaslat nový příspěvek typu @node_type"
+
+#: modules/forum/forum.module:690
+msgid "You are not allowed to post new content in forum."
+msgstr "Nemáte oprávnění přispívat do tohoto fóra."
+
+#: modules/forum/forum.module:694
+msgid "<a href=\"@login\">Login</a> to post new content in forum."
+msgstr "Pro přispívání do fóra se <a href=\"@login\">přihlašte</a>."
+
+#: modules/forum/forum.module:732
+msgid "No forums defined"
+msgstr "Nejsou určeny žádné diskuse"
+
+#: modules/forum/forum.module:818
+msgid "This topic has been moved"
+msgstr "Toto téma bylo přesunuto"
+
+#: modules/forum/forum.module:328
+msgid "create forum topics"
+msgstr "vytvořit téma diskuse"
+
+#: modules/forum/forum.module:328
+msgid "edit own forum topics"
+msgstr "upravit vlastní diskuse"
+
+#: modules/forum/forum.module:328
+msgid "edit any forum topic"
+msgstr "upravit jakékoliv téma fóra"
+
+#: modules/forum/forum.module:328
+msgid "administer forums"
+msgstr "administrace diskusí"
+
+#: modules/forum/forum.module:94
+msgid "Control forums and their hierarchy and change forum settings."
+msgstr "Nastavit fóra, jejich hierarchii a změnit nastavení."
+
+#: modules/forum/forum.module:106
+msgid "Add container"
+msgstr "Přidat kontejner"
+
+#: modules/forum/forum.module:115
+msgid "Add forum"
+msgstr "Přidat fórum"
+
+#: modules/forum/forum.module:140
+msgid "Edit container"
+msgstr "Upravit kontejner"
+
+#: modules/forum/forum.module:148
+msgid "Edit forum"
+msgstr "Upravit fórum"
+
+#: modules/forum/forum.install:68
+msgid "Stores the relationship of nodes to forum terms."
+msgstr "Ukládá vztah uzlů k termínům fóra."
+
+#: modules/forum/forum.install:75
+msgid "The {node}.nid of the node."
+msgstr "Číslo {node}.nid uzlu."
+
+#: modules/forum/forum.install:89
+msgid "The {term_data}.tid of the forum term assigned to the node."
+msgstr "Číslo {term_data}.tid termínu fóra, přiřazeného uzlu."
+
+#: modules/forum/forum.admin.inc:168
+msgid ""
+"Deleting a forum or container will also delete its sub-forums, if any. To "
+"delete posts in this forum, visit <a href=\"@content\">content "
+"administration</a> first. This action cannot be undone."
+msgstr ""
+"Smazání kontejneru či fóra smaže také jeho podřazená fóra, pokud existují. "
+"Pro smazání příspěvků v tomto fóru je třeba navštívit stránku <a href="
+"\"@content\">administrace obsahu</a>. Tuto akci nelze vrátit."
+
+#: modules/forum/forum.module:328
+msgid "delete own forum topics"
+msgstr "smazat vlastní příspěvky ve fóru"
+
+#: modules/forum/forum.module:328
+msgid "delete any forum topic"
+msgstr "smazat jakýkoliv příspěvek ve fóru"

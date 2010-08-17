@@ -1,0 +1,1659 @@
+# Czech translation of Drupal (6.4)
+# Copyright (c) 2008 by the Czech translation team
+# Generated from files:
+#  user.module,v 1.892.2.6 2008/08/12 05:11:22 dries
+#  user.admin.inc,v 1.18.2.1 2008/08/13 23:59:14 drumm
+#  user.pages.inc,v 1.11 2008/01/08 10:35:43 goba
+#  user.install,v 1.5 2008/01/08 07:46:41 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Drupal (6.4)\n"
+"POT-Creation-Date: 2008-09-29 17:46+0200\n"
+"PO-Revision-Date: 2008-03-25 23:26+0100\n"
+"Language-Team: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1)?(0):(((n>=2)&&(n<=4))?(1):2));\n"
+
+#: modules/user/user.module:967
+msgid "User settings"
+msgstr "Uživatelské nastavení"
+
+#: modules/user/user.admin.inc:43
+msgid "Show only users where"
+msgstr "Zobrazit jen uživatele kde"
+
+#: modules/user/user.admin.inc:52
+msgid ""
+"<em>and</em> where <strong>%property</strong> is <strong>%value</strong>"
+msgstr "<em>a</em> kde <strong>%property</strong> je <strong>%value</strong>"
+
+#: modules/user/user.admin.inc:55
+msgid "<strong>%property</strong> is <strong>%value</strong>"
+msgstr "<strong>%property</strong> je <strong>%value</strong>"
+
+#: modules/user/user.admin.inc:138,911
+msgid "Last access"
+msgstr "Poslední přístup"
+
+#: modules/user/user.admin.inc:221
+msgid "No users selected."
+msgstr "Žádní uživatelé nejsou vybráni."
+
+#: modules/user/user.admin.inc:233
+msgid "User registration settings"
+msgstr "Nastavení registrace uživatelů"
+
+#: modules/user/user.admin.inc:234
+msgid "Public registrations"
+msgstr "Veřejná registrace"
+
+#: modules/user/user.admin.inc:234
+msgid "Visitors can create accounts and no administrator approval is required."
+msgstr ""
+"Návštěvníci si mohou vytvářet účty a není potřeba schválení administrátorem."
+
+#: modules/user/user.admin.inc:234
+msgid "Visitors can create accounts but administrator approval is required."
+msgstr ""
+"Návštěvníci si mohou vytvářet účty, ale je potřeba schválení administrátorem."
+
+#: modules/user/user.admin.inc:235
+msgid "Require e-mail verification when a visitor creates an account"
+msgstr "Vyžadovat ověření e-mailu při vytvoření uživatelského účtu"
+
+#: modules/user/user.admin.inc:235
+msgid ""
+"If this box is checked, new users will be required to validate their e-mail "
+"address prior to logging into the site, and will be assigned a system-"
+"generated password. With it unchecked, users will be logged in immediately "
+"upon registering, and may select their own passwords during registration."
+msgstr ""
+"Jestli je zaškrtnuto, tak před přihlášením do webu budou muset noví "
+"uživatelé ověřit své emailové adresy a bude jim přiděleno systémem "
+"vygenerované heslo. Pokud není zaškrtnuto, tak se uživatelé mohou přihlásit "
+"bezprostředně po registraci a mohou si během registrace zvolit své vlastní "
+"heslo."
+
+#: modules/user/user.admin.inc:236
+msgid "User registration guidelines"
+msgstr "Návod pro registraci uživatelů"
+
+#: modules/user/user.admin.inc:236
+msgid ""
+"This text is displayed at the top of the user registration form and is "
+"useful for helping or instructing your users."
+msgstr ""
+"Tento text je zobrazen na vrchu registračního formuláře uživatele a je "
+"užitečný pro nápovědu či pokyny pro uživatele."
+
+#: modules/user/user.admin.inc:241
+msgid "User e-mail settings"
+msgstr "Nastavení emailu uživatele"
+
+#: modules/user/user.admin.inc:242
+msgid ""
+"Drupal sends emails whenever new users register on your site, and "
+"optionally, may also notify users after other account actions. Using a "
+"simple set of content templates, notification e-mails can be customized to "
+"fit the specific needs of your site."
+msgstr ""
+"Drupal zasílá e-mail kdykoliv se někdo registruje na tomto webu. Lze taktéž "
+"posílat upozornění po jiných akcích týkajících se uživatelských účtů. Pomocí "
+"jednoduchých šablon je možné tyto e-maily upravit pro potřeby konkrétního "
+"webu."
+
+#: modules/user/user.admin.inc:246
+msgid "Available variables are:"
+msgstr "Dostupné proměnné jsou:"
+
+#: modules/user/user.admin.inc:250
+msgid "Welcome, new user created by administrator"
+msgstr "Uvítání, nový uživatel vytvořený administrátorem."
+
+#: modules/user/user.admin.inc:253
+msgid ""
+"Customize welcome e-mail messages sent to new member accounts created by an "
+"administrator."
+msgstr ""
+"Upravit uvítací emailovou zprávu, která se zasílá novým členům, vytvořeným "
+"administrátorem."
+
+#: modules/user/user.admin.inc:270
+msgid "Welcome, no approval required"
+msgstr "Uvítání, není potřeba schválení."
+
+#: modules/user/user.admin.inc:273
+msgid ""
+"Customize welcome e-mail messages sent to new members upon registering, when "
+"no administrator approval is required."
+msgstr ""
+"Upravit uvítací emailovou zprávu, která se zasílá novým členům při "
+"registraci, při které není potřeba schválení administrátorem."
+
+#: modules/user/user.admin.inc:290
+msgid "Welcome, awaiting administrator approval"
+msgstr "Uvítání, čeká se na schválení administrátorem."
+
+#: modules/user/user.admin.inc:293
+msgid ""
+"Customize welcome e-mail messages sent to new members upon registering, when "
+"administrative approval is required."
+msgstr ""
+"Upravit uvítací emailovou zprávu, která se zasílá novým členům při "
+"registraci, při které je potřeba schválení administrátorem."
+
+#: modules/user/user.admin.inc:310
+msgid "Password recovery email"
+msgstr "E-mail pro zaslání hesla"
+
+#: modules/user/user.admin.inc:313
+msgid "Customize e-mail messages sent to users who request a new password."
+msgstr ""
+"Upravit emailovou zprávu zaslanou uživateli, který si vyžádal nové heslo."
+
+#: modules/user/user.admin.inc:330
+msgid "Account activation email"
+msgstr "E-mail pro aktivaci účtu"
+
+#: modules/user/user.admin.inc:333
+msgid ""
+"Enable and customize e-mail messages sent to users upon account activation "
+"(when an administrator activates an account of a user who has already "
+"registered, on a site where administrative approval is required)."
+msgstr ""
+"Zapnout a upravit emailovou zprávu, která se zasílá uživatelům při aktivaci "
+"konta (poté, administrátor aktivuje účet uživatele, který se zaregistroval "
+"na webu, který vyžaduje schválení administrátorem)."
+
+#: modules/user/user.admin.inc:337
+msgid "Notify user when account is activated."
+msgstr "Upozornit uživatele po aktivaci účtu."
+
+#: modules/user/user.admin.inc:355
+msgid "Account blocked email"
+msgstr "E-mail po blokaci účtu"
+
+#: modules/user/user.admin.inc:358
+msgid ""
+"Enable and customize e-mail messages sent to users when their accounts are "
+"blocked."
+msgstr ""
+"Zapnout a upravit emailové zprávy zaslané uživatelům, když je jejich účet "
+"zablokován."
+
+#: modules/user/user.admin.inc:362
+msgid "Notify user when account is blocked."
+msgstr "Upozornit uživatele po blokaci účtu."
+
+#: modules/user/user.admin.inc:380
+msgid "Account deleted email"
+msgstr "E-mail po smazání účtu"
+
+#: modules/user/user.admin.inc:383
+msgid ""
+"Enable and customize e-mail messages sent to users when their accounts are "
+"deleted."
+msgstr ""
+"Zapnout a upravit emailové zprávy zaslané uživatelům po smazání jejich účtu."
+
+#: modules/user/user.admin.inc:387
+msgid "Notify user when account is deleted."
+msgstr "Upozornit uživatele po smazání účtu."
+
+#: modules/user/user.admin.inc:406
+msgid "Signatures"
+msgstr "Podpisy"
+
+#: modules/user/user.admin.inc:410
+msgid "Signature support"
+msgstr "Podpora podpisů"
+
+#: modules/user/user.admin.inc:423
+msgid "Pictures"
+msgstr "Obrázky uživatelů"
+
+#: modules/user/user.admin.inc:428
+msgid "Picture support"
+msgstr "Podpora obrázků (avatarů)"
+
+#: modules/user/user.admin.inc:448
+msgid "Picture image path"
+msgstr "Cesta k obrázkům"
+
+#: modules/user/user.admin.inc:452
+msgid "Subdirectory in the directory %dir where pictures will be stored."
+msgstr "Podadresář v adresáři „%dir“, kam se budou ukládat obrázky uživatelů"
+
+#: modules/user/user.admin.inc:456
+msgid "Default picture"
+msgstr "Výchozí obrázek"
+
+#: modules/user/user.admin.inc:460
+msgid ""
+"URL of picture to display for users with no custom picture selected. Leave "
+"blank for none."
+msgstr ""
+"URL obrázku pro uživatele, kteří nemají vlastní obrázek. Můžete nechat "
+"nevyplněné pro žádný obrázek."
+
+#: modules/user/user.admin.inc:464
+msgid "Picture maximum dimensions"
+msgstr "Maximální rozměry obrázku"
+
+#: modules/user/user.admin.inc:468
+msgid "Maximum dimensions for pictures, in pixels."
+msgstr "Maximální rozměry obrázků, v pixelech."
+
+#: modules/user/user.admin.inc:472
+msgid "Picture maximum file size"
+msgstr "Maximální velikost obrázku"
+
+#: modules/user/user.admin.inc:476
+msgid "Maximum file size for pictures, in kB."
+msgstr "Maximální velikost souboru obrázku, v kB."
+
+#: modules/user/user.admin.inc:480
+msgid "Picture guidelines"
+msgstr "Rady pro obrázky"
+
+#: modules/user/user.admin.inc:482
+msgid ""
+"This text is displayed at the picture upload form in addition to the default "
+"guidelines. It's useful for helping or instructing your users."
+msgstr ""
+"Tento text se zobrazí u formuláře pro nahrávání obrázků. Můžete zde napsat "
+"rady a doporučení."
+
+#: modules/user/user.admin.inc:543
+msgid "Save permissions"
+msgstr "Uložit práva"
+
+#: modules/user/user.admin.inc:595
+msgid "Permission"
+msgstr "Oprávnění"
+
+#: modules/user/user.admin.inc:624
+msgid "Role name"
+msgstr "Název role"
+
+#: modules/user/user.admin.inc:629
+msgid ""
+"The name for this role. Example: \"moderator\", \"editorial board\", \"site "
+"architect\"."
+msgstr "Název této role. Např. „moderátor“, „editor“, „návrhář webu“."
+
+#: modules/user/user.admin.inc:637,662,679
+msgid "Save role"
+msgstr "Uložit roli"
+
+#: modules/user/user.admin.inc:641,683
+msgid "Delete role"
+msgstr "Smazat roli"
+
+#: modules/user/user.admin.inc:652,667,691
+msgid "Add role"
+msgstr "Přidat roli"
+
+#: modules/user/user.admin.inc:664,669
+msgid "The role name %name already exists. Please choose another role name."
+msgstr "Role %name již existuje. Zvolte jiný název."
+
+#: modules/user/user.admin.inc:674
+msgid "You must specify a valid role name."
+msgstr "Je třeba zadat platný název role."
+
+#: modules/user/user.admin.inc:681
+msgid "The role has been renamed."
+msgstr "Role byla přejmenována."
+
+#: modules/user/user.admin.inc:689
+msgid "The role has been deleted."
+msgstr "Role byla smazána."
+
+#: modules/user/user.admin.inc:693
+msgid "The role has been added."
+msgstr "Role byla přidána."
+
+#: modules/user/user.admin.inc:778
+msgid "The access rule has been added."
+msgstr "Přístupové pravidlo bylo přidáno."
+
+#: modules/user/user.admin.inc:774
+msgid "The access rule has been saved."
+msgstr "Přístupové pravidlo bylo uloženo."
+
+#: modules/user/user.admin.inc:725
+msgid "Save rule"
+msgstr "Uložit pravidlo"
+
+#: modules/user/user.admin.inc:741,885
+msgid "Access type"
+msgstr "Typ přístupu"
+
+#: modules/user/user.admin.inc:743
+msgid "Allow"
+msgstr "Povolit"
+
+#: modules/user/user.admin.inc:743
+msgid "Deny"
+msgstr "Zakázat"
+
+#: modules/user/user.admin.inc:745
+msgid "Host"
+msgstr "Hostitel"
+
+#: modules/user/user.admin.inc:748,885
+msgid "Rule type"
+msgstr "Typ pravidla"
+
+#: modules/user/user.admin.inc:754,885
+msgid "Mask"
+msgstr "Maska"
+
+#: modules/user/user.admin.inc:758
+msgid "Matches any number of characters, even zero characters"
+msgstr "Odpovídá jakémukoliv počtu znaků, i žádnému znaku"
+
+#: modules/user/user.admin.inc:758
+msgid "Matches exactly one character."
+msgstr "Odpovídá přesně jednomu znaku."
+
+#: modules/user/user.admin.inc:785
+msgid "No value entered. Please enter a test string and try again."
+msgstr ""
+"Nebyla zadána žádná hodnota. Zadejte ověřovaný řetězec a zkuste to znovu."
+
+#: modules/user/user.admin.inc:791
+msgid "Enter a username to check if it will be denied or allowed."
+msgstr "Zadejte uživatelské jméno, které chcete prověřit."
+
+#: modules/user/user.admin.inc:793
+msgid "Check username"
+msgstr "Prověřit uživatelské jméno"
+
+#: modules/user/user.admin.inc:802
+msgid "Enter an e-mail address to check if it will be denied or allowed."
+msgstr "Zadejte e-mailovou adresu, kterou chcete prověřit."
+
+#: modules/user/user.admin.inc:804
+msgid "Check e-mail"
+msgstr "Prověřit e-mail"
+
+#: modules/user/user.admin.inc:813
+msgid ""
+"Enter a hostname or IP address to check if it will be denied or allowed."
+msgstr "Zadejte hostitele nebo IP adresu, kterou chcete ověřit."
+
+#: modules/user/user.admin.inc:815
+msgid "Check hostname"
+msgstr "Prověřit hostitele"
+
+#: modules/user/user.admin.inc:826
+msgid "The username %name is not allowed."
+msgstr "Uživatelské jméno %name není povoleno."
+
+#: modules/user/user.admin.inc:829
+msgid "The username %name is allowed."
+msgstr "Uživatelské jméno %name je povoleno."
+
+#: modules/user/user.admin.inc:834
+msgid "The e-mail address %mail is not allowed."
+msgstr "E-mailová adresa %mail není povolena."
+
+#: modules/user/user.admin.inc:837
+msgid "The e-mail address %mail is allowed."
+msgstr "E-mailová adresa %mail je povolena."
+
+#: modules/user/user.admin.inc:842
+msgid "The hostname %host is not allowed."
+msgstr "Hostitel %host není povolen."
+
+#: modules/user/user.admin.inc:845
+msgid "The hostname %host is allowed."
+msgstr "Hostitel %host je povolen."
+
+#: modules/user/user.admin.inc:860,887
+msgid "username"
+msgstr "uživatel"
+
+#: modules/user/user.admin.inc:860,887
+msgid "e-mail"
+msgstr "e-mail"
+
+#: modules/user/user.admin.inc:860,887
+msgid "host"
+msgstr "hostitel"
+
+#: modules/user/user.admin.inc:866
+msgid "Are you sure you want to delete the @type rule for %rule?"
+msgstr "Opravu smazat pravidlo @type pro %rule?"
+
+#: modules/user/user.admin.inc:876
+msgid "The access rule has been deleted."
+msgstr "Přístupové pravidlo bylo smazáno."
+
+#: modules/user/user.admin.inc:890
+msgid "allow"
+msgstr "povolit"
+
+#: modules/user/user.admin.inc:890
+msgid "deny"
+msgstr "zakázat"
+
+#: modules/user/user.admin.inc:893
+msgid "There are currently no access rules."
+msgstr "Nejsou nastavena žádná pravidla."
+
+#: modules/user/user.admin.inc:930
+msgid "No users available."
+msgstr "Žádní uživatelé."
+
+#: modules/user/user.admin.inc:951
+msgid "edit permissions"
+msgstr "upravit oprávnění"
+
+#: modules/user/user.admin.inc:953
+msgid "edit role"
+msgstr "upravit roli"
+
+#: modules/user/user.admin.inc:956
+msgid "locked"
+msgstr "zamčeno"
+
+#: modules/user/user.pages.inc:34
+msgid "Username or e-mail address"
+msgstr "Uživatelské jméno nebo e-mailová adresa"
+
+#: modules/user/user.pages.inc:39
+msgid "E-mail new password"
+msgstr "Poslat nové heslo"
+
+#: modules/user/user.pages.inc:56
+msgid "Sorry, %name is not recognized as a user name or an e-mail address."
+msgstr ""
+"Je nám líto, ale %name není platné uživatelské jméno ani e-mailová adresa."
+
+#: modules/user/user.pages.inc:67
+msgid "Further instructions have been sent to your e-mail address."
+msgstr "Na Váš e-mail byly odeslány další instrukce."
+
+#: modules/user/user.pages.inc:81
+msgid ""
+"You have already used this one-time login link. It is not necessary to use "
+"this link to login anymore. You are already logged in."
+msgstr ""
+"Tento jednorázový přihlašovací odkaz byl již použit. Není nutné se pomocí "
+"něj znovu přihlašovat. Již jste přihlášen/a."
+
+#: modules/user/user.pages.inc:92
+msgid ""
+"You have tried to use a one-time login link that has expired. Please request "
+"a new one using the form below."
+msgstr ""
+"Použitému jednorázovému přihlašovacímu odkazu již vypršela platnost. "
+"Požádejte, prosím, o nový pomocí formuláře níže."
+
+#: modules/user/user.pages.inc:104
+msgid ""
+"You have just used your one-time login link. It is no longer necessary to "
+"use this link to login. Please change your password."
+msgstr ""
+"Právě jste použil/a jednorázový přihlašovací odkaz. Již jej nemusíte "
+"používat k přihlašování. Změňte si, prosím, heslo."
+
+#: modules/user/user.pages.inc:109
+msgid "This login can be used only once."
+msgstr "Toto přihlášení lze použít jen jednou."
+
+#: modules/user/user.pages.inc:116
+msgid ""
+"You have tried to use a one-time login link which has either been used or is "
+"no longer valid. Please request a new one using the form below."
+msgstr ""
+"Použitý jednorázový přihlašovací odkaz již byl použit. Požádejte, prosím, o "
+"nový pomocí formuláře níže."
+
+#: modules/user/user.pages.inc:308
+msgid "Are you sure you want to delete the account %name?"
+msgstr "Opravdu smazat účet %name?"
+
+#: modules/user/user.pages.inc:310
+msgid ""
+"All submissions made by this user will be attributed to the anonymous "
+"account. This action cannot be undone."
+msgstr ""
+"Všechny příspěvky tohoto uživatele budou přiřazeny anonymnímu účtu. Tuto "
+"akci nelze vrátit."
+
+#: modules/user/user.pages.inc:319
+msgid "%name has been deleted."
+msgstr "Uživatel %name byl smazán."
+
+#: modules/user/user.pages.inc:66
+msgid "Password reset instructions mailed to %name at %email."
+msgstr "Instrukce k nastavení hesla pro %name odeslány na %email."
+
+#: modules/user/user.pages.inc:98
+msgid "User %name used one-time login link at time %timestamp."
+msgstr ""
+"Uživatel %name použil jednorázový přihlašovací odkaz v čase %timestamp."
+
+#: modules/user/user.pages.inc:134
+msgid "Session closed for %name."
+msgstr "Konec session pro %name."
+
+#: modules/user/user.module:379
+msgid "You must enter a username."
+msgstr "Je třeba zadat uživatelské jméno."
+
+#: modules/user/user.module:380
+msgid "The username cannot begin with a space."
+msgstr "Uživatelské jméno nesmí začínat mezerou."
+
+#: modules/user/user.module:381
+msgid "The username cannot end with a space."
+msgstr "Uživatelské jméno nesmí končit mezerou."
+
+#: modules/user/user.module:382
+msgid "The username cannot contain multiple spaces in a row."
+msgstr "Uživatelské jméno nesmí obsahovat několik mezer po sobě."
+
+#: modules/user/user.module:383,394
+msgid "The username contains an illegal character."
+msgstr "Uživatelské jméno obsahuje nepovolené znaky."
+
+#: modules/user/user.module:396
+msgid "The username is not a valid authentication ID."
+msgstr "Uživatelské jméno není platné autentizační ID."
+
+#: modules/user/user.module:397
+msgid "The username %name is too long: it must be %max characters or less."
+msgstr ""
+"Uživatelské jméno %name je příliš dlouhé: musí být kratší než %max znaků."
+
+#: modules/user/user.module:401
+msgid "You must enter an e-mail address."
+msgstr "Je třeba zadat e-mailovou adresu."
+
+#: modules/user/user.module:403
+msgid "The e-mail address %mail is not valid."
+msgstr "E-mailová adresa %mail není platná."
+
+#: modules/user/user.module:429
+msgid ""
+"Failed to upload the picture image; the %directory directory doesn't exist "
+"or is not writable."
+msgstr ""
+"Nelze nahrát obrázek. Adresář %directory neexistuje nebo není zapisovatelný."
+
+#: modules/user/user.module:617
+msgid "History"
+msgstr "Historie"
+
+#: modules/user/user.module:639
+msgid "Account settings"
+msgstr "Nastavení účtu"
+
+#: modules/user/user.module:667
+msgid "Create a new user account."
+msgstr "Vytvořit nový uživatelský účet."
+
+#: modules/user/user.module:669,920
+msgid "Request new password"
+msgstr "Zaslat nové heslo"
+
+#: modules/user/user.module:669
+msgid "Request new password via e-mail."
+msgstr "Požádat o zaslání nového hesla e-mailem."
+
+#: modules/user/user.module:681,728
+msgid "User login"
+msgstr "Přihlášení"
+
+#: modules/user/user.module:690,749
+msgid "Who's new"
+msgstr "Kdo je nový"
+
+#: modules/user/user.module:693,788
+msgid "Who's online"
+msgstr "Kdo je online"
+
+#: modules/user/user.module:700
+msgid "Number of users to display"
+msgstr "Počet zobrazených uživatelů"
+
+#: modules/user/user.module:708
+msgid "User activity"
+msgstr "Aktivita uživatele"
+
+#: modules/user/user.module:708
+msgid ""
+"A user is considered online for this long after they have last viewed a page."
+msgstr ""
+"Uživatel se považuje za online po tuto dobu od posledního zobrazení stránky."
+
+#: modules/user/user.module:709
+msgid "User list length"
+msgstr "Délka seznamu uživatelů"
+
+#: modules/user/user.module:709
+msgid "Maximum number of currently online users to display."
+msgstr "Maximální počet zobrazovaných online uživatelů."
+
+#: modules/user/user.module:776
+msgid "There is currently %members and %visitors online."
+msgstr "Momentálně je online %members a %visitors."
+
+#: modules/user/user.module:779
+msgid "There are currently %members and %visitors online."
+msgstr "Momentálně je online %members a %visitors."
+
+#: modules/user/user.module:785
+msgid "Online users"
+msgstr "Online uživatelé"
+
+#: modules/user/user.module:816
+msgid "@user's picture"
+msgstr "Obrázek uživatele @user"
+
+#: modules/user/user.module:1253
+msgid "Enter your @s username."
+msgstr "Zadejte své uživatelské jméno pro @s."
+
+#: modules/user/user.module:1256
+msgid "Enter the password that accompanies your username."
+msgstr "Zadejte své heslo."
+
+#: modules/user/user.module:1295
+msgid "The username %name has not been activated or is blocked."
+msgstr "Uživatelské jméno %name není aktivováno nebo je blokované."
+
+#: modules/user/user.module:1299
+msgid "The name %name is a reserved username."
+msgstr "Jméno %name je vyhrazené uživatelské jméno."
+
+#: modules/user/user.module:1319
+msgid ""
+"Sorry, unrecognized username or password. <a href=\"@password\">Have you "
+"forgotten your password?</a>"
+msgstr ""
+"Je nám líto, ale zadané uživatelské jméno a heslo není platné. <a href="
+"\"@password\">Zapomněli jste heslo?</a>."
+
+#: modules/user/user.module:1430
+msgid "Account information"
+msgstr "Informace o účtu"
+
+#: modules/user/user.module:1446
+msgid ""
+"A valid e-mail address. All e-mails from the system will be sent to this "
+"address. The e-mail address is not made public and will only be used if you "
+"wish to receive a new password or wish to receive certain news or "
+"notifications by e-mail."
+msgstr ""
+"Zadejte platnou e-mailovou adresu. Na tuto adresu budou posílány všechny e-"
+"maily. E-mailová adresa se nezveřejňuje a použije se jedině, pokud požádáte "
+"o zaslání zapomenutého hesla nebo o upozorňování na novinky."
+
+#: modules/user/user.module:1451
+msgid ""
+"To change the current user password, enter the new password in both fields."
+msgstr "Pro změnu hesla aktuálního uživatele zadejte nové heslo do obou polí."
+
+#: modules/user/user.module:1458
+msgid "Provide a password for the new account in both fields."
+msgstr "Zadejte do obou polí heslo nového účtu."
+
+#: modules/user/user.module:1468
+msgid "Blocked"
+msgstr "Zablokován"
+
+#: modules/user/user.module:0
+msgid "authenticated user"
+msgstr "přihlášený uživatel"
+
+#: modules/user/user.module:1503
+msgid "Signature settings"
+msgstr "Nastavení podpisu"
+
+#: modules/user/user.module:1508
+msgid "Signature"
+msgstr "Podpis"
+
+#: modules/user/user.module:1510
+msgid "Your signature will be publicly displayed at the end of your comments."
+msgstr "Váš podpis se připojí na konec vašich komentářů."
+
+#: modules/user/user.module:1516
+msgid "Picture"
+msgstr "Obrázek"
+
+#: modules/user/user.module:1520
+msgid "Delete picture"
+msgstr "Smazat obrázek"
+
+#: modules/user/user.module:1520
+msgid "Check this box to delete your current picture."
+msgstr "Zaškrtněte toto pole, pokud chcete smazat svůj současný obrázek."
+
+#: modules/user/user.module:1525
+msgid "Upload picture"
+msgstr "Nahrát obrázek"
+
+#: modules/user/user.module:1525
+msgid ""
+"Your virtual face or picture. Maximum dimensions are %dimensions and the "
+"maximum size is %size kB."
+msgstr ""
+"Váš virtuální obličej či obrázek (avatar). Maximální rozměry jsou %"
+"dimensions a maximální velikost je %size kB."
+
+#: modules/user/user.module:1541
+msgid "The name %name is already taken."
+msgstr "Jméno %name je již obsazeno."
+
+#: modules/user/user.module:1544
+msgid "The name %name has been denied access."
+msgstr "Uživateli %name byl zakázán přístup."
+
+#: modules/user/user.module:1553
+msgid ""
+"The e-mail address %email is already registered. <a href=\"@password\">Have "
+"you forgotten your password?</a>"
+msgstr ""
+"E-mailová adresa %email je již registrována. <a href=\"@password\">Zapomněli "
+"jste heslo?</a>."
+
+#: modules/user/user.module:1556
+msgid "The e-mail address %email has been denied access."
+msgstr "E-mailová adresa %email má zakázán přístup."
+
+#: modules/user/user.module:1636
+msgid "Account details for !username at !site"
+msgstr "Podrobnosti účtu !username na !site"
+
+#: modules/user/user.module:1638
+msgid ""
+"!username,\n"
+"\n"
+"Thank you for registering at !site. You may now log in to !login_uri using "
+"the following username and password:\n"
+"\n"
+"username: !username\n"
+"password: !password\n"
+"\n"
+"You may also log in by clicking on this link or copying and pasting it in "
+"your browser:\n"
+"\n"
+"!login_url\n"
+"\n"
+"This is a one-time login, so it can be used only once.\n"
+"\n"
+"After logging in, you will be redirected to !edit_uri so you can change your "
+"password.\n"
+"\n"
+"\n"
+"--  !site team"
+msgstr ""
+"Zpráva pro uživatele jménem !username:\r\n"
+"\r\n"
+"Děkujeme vám za registraci na webu !site. Nyní se můžete přihlásit na "
+"adrese !login_uri s použitím následujícího uživatelského jména a hesla:\r\n"
+"\r\n"
+"uživatelské jméno: !username\r\n"
+"heslo: !password\r\n"
+"\r\n"
+"Také se můžete přihlásit kliknutím na tento odkaz (můžete jej rovněž "
+"zkopírovat do svého prohlížeče):\r\n"
+"\r\n"
+"!login_url\r\n"
+"\r\n"
+"Toto je jednorázové přihlášení, takže jej lze použít pouze jednou.\r\n"
+"\r\n"
+"Po přihlášení budete přesměrován/a na adresu !edit_uri, kde si můžete změnit "
+"heslo.\r\n"
+"\r\n"
+"\r\n"
+"-- Autoři webu !site"
+
+#: modules/user/user.module:1640
+msgid "An administrator created an account for you at !site"
+msgstr "Administrátor pro vás vytvořil účet na !site"
+
+#: modules/user/user.module:1642
+msgid ""
+"!username,\n"
+"\n"
+"A site administrator at !site has created an account for you. You may now "
+"log in to !login_uri using the following username and password:\n"
+"\n"
+"username: !username\n"
+"password: !password\n"
+"\n"
+"You may also log in by clicking on this link or copying and pasting it in "
+"your browser:\n"
+"\n"
+"!login_url\n"
+"\n"
+"This is a one-time login, so it can be used only once.\n"
+"\n"
+"After logging in, you will be redirected to !edit_uri so you can change your "
+"password.\n"
+"\n"
+"\n"
+"--  !site team"
+msgstr ""
+"Zpráva pro uživatele jménem !username:\r\n"
+"\r\n"
+"Administrátor webu !site pro vás vytvořil účet. Nyní se můžete přihlásit na "
+"adrese !login_uri s použitím následujícího uživatelského jména a hesla:\r\n"
+"\r\n"
+"uživatelské jméno: !username\r\n"
+"heslo: !password\r\n"
+"\r\n"
+"Také se můžete přihlásit kliknutím na tento odkaz (můžete jej rovněž "
+"zkopírovat do svého prohlížeče):\r\n"
+"\r\n"
+"!login_url\r\n"
+"\r\n"
+"Toto je jednorázové přihlášení, takže jej lze použít pouze jednou.\r\n"
+"\r\n"
+"Po přihlášení budete přesměrován na adresu !edit_uri, kde si můžete změnit "
+"heslo.\r\n"
+"\r\n"
+"\r\n"
+"-- Autoři webu !site"
+
+#: modules/user/user.module:1645
+msgid "Account details for !username at !site (pending admin approval)"
+msgstr "Podrobnosti účtu !username na !site (čeká na schválení)"
+
+#: modules/user/user.module:1647
+msgid ""
+"!username,\n"
+"\n"
+"Thank you for registering at !site. Your application for an account is "
+"currently pending approval. Once it has been approved, you will receive "
+"another e-mail containing information about how to log in, set your "
+"password, and other details.\n"
+"\n"
+"\n"
+"--  !site team"
+msgstr ""
+"Zpráva pro uživatele jménem !username:\r\n"
+"\r\n"
+"Děkujeme za Vaši žádost o účet na webu !site. Vaše žádost nyní čeká na "
+"schválení administrátorem. Jakmile bude schválena, dostanete další e-mail s "
+"informacemi o možnosti přihlášení, nastavení hesla a dalších detailech.\r\n"
+"\r\n"
+"-- \r\n"
+"Autoři webu !site"
+
+#: modules/user/user.module:1649
+msgid ""
+"!username has applied for an account.\n"
+"\n"
+"!edit_uri"
+msgstr ""
+"!username požádal o účet.\r\n"
+"\r\n"
+"!edit_uri"
+
+#: modules/user/user.module:1651
+msgid "Replacement login information for !username at !site"
+msgstr "Nové přihlašovací informace pro !username na !site"
+
+#: modules/user/user.module:1653
+msgid ""
+"!username,\n"
+"\n"
+"A request to reset the password for your account has been made at !site.\n"
+"\n"
+"You may now log in to !uri_brief by clicking on this link or copying and "
+"pasting it in your browser:\n"
+"\n"
+"!login_url\n"
+"\n"
+"This is a one-time login, so it can be used only once. It expires after one "
+"day and nothing will happen if it's not used.\n"
+"\n"
+"After logging in, you will be redirected to !edit_uri so you can change your "
+"password."
+msgstr ""
+"Zpráva pro uživatele jménem !username:\r\n"
+"\r\n"
+"Na webu !site byl přijat požadavek na nastavení hesla k Vašemu účtu.\r\n"
+"\r\n"
+"Nyní se můžete přihlásit k !uri_brief kliknutím na následující odkaz nebo "
+"jeho zkopírováním do Vašeho prohlížeče:\r\n"
+"\r\n"
+"!login_url\r\n"
+"\r\n"
+"Toto je jednorázové přihlášení, takže může být použito pouze jednou. Jeho "
+"platnost je jeden den a pokud jej nepoužijete, nic se nestane.\r\n"
+"\r\n"
+"Po přihlášení budete přesměrován/a na !edit_uri, kde si můžete změnit heslo."
+
+#: modules/user/user.module:1655
+msgid "Account details for !username at !site (approved)"
+msgstr "Podrobnosti uživatelského účtu !username na webu !site (schváleno)"
+
+#: modules/user/user.module:1657
+msgid ""
+"!username,\n"
+"\n"
+"Your account at !site has been activated.\n"
+"\n"
+"You may now log in by clicking on this link or copying and pasting it in "
+"your browser:\n"
+"\n"
+"!login_url\n"
+"\n"
+"This is a one-time login, so it can be used only once.\n"
+"\n"
+"After logging in, you will be redirected to !edit_uri so you can change your "
+"password.\n"
+"\n"
+"Once you have set your own password, you will be able to log in to !"
+"login_uri in the future using:\n"
+"\n"
+"username: !username\n"
+msgstr ""
+"Zpráva pro uživatele jménem !username:\r\n"
+"\r\n"
+"Váš účet na webu !site byl aktivován.\r\n"
+"\r\n"
+"Nyní se můžete přihlásit k !uri_brief kliknutím na následující odkaz nebo "
+"jeho zkopírováním do Vašeho prohlížeče:\r\n"
+"\r\n"
+"!login_url\r\n"
+"\r\n"
+"Toto je jednorázové přihlášení, takže může být použito pouze jednou. Jeho "
+"platnost je jeden den a pokud jej nepoužijete, nic se nestane.\r\n"
+"\r\n"
+"Po přihlášení budete přesměrován/a na !edit_uri kde si budete moci změnit "
+"heslo.\r\n"
+
+#: modules/user/user.module:1659
+msgid "Account details for !username at !site (blocked)"
+msgstr "Podrobnosti uživatelského účtu !username na webu !site (zablokováno)"
+
+#: modules/user/user.module:1661
+msgid ""
+"!username,\n"
+"\n"
+"Your account on !site has been blocked."
+msgstr ""
+"Zpráva pro uživatele jménem !username:\r\n"
+"\r\n"
+"Váš účet na webu !site byl zablokován."
+
+#: modules/user/user.module:1663
+msgid "Account details for !username at !site (deleted)"
+msgstr "Podrobnosti uživatelského účtu !username na webu !site (smazáno)"
+
+#: modules/user/user.module:1665
+msgid ""
+"!username,\n"
+"\n"
+"Your account on !site has been deleted."
+msgstr ""
+"Zpráva pro uživatele jménem !username:\r\n"
+"\r\n"
+"Váš účet na webu !site byl odstraněn."
+
+#: modules/user/user.module:1725
+msgid "Unblock the selected users"
+msgstr "Povolit vybrané uživatele"
+
+#: modules/user/user.module:1729
+msgid "Block the selected users"
+msgstr "Zablokovat vybrané uživatele"
+
+#: modules/user/user.module:1733
+msgid "Delete the selected users"
+msgstr "Smazat vybrané uživatele"
+
+#: modules/user/user.module:1753
+msgid "Add a role to the selected users"
+msgstr "Přidat vybraným uživatelům roli"
+
+#: modules/user/user.module:1756
+msgid "Remove a role from the selected users"
+msgstr "Odebrat vybraným uživatelům roli"
+
+#: modules/user/user.module:1858
+msgid "Are you sure you want to delete these users?"
+msgstr "Určitě smazat tyto uživatele?"
+
+#: modules/user/user.module:1868
+msgid "The users have been deleted."
+msgstr "Uživatelé byli smazáni."
+
+#: modules/user/user.module:1882
+msgid ""
+"The user module allows users to register, login, and log out. Users benefit "
+"from being able to sign on because it associates content they create with "
+"their account and allows various permissions to be set for their roles. The "
+"user module supports user roles which establish fine grained permissions "
+"allowing each role to do only what the administrator wants them to. Each "
+"user is assigned to one or more roles. By default there are two roles "
+"<em>anonymous</em> - a user who has not logged in, and <em>authenticated</"
+"em> a user who has signed up and who has been authorized."
+msgstr ""
+"Modul User umožňuje uživatelům registrovat se, přihlašovat a odhlašovat. "
+"Uživatelé mají prospěch z možnosti přihlásit se, protože toto spojuje obsah, "
+"který vytváří s jejich účtem a umožňuje to, aby jejich rolím byla nastavena "
+"různá práva. Modul User podporuje uživatelské role, které umožňují jemné "
+"nastavení práv umožňující každé roli dělat jenom to, co administrátor chce. "
+"Každý uživatel může být přiřazen do jedné, nebo více rolí. Ve výchozím "
+"nastavení existují dvě role: <em>anonym</em> - uživatel, který se "
+"nepřihlásil, a <em>přihlášený</em> - uživatel, který se přihlásil a byl "
+"autorizován."
+
+#: modules/user/user.module:1883
+msgid ""
+"Users can use their own name or handle and can specify personal "
+"configuration settings through their individual <em>My account</em> page. "
+"Users must authenticate by supplying a local username and password or "
+"through their OpenID, an optional and secure method for logging into many "
+"websites with a single username and password. In some configurations, users "
+"may authenticate using a username and password from another Drupal site, or "
+"through some other site-specific mechanism."
+msgstr ""
+"Uživatelé mohou používat svá vlastní jména nebo přezdívky a mohou upřesnit "
+"svoje osobní nastavení na své zvláštní stránce <em>Můj účet</em>. Uživatelé "
+"se musejí autentizovat poskytnutím zdejšího uživatelského jména a hesla, "
+"nebo přes své OpenID - volitelné a bezpečné metodě pro přihlašování do mnoha "
+"webů s jednotným uživatelským jménem a heslem. Při některém nastavení se "
+"uživatelé mohou autentizovat za použití uživatelského jména a hesla z jiného "
+"webu s Drupalem, nebo přes jiný webu vlastní mechanismus."
+
+#: modules/user/user.module:1884
+msgid ""
+"A visitor accessing your website is assigned a unique ID, or session ID, "
+"which is stored in a cookie. The cookie does not contain personal "
+"information, but acts as a key to retrieve information from your site. Users "
+"should have cookies enabled in their web browser when using your site."
+msgstr ""
+"Návštěvník, který přišel na tento web, dostane unikátní ID, nebo ID pro "
+"session, které je uloženo v cookie. Cookie neobsahuje osobní informace, "
+"slouží však jako klíč pro získání informací z tohoto webu. Uživatelé by měli "
+"mít zapnuty cookies ve svém prohlížeči, když používají tento web."
+
+#: modules/user/user.module:1885
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@user"
+"\">User module</a>."
+msgstr ""
+"Více informací naleznete v online příručce pro <a href=\"@user\">modul User</"
+"a>."
+
+#: modules/user/user.module:1888
+msgid ""
+"Drupal allows users to register, login, log out, maintain user profiles, "
+"etc. Users of the site may not use their own names to post content until "
+"they have signed up for a user account."
+msgstr ""
+"Drupal umožňuje uživatelům registrovat se, přihlašovat, odhlašovat, udržovat "
+"své profily apod. Pro vytváření obsahu pod vlastním jménem se uživatelé musí "
+"zaregistrovat."
+
+#: modules/user/user.module:1891
+msgid ""
+"This web page allows administrators to register new users. Users' e-mail "
+"addresses and usernames must be unique."
+msgstr ""
+"Tato stránka umožňuje administrátorům zaregistrovat nové uživatele. "
+"Uživatelské jméno a e-mailová adresa musí být unikátní."
+
+#: modules/user/user.module:1893
+msgid ""
+"Set up username and e-mail address access rules for new <em>and</em> "
+"existing accounts (currently logged in accounts will not be logged out). If "
+"a username or e-mail address for an account matches any deny rule, but not "
+"an allow rule, then the account will not be allowed to be created or to log "
+"in. A host rule is effective for every page view, not just registrations."
+msgstr ""
+"Nastavte pravidla pro uživatelská jména a e-mailové adresy pro nové i "
+"existující účty (přihlášení uživatelé nebudou odhlášeni). Pokud se zadané "
+"uživatelské jméno nebo e-mail pro nového uživatele shoduje se zákazovým "
+"pravidlem, bude zakázáno vytvoření nového účtu. Pravidlo pro hostitele se "
+"používá při každém zobrazení stránky, nejen pro registrace."
+
+#: modules/user/user.module:1895
+msgid ""
+"Permissions let you control what users can do on your site. Each user role "
+"(defined on the <a href=\"@role\">user roles page</a>) has its own set of "
+"permissions. For example, you could give users classified as \"Administrators"
+"\" permission to \"administer nodes\" but deny this power to ordinary, "
+"\"authenticated\" users. You can use permissions to reveal new features to "
+"privileged users (those with subscriptions, for example). Permissions also "
+"allow trusted users to share the administrative burden of running a busy "
+"site."
+msgstr ""
+"Oprávnění vám dovolují určit, co mohou uživatelé na tomto webu dělat. Každé "
+"uživatelské roli (nastavíte je na <a href=\"@role\">stránce rolí</a>) "
+"přiřadíte sadu různých oprávnění. Např. můžete uživatelům, kteří jsou "
+"„administrátoři“ povolit „administraci uzlů“, ale nechcete ji povolit "
+"obyčejným uživatelům. Pomocí oprávnění můžete privilegovaným uživatelům "
+"zpřístupnit nové vlastnosti. Oprávnění také umožňují rozdělit správu webu "
+"mezi několik důvěryhodných uživatelů."
+
+#: modules/user/user.module:1897
+msgid ""
+"<p>Roles allow you to fine tune the security and administration of Drupal. A "
+"role defines a group of users that have certain privileges as defined in <a "
+"href=\"@permissions\">user permissions</a>. Examples of roles include: "
+"anonymous user, authenticated user, moderator, administrator and so on. In "
+"this area you will define the <em>role names</em> of the various roles. To "
+"delete a role choose \"edit\".</p><p>By default, Drupal comes with two user "
+"roles:</p>\n"
+"      <ul>\n"
+"      <li>Anonymous user: this role is used for users that don't have a user "
+"account or that are not authenticated.</li>\n"
+"      <li>Authenticated user: this role is automatically granted to all "
+"logged in users.</li>\n"
+"      </ul>"
+msgstr ""
+"<p>Role vám umožňují vyladit bezpečnostní a administrativní oprávnění webu. "
+"Role definuje skupinu uživatelů, kteří mají určitá práva popsaná v <a href="
+"\"@permissions\">uživatelských oprávněních</a>. Příklady rolí: anonymní "
+"uživatel, přihlášený uživatel, moderátor, administrátor atd. V této části "
+"můžete určit <em>jména rolí</em>. Chcete-li roli smazat, zvolte „upravit“.</"
+"p><p>Výchozí nastavení Drupalu obsahuje dvě uživatelské role:</p>\r\n"
+"      <ul>\r\n"
+"      <li>Anonymní uživatel: tato role se používá pro uživatele, kteří "
+"nemají účet nebo se nepřihlásili.</li>\r\n"
+"      <li>Přihlášený uživatel: tato role se automaticky přiřadí přihlášeným "
+"uživatelům.</li>\r\n"
+"      </ul>"
+
+#: modules/user/user.module:1903
+msgid ""
+"Enter a simple pattern (\"*\" may be used as a wildcard match) to search for "
+"a username or e-mail address. For example, one may search for \"br\" and "
+"Drupal might return \"brian\", \"brad\", and \"brenda@example.com\"."
+msgstr ""
+"Zadejte jednoduchý výraz (můžete použít zástupný znak \"*\") pro vyhledání "
+"uživatelského jména nebo e-mailu. Např. „br“ vyhledá „brian“, „brad“ a "
+"„brenda@example.com“."
+
+#: modules/user/user.module:1940
+msgid "role"
+msgstr "role"
+
+#: modules/user/user.module:1958
+msgid "permission"
+msgstr "oprávnění"
+
+#: modules/user/user.module:2160
+msgid "Password strength:"
+msgstr "Síla hesla:"
+
+#: modules/user/user.module:2161
+msgid "Low"
+msgstr "Nízká"
+
+#: modules/user/user.module:2163
+msgid "High"
+msgstr "Vysoká"
+
+#: modules/user/user.module:2164
+msgid ""
+"It is recommended to choose a password that contains at least six "
+"characters. It should include numbers, punctuation, and both upper and "
+"lowercase letters."
+msgstr ""
+"Je doporučeno zvolit si takové heslo, jež bude obsahovat minimálně šest "
+"znaků. Mělo by obsahovat čísla, interpunkci a velká i malá písmena."
+
+#: modules/user/user.module:2165
+msgid "The password does not include enough variation to be secure. Try:"
+msgstr "Heslo není dostatečně bezpečné. Zkuste následující:"
+
+#: modules/user/user.module:2166
+msgid "Adding both upper and lowercase letters."
+msgstr "Přidání velkých a malých písmen."
+
+#: modules/user/user.module:2167
+msgid "Adding numbers."
+msgstr "Přidání čísel."
+
+#: modules/user/user.module:2168
+msgid "Adding punctuation."
+msgstr "Přidejte interpunkční znaménka."
+
+#: modules/user/user.module:2169
+msgid "It is recommended to choose a password different from the username."
+msgstr ""
+"Je doporučeno vybrat si heslo, jež se bude lišit od uživatelského jména."
+
+#: modules/user/user.module:2172
+msgid "Passwords match:"
+msgstr "Hesla se shodují:"
+
+#: modules/user/user.module:2187
+msgid "After a user account has been created"
+msgstr "Poté, co byl uživatelský účet vytvořen"
+
+#: modules/user/user.module:2190
+msgid "After a user's profile has been updated"
+msgstr "Poté, co byl aktualizován uživatelský profil"
+
+#: modules/user/user.module:2193
+msgid "After a user has been deleted"
+msgstr "Poté, co byl uživatel smazán"
+
+#: modules/user/user.module:2196
+msgid "After a user has logged in"
+msgstr "Poté, co se uživatel přihlásil"
+
+#: modules/user/user.module:2199
+msgid "After a user has logged out"
+msgstr "Poté, co se uživatel odhlásil"
+
+#: modules/user/user.module:2202
+msgid "When a user's profile is being viewed"
+msgstr "Když je prohlížen profil uživatele"
+
+#: modules/user/user.module:2215
+msgid "Block current user"
+msgstr "Zablokovat uživatele"
+
+#: modules/user/user.module:2221
+msgid "Ban IP address of current user"
+msgstr "Zablokovat IP adresu uživatele"
+
+#: modules/user/user.module:2314
+msgid ""
+"Welcome to Drupal. You are now logged in as user #1, which gives you full "
+"control over your website."
+msgstr ""
+"Vítejte v Drupalu. Jste přihlášeni jako uživatel s pořadovým číslem 1, což "
+"Vám dává plnou moc nad tímto webem."
+
+#: modules/user/user.module:2316
+msgid ""
+"</p><p> Your password is <strong>%pass</strong>. You may change your "
+"password below.</p>"
+msgstr ""
+"</p><p>Vaše heslo je <strong>%pass</strong>, níže si ho můžete změnit.</p>"
+
+#: modules/user/user.module:2328
+msgid ""
+"Created a new user account for <a href=\"@url\">%name</a>. No e-mail has "
+"been sent."
+msgstr ""
+"Vytvořen uživatelský účet pro <a href=\"@url\">%name</a>. Nebyl odeslán e-"
+"mail."
+
+#: modules/user/user.module:2335
+msgid "Registration successful. You are now logged in."
+msgstr "Registrace proběhla úspěšně, nyní se můžete přihlásit."
+
+#: modules/user/user.module:2345
+msgid ""
+"Password and further instructions have been e-mailed to the new user <a href="
+"\"@url\">%name</a>."
+msgstr ""
+"Heslo a další instrukce byly odeslány na e-mailovou adresu nového uživatele "
+"<a href=\"@url\">%name</a>."
+
+#: modules/user/user.module:2348
+msgid ""
+"Your password and further instructions have been sent to your e-mail address."
+msgstr "Na vaši e-mailovou adresu bylo odesláno heslo a další instrukce."
+
+#: modules/user/user.module:2356
+msgid ""
+"Thank you for applying for an account. Your account is currently pending "
+"approval by the site administrator.<br />In the meantime, a welcome message "
+"with further instructions has been sent to your e-mail address."
+msgstr ""
+"Děkujeme za podání žádosti o účet. Vaše žádost momentálně čeká na schválení "
+"administrátora webu.<br />Zatím si můžete přečíst uvítací zprávu s dalšími "
+"instrukcemi, jež byla odeslána na Vaši e-mailovou adresu."
+
+#: modules/user/user.module:2393
+msgid "Notify user of new account"
+msgstr "Upozornění uživatele na nový účet"
+
+#: modules/user/user.module:1320
+msgid "Login attempt failed for %user."
+msgstr "Neúspěšný pokus o přihlášení %user."
+
+#: modules/user/user.module:1357
+msgid "Session opened for %name."
+msgstr "Začátek session pro uživatele %name."
+
+#: modules/user/user.module:1411
+msgid "New external user: %name using module %module."
+msgstr "Nový externí uživatel: %name používá modul %module."
+
+#: modules/user/user.module:1588
+msgid "Deleted user: %name %email."
+msgstr "Odstraněn uživatel: %name %email."
+
+#: modules/user/user.module:2246
+msgid "Blocked user %name."
+msgstr "Zablokován uživatel %name."
+
+#: modules/user/user.module:2256
+msgid "Banned IP address %ip"
+msgstr "Nepovolená IP adresa %ip."
+
+#: modules/user/user.module:2310
+msgid "New user: %name (%email)."
+msgstr "Nový uživatel: %name (%email)."
+
+#: modules/user/user.module:776,779
+msgid "1 guest"
+msgid_plural "@count guests"
+msgstr[0] "@count host"
+msgstr[1] "@count hosté"
+msgstr[2] "@count hostů"
+
+#: modules/user/user.module:544
+msgid "administer permissions"
+msgstr "administrace oprávnění"
+
+#: modules/user/user.module:544
+msgid "administer users"
+msgstr "administrace uživatelů"
+
+#: modules/user/user.module:544
+msgid "access user profiles"
+msgstr "přístup k uživatelským profilům"
+
+#: modules/user/user.module:544
+msgid "change own username"
+msgstr "změnit vlastní uživatelské jméno"
+
+#: modules/user/user.module:887
+msgid "User autocomplete"
+msgstr "Automatické dokončování uživatelského jména"
+
+#: modules/user/user.module:897
+msgid "User account"
+msgstr "Uživatelský účet"
+
+#: modules/user/user.module:928
+msgid "Reset password"
+msgstr "Reset hesla"
+
+#: modules/user/user.module:938
+msgid "User management"
+msgstr "Uživatelé"
+
+#: modules/user/user.module:939
+msgid "Manage your site's users, groups and access to site features."
+msgstr ""
+"Spravovat uživatelské účty, role a přístup uživatelů k jednotlivým možnostem."
+
+#: modules/user/user.module:948
+msgid "List, add, and edit users."
+msgstr "Vypsat, přidat a upravit uživatelské účty."
+
+#: modules/user/user.module:960
+msgid "Add user"
+msgstr "Přidat uživatele"
+
+#: modules/user/user.module:968
+msgid ""
+"Configure default behavior of users, including registration requirements, e-"
+"mails, and user pictures."
+msgstr ""
+"Nastavit výchozí chování uživatelských účtů, včetně požadavků na registraci, "
+"e-maily a obrázky uživatelů (avatary)."
+
+#: modules/user/user.module:977
+msgid "Permissions"
+msgstr "Oprávnění"
+
+#: modules/user/user.module:978
+msgid "Determine access to features by selecting permissions for roles."
+msgstr ""
+"Povolit či zakázat uživatelským rolím přístup k jednotlivým prvkům webu."
+
+#: modules/user/user.module:986
+msgid "List, edit, or add user roles."
+msgstr "Vypsat, přidat a upravit uživatelské role."
+
+#: modules/user/user.module:993
+msgid "Edit role"
+msgstr "Upravit roli"
+
+#: modules/user/user.module:1000
+msgid "Access rules"
+msgstr "Přístupová pravidla"
+
+#: modules/user/user.module:1001
+msgid ""
+"List and create rules to disallow usernames, e-mail addresses, and IP "
+"addresses."
+msgstr ""
+"Vytvořit přístupová pravidla pro odepření přístupu uživatelským jménům, e-"
+"mailům či IP adresám."
+
+#: modules/user/user.module:1019
+msgid "Check rules"
+msgstr "Ověřit pravidla"
+
+#: modules/user/user.module:1026
+msgid "Edit rule"
+msgstr "Upravit pravidlo"
+
+#: modules/user/user.module:1033
+msgid "Delete rule"
+msgstr "Smazat pravidlo"
+
+#: modules/user/user.module:1042
+msgid "Log out"
+msgstr "Odhlásit"
+
+#: modules/user/user.module:1180,1050
+msgid "My account"
+msgstr "Můj účet"
+
+#: modules/user/user.module:1089
+msgid "Account"
+msgstr "Účet"
+
+#: modules/user/user.install:9
+msgid "Stores site access rules."
+msgstr "Uchovává přístupová pravidla webu."
+
+#: modules/user/user.install:14
+msgid "Primary Key: Unique access ID."
+msgstr "Primární klíč: unikátní ID přístupu."
+
+#: modules/user/user.install:21
+msgid "Text mask used for filtering access."
+msgstr "Textová maska pro filtrování přístupu."
+
+#: modules/user/user.install:28
+msgid "Type of access rule: name, mail or host."
+msgstr "Typ přístupového pravidla: jméno, mail nebo hostitel."
+
+#: modules/user/user.install:35
+msgid "Whether rule is to allow(1) or deny(0) access."
+msgstr "Zda je pravidlo pro povolení(1) nebo zamítnutí(0) přístupu."
+
+#: modules/user/user.install:42
+msgid "Stores distributed authentication mapping."
+msgstr "Uchovává distribuované mapování autentizace."
+
+#: modules/user/user.install:45
+msgid "Primary Key: Unique authmap ID."
+msgstr "Primární klíč: unikátní ID authmap."
+
+#: modules/user/user.install:54
+msgid "User's {users}.uid."
+msgstr "Uživatelovo {users}.uid."
+
+#: modules/user/user.install:61
+msgid "Unique authentication name."
+msgstr "Unikátní autentizační jméno."
+
+#: modules/user/user.install:68
+msgid "Module which is controlling the authentication."
+msgstr "Modul, který řídí autentizaci."
+
+#: modules/user/user.install:76
+msgid "Stores permissions for users."
+msgstr "Uchovává práva pro uživatele."
+
+#: modules/user/user.install:81
+msgid "Primary Key: Unique permission ID."
+msgstr "Primární klíč: unikátní ID práva."
+
+#: modules/user/user.install:88
+msgid "The {role}.rid to which the permissions are assigned."
+msgstr "{role}.rid, ke které jsou přiděleny práva."
+
+#: modules/user/user.install:94
+msgid "List of permissions being assigned."
+msgstr "Seznam přidělených oprávnění."
+
+#: modules/user/user.install:101
+msgid "Originally intended for taxonomy-based permissions, but never used."
+msgstr ""
+"Původně zamýšleno pro práva spojená s kategoriemi, ale nikdy nepoužíváno."
+
+#: modules/user/user.install:109
+msgid "Stores user roles."
+msgstr "Uchovává uživatelovy role."
+
+#: modules/user/user.install:115
+msgid "Primary Key: Unique role id."
+msgstr "Primární klíč: unikátní id role."
+
+#: modules/user/user.install:122
+msgid "Unique role name."
+msgstr "Unikátní název role."
+
+#: modules/user/user.install:130
+msgid "Stores user data."
+msgstr "Uchovává data uživatele."
+
+#: modules/user/user.install:136
+msgid "Primary Key: Unique user ID."
+msgstr "Primární klíč: Unikátní ID uživatele."
+
+#: modules/user/user.install:143
+msgid "Unique user name."
+msgstr "Unikátní uživatelské jméno."
+
+#: modules/user/user.install:150
+msgid "User's password (md5 hash)."
+msgstr "Heslo uživatele (MD5 hash)."
+
+#: modules/user/user.install:157
+msgid "User's email address."
+msgstr "E-mail uživatele"
+
+#: modules/user/user.install:164
+msgid ""
+"Per-user comment display mode (threaded vs. flat), used by the {comment} "
+"module."
+msgstr ""
+"Uživatelem nastavený způsob zobrazení komentářů (ve vláknech či bez vláken), "
+"používaný v {comment} modulu."
+
+#: modules/user/user.install:171
+msgid ""
+"Per-user comment sort order (newest vs. oldest first), used by the {comment} "
+"module."
+msgstr ""
+"Uživatelem nastavené třídění komentářů (nejnovější či nejstarší jako první), "
+"používané v {comment} modulu."
+
+#: modules/user/user.install:178
+msgid ""
+"Previously used by the {comment} module for per-user preferences; no longer "
+"used."
+msgstr ""
+"V minulosti používané {comment} modulem pro uživatelem nastavené volby; již "
+"se nepoužívá."
+
+#: modules/user/user.install:185
+msgid "User's default theme."
+msgstr "Výchozí téma uživatele."
+
+#: modules/user/user.install:192
+msgid "User's signature."
+msgstr "Podpis uživatele."
+
+#: modules/user/user.install:198
+msgid "Timestamp for when user was created."
+msgstr "Časové razítko vytvoření uživatele."
+
+#: modules/user/user.install:204
+msgid "Timestamp for previous time user accessed the site."
+msgstr "Časové razítko minulého přístupu uživatele na web."
+
+#: modules/user/user.install:210
+msgid "Timestamp for user's last login."
+msgstr "Časové razítko posledního přihlášení uživatele."
+
+#: modules/user/user.install:217
+msgid "Whether the user is active(1) or blocked(0)."
+msgstr "Jestli je uživatel aktivní(1), nebo blokovaný(0)."
+
+#: modules/user/user.install:223
+msgid "User's timezone."
+msgstr "Časová zóna uživatele."
+
+#: modules/user/user.install:230
+msgid "User's default language."
+msgstr "Výchozí jazyk uživatele"
+
+#: modules/user/user.install:237
+msgid "Path to the user's uploaded picture."
+msgstr "Cesta k nahranému obrázku uživatele."
+
+#: modules/user/user.install:244
+msgid "Email address used for initial account creation."
+msgstr "E-mail použitý pro vytvoření účtu"
+
+#: modules/user/user.install:250
+msgid ""
+"A serialized array of name value pairs that are related to the user. Any "
+"form values posted during user edit are stored and are loaded into the $user "
+"object during user_load(). Use of this field is discouraged and it will "
+"likely disappear in a future version of Drupal."
+msgstr ""
+"Serializované pole jmenných párů hodnot, které jsou spojeny s uživatelem. "
+"Jakékoliv hodnoty odeslané během úpravy uživatele jsou uchovány a nahrány do "
+"objektu $user během user_load(). Toto pole se nedoporučuje používat a v "
+"další verzi Drupalu pravděpodobně přestane existovat."
+
+#: modules/user/user.install:265
+msgid "Maps users to roles."
+msgstr "Mapuje uživatele na role."
+
+#: modules/user/user.install:272
+msgid "Primary Key: {users}.uid for user."
+msgstr "Primární klíč: {users}.uid uživatele."
+
+#: modules/user/user.install:279
+msgid "Primary Key: {role}.rid for role."
+msgstr "Primární klíč: {role}.rid role."
+
+#: modules/user/user.pages.inc:108
+msgid ""
+"<p>This is a one-time login for %user_name and will expire on %"
+"expiration_date.</p><p>Click on this button to login to the site and change "
+"your password.</p>"
+msgstr ""
+"<p>Toto je jednorázový přihlašovací odkaz pro uživatele %user_name. Vyprší %"
+"expiration_date.</p><p>Klikněte na následující odkaz pro přihlášení a poté "
+"si změňte heslo.</p>"
+
+#: modules/user/user.module:0
+msgid "anonymous user"
+msgstr "anonymní uživatel"

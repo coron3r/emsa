@@ -1,0 +1,244 @@
+# Czech translation of Drupal (6.4)
+# Copyright (c) 2008 by the Czech translation team
+# Generated from files:
+#  php.module,v 1.8.2.1 2008/02/05 09:29:50 goba
+#  php.install,v 1.1 2007/04/24 10:54:34 dries
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Drupal (6.4)\n"
+"POT-Creation-Date: 2008-09-29 17:46+0200\n"
+"PO-Revision-Date: 2008-02-13 16:18+0100\n"
+"Language-Team: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1)?(0):(((n>=2)&&(n<=4))?(1):2));\n"
+
+#: modules/php/php.module:16
+msgid ""
+"The PHP filter adds the ability to include PHP code in posts. PHP is a "
+"general-purpose scripting language widely-used for web development; the "
+"content management system used by this website has been developed using PHP."
+msgstr ""
+"PHP filtr dovoluje přidat do příspěvku kód PHP. PHP je obecný skriptovací "
+"jazyk široce používaný ve vývoji webu, například Drupal je napsán v PHP."
+
+#: modules/php/php.module:17
+msgid ""
+"Through the PHP filter, users with the proper permission may include custom "
+"PHP code within a page of the site. While this is a powerful and flexible "
+"feature if used by a trusted user with PHP experience, it is a significant "
+"and dangerous security risk in the hands of a malicious user. Even a trusted "
+"user may accidentally compromise the site by entering malformed or incorrect "
+"PHP code. Only the most trusted users should be granted permission to use "
+"the PHP filter, and all PHP code added through the PHP filter should be "
+"carefully examined before use."
+msgstr ""
+"Za pomocí filtru PHP mohou uživatelé s odpovídajícím oprávněním přidávat na "
+"stránky webu kód PHP. Ačkoliv je toto silný a flexibilní nástroj v rukou "
+"zkušeného uživatele se zkušenostmi s PHP, také je to značné bezpečnostní "
+"riziko v rukou zlomyslného uživatele. Dokonce i důvěryhodný uživatel může "
+"nechtíc kompromitovat web špatným nebo nebezpečným kódem. Pouze "
+"nejdůvěryhodnějším uživatelům by mohlo být dáno oprávnění k filtru PHP, a "
+"veškerý kód by měl být prohlédnut a prověřen před jeho použitím."
+
+#: modules/php/php.module:18,61
+msgid ""
+"<a href=\"@drupal\">Drupal.org</a> offers <a href=\"@php-snippets\">some "
+"example PHP snippets</a>, or you can create your own with some PHP "
+"experience and knowledge of the Drupal system."
+msgstr ""
+"<a href=\"@drupal\">Drupal.org</a> nabízí <a href=\"@php-snippets\">ukázkové "
+"snippety PHP</a>, nebo je možné si snippety vytvořit na vlastní pěst se "
+"znalostí PHP a Drupalu."
+
+#: modules/php/php.module:19
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@php\">PHP "
+"module</a>."
+msgstr ""
+"Více informací naleznete v online příručce pro <a href=\"@php\">modul PHP</"
+"a>."
+
+#: modules/php/php.module:32
+msgid "You may post PHP code. You should include &lt;?php ?&gt; tags."
+msgstr ""
+"Můžete vkládat PHP kód. Měl byste jej vložit mezi značky  &lt;?php a ?&gt;"
+
+#: modules/php/php.module:34
+msgid "Using custom PHP code"
+msgstr "Použití uživatelského kódu PHP"
+
+#: modules/php/php.module:35
+msgid ""
+"Custom PHP code may be embedded in some types of site content, including "
+"posts and blocks. While embedding PHP code inside a post or block is a "
+"powerful and flexible feature when used by a trusted user with PHP "
+"experience, it is a significant and dangerous security risk when used "
+"improperly. Even a small mistake when posting PHP code may accidentally "
+"compromise your site."
+msgstr ""
+"Uživatelský PHP kód může být obsažen v některých typech obsahu webu, včetně "
+"příspěvků a bloků. Přidávání kódu PHP do příspěvků nebo bloků je silný a "
+"flexibilní nástroj v rukou zkušeného uživatele se zkušenostmi s PHP, ale "
+"také je to značné bezpečnostní riziko v rukou zlomyslného uživatele. Dokonce "
+"i malá chyba při psaní kódu PHP může nešťastnou náhodou zničit Váš web."
+
+#: modules/php/php.module:36
+msgid ""
+"If you are unfamiliar with PHP, SQL, or Drupal, avoid using custom PHP code "
+"within posts. Experimenting with PHP may corrupt your database, render your "
+"site inoperable, or significantly compromise security."
+msgstr ""
+"Pokud neznáte PHP, SQL nebo Drupal, nepoužívejte uživatelský kód PHP. "
+"Experimentování s PHP může zničit databázi, celý web, nebo může být velkým "
+"bezpečnostním rizikem."
+
+#: modules/php/php.module:37
+msgid "Notes:"
+msgstr "Poznámky:"
+
+#: modules/php/php.module:38
+msgid ""
+"Remember to double-check each line for syntax and logic errors "
+"<strong>before</strong> saving."
+msgstr ""
+"Nezapomeňte zkontrolovat dvakrát syntaxi každého řádku kódu. Ujistěte se, že "
+"kód neobsahuje žádné chyby <strong>před</strong> jeho uložením."
+
+#: modules/php/php.module:39
+msgid "Statements must be correctly terminated with semicolons."
+msgstr "Výrazy musí být správně zakončeny středníkem (;)."
+
+#: modules/php/php.module:40
+msgid ""
+"Global variables used within your PHP code retain their values after your "
+"script executes."
+msgstr ""
+"Hodnoty globálních proměnných použitých v PHP kódu zůstanou po jeho vykonání "
+"na aktuálních hodnotách."
+
+#: modules/php/php.module:41
+msgid ""
+"<code>register_globals</code> is <strong>turned off</strong>. If you need to "
+"use forms, understand and use the functions in <a href=\"@formapi\">the "
+"Drupal Form API</a>."
+msgstr ""
+"<code>register_globals</code> je <strong>vypnuto</strong>. Pokud je třeba "
+"použít formuláře, použijte funkce <a href=\"@formapi\">API formulářů "
+"Drupalu</a>."
+
+#: modules/php/php.module:42
+msgid ""
+"Use a <code>print</code> or <code>return</code> statement in your code to "
+"output content."
+msgstr ""
+"Pro výstup obsahu použijte v kódu příkazy <code>print</code> nebo "
+"<code>return</code>."
+
+#: modules/php/php.module:43
+msgid ""
+"Develop and test your PHP code using a separate test script and sample "
+"database before deploying on a production site."
+msgstr ""
+"Před nasazením do ostrého provozu je vhodné vyvíjet a testovat PHP kód "
+"pomocí odděleného testovacího skriptu a zkušební databáze."
+
+#: modules/php/php.module:44
+msgid ""
+"Consider including your custom PHP code within a site-specific module or "
+"<code>template.php</code> file rather than embedding it directly into a post "
+"or block."
+msgstr ""
+"Zvažte použití uživatelského PHP kódu v rámci speciálního modulu pro váš web "
+"nebo v souboru <code>template.php</code>, spíše než vkládání tohoto kódu "
+"přímo do příspěvku či bloku."
+
+#: modules/php/php.module:45
+msgid ""
+"Be aware that the ability to embed PHP code within content is provided by "
+"the PHP Filter module. If this module is disabled or deleted, then blocks "
+"and posts with embedded PHP may display, rather than execute, the PHP code."
+msgstr ""
+"Pozor: možnost přidávat PHP kód závisí na modulu PHP filtr. Je-li tento "
+"modul vypnut nebo smazán, může se stát, že bloky a příspěvky s vloženým PHP "
+"místo vykonání provedou zobrazení PHP kódu."
+
+#: modules/php/php.module:46
+msgid ""
+"A basic example: <em>Creating a \"Welcome\" block that greets visitors with "
+"a simple message.</em>"
+msgstr ""
+"Jednoduchý příklad: <em>Vytvoření bloku „Vítejte“ pro přivítání návštěvníků "
+"krátkou zprávou.</em>"
+
+#: modules/php/php.module:47
+msgid ""
+"<p>Add a custom block to your site, named \"Welcome\". With its input format "
+"set to \"PHP code\" (or another format supporting PHP input), add the "
+"following in the Block body:</p>\n"
+"<pre>\n"
+"print t('Welcome visitor! Thank you for visiting.');\n"
+"</pre>"
+msgstr ""
+"<p>Přidejte na web uživatelský blok pojmenovaný „Vítejte“. Nastavte formát "
+"textu na „PHP kód“ (či jiný formát podporující vkládání PHP) a přidejte "
+"následující text do těla Bloku:</p>\r\n"
+"<pre>\r\n"
+"print t('Vítejte, návštěvníci! Děkujeme za návštěvu.');\r\n"
+"</pre>"
+
+#: modules/php/php.module:51
+msgid ""
+"<p>To display the name of a registered user, use this instead:</p>\n"
+"<pre>\n"
+"global $user;\n"
+"if ($user->uid) {\n"
+"  print t('Welcome @name! Thank you for visiting.', array('@name' => $user-"
+">name));\n"
+"}\n"
+"else {\n"
+"  print t('Welcome visitor! Thank you for visiting.');\n"
+"}\n"
+"</pre>"
+msgstr ""
+"<p>Po zobrazení jména registrovaného uživatele použijte tento kód:</p>\r\n"
+"<pre>\r\n"
+"global $user;\r\n"
+"if ($user->uid) {\r\n"
+"  print t('Vítáme uživatele jménem @name! Děkujeme za návštěvu.', array"
+"('@name' => $user->name));\r\n"
+"}\r\n"
+"else {\r\n"
+"  print t('Vítejte, návštěvníci! Děkujeme za návštěvu.');\r\n"
+"}\r\n"
+"</pre>"
+
+#: modules/php/php.module:75
+msgid "PHP evaluator"
+msgstr "PHP překladač"
+
+#: modules/php/php.module:80
+msgid ""
+"Executes a piece of PHP code. The usage of this filter should be restricted "
+"to administrators only!"
+msgstr ""
+"Vykoná PHP kód. Použití tohoto filtru by mělo být vyhrazeno pouze "
+"administrátorům!"
+
+#: modules/php/php.install:20
+msgid "A !php-code input format has been created."
+msgstr "Byl vytvořen formát textu !php-code."
+
+#: modules/php/php.install:28
+msgid ""
+"The PHP module has been disabled. Please note that any existing content that "
+"was using the PHP filter will now be visible in plain text. This might pose "
+"a security risk by exposing sensitive information, if any, used in the PHP "
+"code."
+msgstr ""
+"Modul PHP byl zakázán. Prosím mějte na paměti, že jakýkoliv existující "
+"obsah, který byl vytvořen pomocí PHP filtru, bude nyní viditelný v čistém "
+"textu. To může představovat bezpečnostní riziko kvůli zveřejnění citlivých "
+"informaci (pokud takové jsou) v PHP zdrojovém kódu."

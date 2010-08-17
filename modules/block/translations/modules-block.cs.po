@@ -1,0 +1,541 @@
+# Czech translation of Drupal (6.4)
+# Copyright (c) 2008 by the Czech translation team
+# Generated from files:
+#  block-admin-display-form.tpl.php,v 1.3 2008/01/16 22:57:26 goba
+#  block.admin.inc,v 1.14.2.2 2008/06/24 14:40:08 goba
+#  block.module,v 1.299.2.3 2008/06/24 14:40:08 goba
+#  block.install,v 1.8 2007/12/18 12:59:20 dries
+#  block.js,v 1.2 2007/12/16 10:36:53 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Drupal (6.4)\n"
+"POT-Creation-Date: 2008-09-29 17:46+0200\n"
+"PO-Revision-Date: 2008-03-25 23:25+0100\n"
+"Language-Team: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1)?(0):(((n>=2)&&(n<=4))?(1):2));\n"
+
+#: modules/block/block-admin-display-form.tpl.php:42
+msgid "Region"
+msgstr "Region"
+
+#: modules/block/block-admin-display-form.tpl.php:57
+msgid "No blocks in this region"
+msgstr "V této oblasti nejsou žádné bloky."
+
+#: modules/block/block.admin.inc:85
+msgid "Save blocks"
+msgstr "Uložit bloky"
+
+#: modules/block/block.admin.inc:100
+msgid "The block settings have been updated."
+msgstr "Nastavení bloku bylo aktualizováno."
+
+#: modules/block/block.admin.inc:150
+msgid "Block specific settings"
+msgstr "Nastavení bloku"
+
+#: modules/block/block.admin.inc:155
+msgid "Block title"
+msgstr "Nadpis bloku"
+
+#: modules/block/block.admin.inc:157
+msgid "The title of the block as shown to the user."
+msgstr "Nadpis bloku zobrazený uživatelům."
+
+#: modules/block/block.admin.inc:157
+msgid ""
+"Override the default title for the block. Use <em>&lt;none&gt;</em> to "
+"display no title, or leave blank to use the default block title."
+msgstr ""
+"Přepsat výchozí titulek bloku. Použijte <em>&lt;none&gt;</em> pro vypnutí "
+"zobrazení titulku nebo ponechte prázdné pro použití výchozího titulku."
+
+#: modules/block/block.admin.inc:173
+msgid "'%name' block"
+msgstr "Blok '%name'"
+
+#: modules/block/block.admin.inc:179
+msgid "User specific visibility settings"
+msgstr "Nastavení viditelnosti podle uživatele"
+
+#: modules/block/block.admin.inc:184
+msgid "Custom visibility settings"
+msgstr "Nastavení viditelnosti"
+
+#: modules/block/block.admin.inc:186
+msgid "Users cannot control whether or not they see this block."
+msgstr "Uživatelé nemohou určit, zda tento blok chtějí zobrazit."
+
+#: modules/block/block.admin.inc:187
+msgid "Show this block by default, but let individual users hide it."
+msgstr "Tento blok implicitně zobrazit, ale uživatelé ho mohou skrýt."
+
+#: modules/block/block.admin.inc:188
+msgid "Hide this block by default but let individual users show it."
+msgstr "Tento blok implicitně skrýt, ale uživatelé ho mohou zobrazit."
+
+#: modules/block/block.admin.inc:190
+msgid ""
+"Allow individual users to customize the visibility of this block in their "
+"account settings."
+msgstr ""
+"Umožnit uživatelům nastavit viditelnost tohoto bloku v jejich uživatelském "
+"nastavení."
+
+#: modules/block/block.admin.inc:207
+msgid "Role specific visibility settings"
+msgstr "Nastavení viditelnosti podle uživatelské role"
+
+#: modules/block/block.admin.inc:212
+msgid "Show block for specific roles"
+msgstr "Zobrazit blok jen určitým rolím"
+
+#: modules/block/block.admin.inc:215
+msgid ""
+"Show this block only for the selected role(s). If you select no roles, the "
+"block will be visible to all users."
+msgstr ""
+"Zobrazit tento blok pouze vybraným uživatelským rolím. Pokud nevyberete "
+"žádné role, blok se zobrazí všem uživatelům."
+
+#: modules/block/block.admin.inc:220
+msgid "Page specific visibility settings"
+msgstr "Nastavení viditelnosti podle stránky"
+
+#: modules/block/block.admin.inc:231
+msgid "Show on every page except the listed pages."
+msgstr "Zobrazit na každé stránce, kromě vypsaných."
+
+#: modules/block/block.admin.inc:231
+msgid "Show on only the listed pages."
+msgstr "Zobrazit jen na vypsaných stránkách."
+
+#: modules/block/block.admin.inc:232
+msgid ""
+"Enter one page per line as Drupal paths. The '*' character is a wildcard. "
+"Example paths are %blog for the blog page and %blog-wildcard for every "
+"personal blog. %front is the front page."
+msgstr ""
+"Na každý řádek zadejte jednu cestu. Znak * je zástupný znak. Cesta může být "
+"například %blog pro stránku blogu nebo %blog-wildcard pro každý osobní blog. "
+"%front je úvodní stránka."
+
+#: modules/block/block.admin.inc:235
+msgid ""
+"Show if the following PHP code returns <code>TRUE</code> (PHP-mode, experts "
+"only)."
+msgstr ""
+"Zobrazit, pokud PHP kód vrátí <code>TRUE</code> (PHP-mode, jen pro experty)."
+
+#: modules/block/block.admin.inc:236
+msgid ""
+"If the PHP-mode is chosen, enter PHP code between %php. Note that executing "
+"incorrect PHP-code can break your Drupal site."
+msgstr ""
+"Pokud je zvolen mód PHP, zadejte PHP kód mezi %php. Poznámka: spuštění "
+"nevhodného PHP kódu může znefunkčnit Váš web."
+
+#: modules/block/block.admin.inc:240
+msgid "Show block on specific pages"
+msgstr "Zobrazit blok na určitých stránkách"
+
+#: modules/block/block.admin.inc:246
+msgid "Pages"
+msgstr "Stránky"
+
+#: modules/block/block.admin.inc:254
+msgid "Save block"
+msgstr "Uložit blok"
+
+#: modules/block/block.admin.inc:263,292
+msgid "Please ensure that each block description is unique."
+msgstr "Je třeba ověřit, že popis každého bloku je jedinečný."
+
+#: modules/block/block.admin.inc:276
+msgid "The block configuration has been saved."
+msgstr "Nastavení bloku bylo uloženo."
+
+#: modules/block/block.admin.inc:313
+msgid "The block has been created."
+msgstr "Blok byl vytvořen."
+
+#: modules/block/block.admin.inc:328
+msgid "Are you sure you want to delete the block %name?"
+msgstr "Opravdu odstranit blok %name?"
+
+#: modules/block/block.admin.inc:337
+msgid "The block %name has been removed."
+msgstr "Blok %name byl odstraněn."
+
+#: modules/block/block.module:70
+msgid ""
+"Blocks are boxes of content rendered into an area, or region, of a web page. "
+"The default theme Garland, for example, implements the regions \"left sidebar"
+"\", \"right sidebar\", \"content\", \"header\", and \"footer\", and a block "
+"may appear in any one of these areas. The <a href=\"@blocks\">blocks "
+"administration page</a> provides a drag-and-drop interface for assigning a "
+"block to a region, and for controlling the order of blocks within regions."
+msgstr ""
+"Bloky jsou boxy s obsahem zobrazené v části nebo v oblasti stránky. "
+"Například výchozí téma Garland obsahuje oblasti „levý postranní sloupec“, "
+"„pravý postranní sloupec“, „obsah“, „hlavička“ a „patička“, a blok se může "
+"objevit v některé z těchto oblastí. Stránka <a href=\"@blocks\">administrace "
+"bloků</a> nabízí drag-and-drop rozhraní pro přesun bloku do oblasti a "
+"kontrolu pořadí bloků v oblastech."
+
+#: modules/block/block.module:71
+msgid ""
+"Although blocks are usually generated automatically by modules (like the "
+"<em>User login</em> block, for example), administrators can also define "
+"custom blocks. Custom blocks have a title, description, and body. The body "
+"of the block can be as long as necessary, and can contain content supported "
+"by any available <a href=\"@input-format\">input format</a>."
+msgstr ""
+"Ačkoliv jsou bloky obvykle generované automaticky moduly (například blok "
+"<em>Přihlášení uživatele</em>), administrátoři mohou také definovat vlastní "
+"bloky. Uživatelské bloky mají nadpis, popis, a tělo. Tělo může být dlouhé "
+"jak je třeba, a může se v něm nacházet obsah podporovaný některým dostupným "
+"<a href=\"@input-format\">vstupním formátem</a>."
+
+#: modules/block/block.module:72
+msgid "When working with blocks, remember that:"
+msgstr "Když pracujete s bloky, pamatujte, že:"
+
+#: modules/block/block.module:73
+msgid ""
+"since not all themes implement the same regions, or display regions in the "
+"same way, blocks are positioned on a per-theme basis."
+msgstr ""
+"vzhledem k tomu, že jednotlivá témata mohou nabízet různé oblasti nebo "
+"nezobrazují oblasti stejně, je třeba rozmístit bloky pro každé téma zvlášť."
+
+#: modules/block/block.module:74
+msgid "disabled blocks, or blocks not in a region, are never shown."
+msgstr "deaktivované bloky nebo bloky bez určené oblasti se nikdy nezobrazují."
+
+#: modules/block/block.module:75
+msgid ""
+"when throttle module is enabled, throttled blocks (blocks with the "
+"<em>Throttle</em> checkbox selected) are hidden during high server loads."
+msgstr ""
+"pokud je povolen modul Výkon, bloky se zaškrtnutou volbou <em>výkon</em> "
+"nejsou zobrazovány při vysokém zatížení serveru."
+
+#: modules/block/block.module:76
+msgid "blocks can be configured to be visible only on certain pages."
+msgstr ""
+"bloky mohou být konfigurovány tak, aby byly viditelné jen na některých "
+"stránkách."
+
+#: modules/block/block.module:77
+msgid ""
+"blocks can be configured to be visible only when specific conditions are "
+"true."
+msgstr ""
+"bloky mohou být nastaveny tak, aby byly viditelné pouze pokud jsou splněny "
+"specifické podmínky."
+
+#: modules/block/block.module:78
+msgid "blocks can be configured to be visible only for certain user roles."
+msgstr ""
+"bloky mohou být nastaveny tak, aby byly viditelné jen pro některé "
+"uživatelské role."
+
+#: modules/block/block.module:79
+msgid ""
+"when allowed by an administrator, specific blocks may be enabled or disabled "
+"on a per-user basis using the <em>My account</em> page."
+msgstr ""
+"administrátor může povolit schování nebo zobrazení některých bloků "
+"uživatelem pomocí stránky <em>Můj účet</em>."
+
+#: modules/block/block.module:80
+msgid ""
+"some dynamic blocks, such as those generated by modules, will be displayed "
+"only on certain pages."
+msgstr ""
+"některé dynamické bloky, zvláště bloky generované moduly, budou zobrazeny "
+"jen na některých stránkách."
+
+#: modules/block/block.module:81
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@block"
+"\">Block module</a>."
+msgstr ""
+"Více informací naleznete v online příručce pro <a href=\"@block\">modul "
+"Block</a>."
+
+#: modules/block/block.module:85
+msgid ""
+"This page provides a drag-and-drop interface for assigning a block to a "
+"region, and for controlling the order of blocks within regions. To change "
+"the region or order of a block, grab a drag-and-drop handle under the "
+"<em>Block</em> column and drag the block to a new location in the list. "
+"(Grab a handle by clicking and holding the mouse while hovering over a "
+"handle icon.) Since not all themes implement the same regions, or display "
+"regions in the same way, blocks are positioned on a per-theme basis. "
+"Remember that your changes will not be saved until you click the <em>Save "
+"blocks</em> button at the bottom of the page."
+msgstr ""
+"Tato stránka slouží jako drag-and-drop rozhraní, kde můžete připsat blok do "
+"regionu a upravovat pořadí bloků v oblastech. Pro změnu regionu nebo pořadí "
+"bloku, chyťte myší ovládací prvek pod sloupcem <em>Blok</em> a přeneste blok "
+"do požadovaného umístění v seznamu. (Chyťte ovládací prvek kliknutím a "
+"držením tlačítka myši během jejího přesunu přes ovládací ikonu.) Vzhledem k "
+"tomu, že jednotlivá témata mohou nabízet různé regiony, nebo nezobrazují "
+"regiony stejně, je třeba rozmístit bloky pro každé téma zvlášť. Pamatujte, "
+"že změny nebudou uloženy dokud nekliknete na tlačítko <em>Uložit bloky</em> "
+"na konci stránky."
+
+#: modules/block/block.module:87
+msgid ""
+"To reduce CPU usage, database traffic or bandwidth, blocks may be "
+"automatically disabled during high server loads by selecting their "
+"<em>Throttle</em> checkbox. Adjust throttle thresholds on the <a href="
+"\"@throttleconfig\">throttle configuration page</a>."
+msgstr ""
+"Pokud je třeba snížit zatížení procesoru, komunikaci s databází nebo přenosy "
+"serveru, mohou být automaticky schovávány bloky během vysokého zatížení "
+"serveru. Označte bloky, které mají být v tomto případě schovány zatržením "
+"volby <em>Výkon</em>. Limity pro spuštění této funkce najdete na stránce <a "
+"href=\"@throttleconfig\">nastavení výkonu</a>."
+
+#: modules/block/block.module:89
+msgid ""
+"Click the <em>configure</em> link next to each block to configure its "
+"specific title and visibility settings. Use the <a href=\"@add-block\">add "
+"block page</a> to create a custom block."
+msgstr ""
+"Pro nastavení viditelnosti a vlastního nadpisu bloku klikněte na odkaz "
+"<em>nastavení</em> na řádku každého bloku. Pro vytvoření uživatelského bloku "
+"použijte stránku <a href=\"@add-block\">Přidat blok</a>."
+
+#: modules/block/block.module:92
+msgid ""
+"Use this page to create a new custom block. New blocks are disabled by "
+"default, and must be moved to a region on the <a href=\"@blocks\">blocks "
+"administration page</a> to be visible."
+msgstr ""
+"Tato stránka slouží k vytvoření nového uživatelského bloku. Nové bloky jsou "
+"ve výchozím nastavení vypnuté. Jakmile blok vytvoříte, můžete ho zapnout a "
+"umístit do některé z oblastí na stránce <a href=\"@blocks\">administrace "
+"bloků</a>."
+
+#: modules/block/block.module:315
+msgid "Block description"
+msgstr "Popis bloku"
+
+#: modules/block/block.module:318
+msgid ""
+"A brief description of your block. Used on the <a href=\"@overview\">block "
+"overview page</a>."
+msgstr ""
+"Krátký popis bloku. Použije se na <a href=\"@overview\">stránce s přehledem "
+"bloků</a>."
+
+#: modules/block/block.module:325
+msgid "Block body"
+msgstr "Tělo bloku"
+
+#: modules/block/block.module:328
+msgid "The content of the block as shown to the user."
+msgstr "Obsah bloku zobrazený uživatelům."
+
+#: modules/block/block.module:361
+msgid "Block configuration"
+msgstr "Nastavení bloků"
+
+#: modules/block/block.module:113
+msgid "administer blocks"
+msgstr "administrace bloků"
+
+#: modules/block/block.module:113
+msgid "use PHP for block visibility"
+msgstr "pro nastavení zobrazení použít PHP kód"
+
+#: modules/block/block.module:121
+msgid "Blocks"
+msgstr "Bloky"
+
+#: modules/block/block.module:122
+msgid ""
+"Configure what block content appears in your site's sidebars and other "
+"regions."
+msgstr ""
+"Nastavit zobrazování bloků v postranních sloupcích a ostatních regionech "
+"webové stránky."
+
+#: modules/block/block.module:133
+msgid "JavaScript List Form"
+msgstr "JavaScriptový formulář"
+
+#: modules/block/block.module:140
+msgid "Configure block"
+msgstr "Nastavit blok"
+
+#: modules/block/block.module:148
+msgid "Delete block"
+msgstr "Smazat blok"
+
+#: modules/block/block.module:156
+msgid "Add block"
+msgstr "Přidat blok"
+
+#: modules/block/block.module:0
+msgid "block"
+msgstr "blok"
+
+#: modules/block/block.install:9
+msgid "Stores block settings, such as region and visibility settings."
+msgstr "Uloží nastavení bloku, např. oblast umístění a viditelnost."
+
+#: modules/block/block.install:14
+msgid "Primary Key: Unique block ID."
+msgstr "Primární klíč: Unikátní ID bloku."
+
+#: modules/block/block.install:21
+msgid ""
+"The module from which the block originates; for example, 'user' for the "
+"Who's Online block, and 'block' for any custom blocks."
+msgstr ""
+"Modul na kterém je blok založen, například ‚user‘ pro blok „Kdo je online“ "
+"nebo ‚block‘ pro jakýkoliv uživatelský blok."
+
+#: modules/block/block.install:28
+msgid "Unique ID for block within a module."
+msgstr "Unikátní ID bloku v modulu."
+
+#: modules/block/block.install:35
+msgid "The theme under which the block settings apply."
+msgstr "Téma ve kterém budou aplikována nastavení bloku."
+
+#: modules/block/block.install:42
+msgid "Block enabled status. (1 = enabled, 0 = disabled)"
+msgstr "Stav bloku. (1 = povolen, 0 = zakázán)"
+
+#: modules/block/block.install:49
+msgid "Block weight within region."
+msgstr "Váha (pořadí) bloku v oblasti."
+
+#: modules/block/block.install:56
+msgid "Theme region within which the block is set."
+msgstr "Region tématu vzhledu, ve které je blok nastaven."
+
+#: modules/block/block.install:63
+msgid ""
+"Flag to indicate how users may control visibility of the block. (0 = Users "
+"cannot control, 1 = On by default, but can be hidden, 2 = Hidden by default, "
+"but can be shown)"
+msgstr ""
+"Vyberte zda uživatelé mohou kontrolovat viditelnost tohoto bloku (0 = Nelze "
+"kontrolovat , 1 = Zobrazen, lze však blok schovat, 2 = Schován, ale uživatel "
+"může blok zobrazit)"
+
+#: modules/block/block.install:70
+msgid ""
+"Flag to indicate whether or not to remove block when website traffic is "
+"high. (1 = throttle, 0 = do not throttle)"
+msgstr ""
+"Vyberte zda má být blok schován při vysokém zatížení serveru (1 = schovávat, "
+"0 = neschovávat)"
+
+#: modules/block/block.install:77
+msgid ""
+"Flag to indicate how to show blocks on pages. (0 = Show on all pages except "
+"listed pages, 1 = Show only on listed pages, 2 = Use custom PHP code to "
+"determine visibility)"
+msgstr ""
+"Vyberte kdy má být blok na stránkách zobrazen. (0 = Zobrazit na všech "
+"stránkách kromě vybraných, 1 = Zobrazit pouze na vybraných stránkách, 2 = "
+"Kód PHP rozhodne o zobrazení či schování bloku)"
+
+#: modules/block/block.install:82
+msgid ""
+"Contents of the \"Pages\" block; contains either a list of paths on which to "
+"include/exclude the block or PHP code, depending on \"visibility\" setting."
+msgstr ""
+"Obsah bloku „Stránky“; obsahuje (podle nastavení viditelnosti) buď seznam "
+"cest kde se má blok (ne)zobrazovat, nebo kód PHP."
+
+#: modules/block/block.install:89
+msgid ""
+"Custom title for the block. (Empty string will use block default title, "
+"<none> will remove the title, text will cause block to use specified title.)"
+msgstr ""
+"Nadpis uživatelského bloku. (Prázdný řetězec - výchozí nadpis bloku, <none> "
+"- odstraní nadpis)"
+
+#: modules/block/block.install:96
+msgid ""
+"Binary flag to indicate block cache mode. (-1: Do not cache, 1: Cache per "
+"role, 2: Cache per user, 4: Cache per page, 8: Block cache global) See "
+"BLOCK_CACHE_* constants in block.module for more detailed information."
+msgstr ""
+"Binární značka označující mód cacheování bloku (-1: Necacheovat, 1: "
+"Cacheovat podle role, 2: Cacheovat podle uživatele, 4: Cacheovat podle "
+"stránky, 8: Globální cacheování bloku). Další podrobnosti jsou v popisu "
+"konstant BLOCK_CACHE_* v block.module."
+
+#: modules/block/block.install:109
+msgid "Sets up access permissions for blocks based on user roles"
+msgstr "Nastavuje přístupová oprávnění k blokům na základě uživatelských rolí"
+
+#: modules/block/block.install:115
+msgid "The block's origin module, from {blocks}.module."
+msgstr "Modul odkud pochází blok, z {blocks}.module."
+
+#: modules/block/block.install:121
+msgid "The block's unique delta within module, from {blocks}.delta."
+msgstr "Unikátní delta bloku v modulu, z {blocks}.delta."
+
+#: modules/block/block.install:127
+msgid "The user's role ID from {users_roles}.rid."
+msgstr "ID uživatelské role {users_roles}.rid."
+
+#: modules/block/block.install:141
+msgid "Stores contents of custom-made blocks."
+msgstr "Obsah vlastních bloků."
+
+#: modules/block/block.install:147
+msgid "The block's {blocks}.bid."
+msgstr "ID bloku {blocks}.bid."
+
+#: modules/block/block.install:153
+msgid "Block contents."
+msgstr "Obsah bloku."
+
+#: modules/block/block.install:160
+msgid "Block description."
+msgstr "Popis bloku."
+
+#: modules/block/block.install:167
+msgid "Block body's {filter_formats}.format; for example, 1 = Filtered HTML."
+msgstr "{filter_formats}.format těla bloku, například 1 = Filtrované HTML."
+
+#: modules/block/block.install:175
+msgid ""
+"Cache table for the Block module to store already built blocks, identified "
+"by module, delta, and various contexts which may change the block, such as "
+"theme, locale, and caching mode defined for the block."
+msgstr ""
+"Cache tabulka modulu Blok obsahující již vygenerované bloky, identifikovány "
+"modulem, deltou a různými kontexty které by mohly změnit blok, jako "
+"například téma, jazyk a mód cache definovaný pro blok."
+
+#: modules/block/block.js:0
+msgid ""
+"The changes to these blocks will not be saved until the <em>Save blocks</em> "
+"button is clicked."
+msgstr ""
+"Změny v těchto blocích se neprojeví, dokud je neuložíte pomocí tlačítka "
+"<em>Uložit bloky</em>."
+
+#: modules/block/block.module:276
+msgid ""
+"The block %info was assigned to the invalid region %region and has been "
+"disabled."
+msgstr "Blok %info byl přiřazen do neplatného regionu (%region) a byl vypnut."

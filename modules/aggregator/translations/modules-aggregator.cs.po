@@ -1,0 +1,582 @@
+# Czech translation of Drupal (6.4)
+# Copyright (c) 2008 by the Czech translation team
+# Generated from files:
+#  aggregator-feed-source.tpl.php,v 1.1 2007/09/13 08:02:38 goba
+#  aggregator-summary-items.tpl.php,v 1.1 2007/09/13 08:02:38 goba
+#  aggregator.admin.inc,v 1.7.2.1 2008/04/25 21:11:57 goba
+#  aggregator.pages.inc,v 1.12 2008/01/08 10:35:40 goba
+#  aggregator.module,v 1.374.2.3 2008/08/08 20:10:01 dries
+#  aggregator.install,v 1.14 2007/12/18 12:59:20 dries
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Drupal (6.4)\n"
+"POT-Creation-Date: 2008-09-29 17:46+0200\n"
+"PO-Revision-Date: 2008-03-25 23:23+0100\n"
+"Language-Team: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1)?(0):(((n>=2)&&(n<=4))?(1):2));\n"
+
+#: modules/aggregator/aggregator-feed-source.tpl.php:30
+msgid "URL:"
+msgstr "URL:"
+
+#: modules/aggregator/aggregator-feed-source.tpl.php:33
+msgid "Updated:"
+msgstr "Aktualizace:"
+
+#: modules/aggregator/aggregator-summary-items.tpl.php:23
+msgid "More"
+msgstr "Více"
+
+#: modules/aggregator/aggregator.admin.inc:25
+msgid "Feed overview"
+msgstr "Náhled zdroje"
+
+#: modules/aggregator/aggregator.admin.inc:27,38
+msgid "Items"
+msgstr "Položky"
+
+#: modules/aggregator/aggregator.admin.inc:27
+msgid "Last update"
+msgstr "Poslední obnova"
+
+#: modules/aggregator/aggregator.admin.inc:27
+msgid "Next update"
+msgstr "Další obnova"
+
+#: modules/aggregator/aggregator.admin.inc:30
+msgid "%time left"
+msgstr "Zbývá: %time"
+
+#: modules/aggregator/aggregator.admin.inc:30
+msgid "remove items"
+msgstr "odstranit položky"
+
+#: modules/aggregator/aggregator.admin.inc:30
+msgid "update items"
+msgstr "obnovit položky"
+
+#: modules/aggregator/aggregator.admin.inc:36
+msgid "Category overview"
+msgstr "Náhled kategorie"
+
+#: modules/aggregator/aggregator.admin.inc:66
+msgid "The name of the feed (or the name of the website providing the feed)."
+msgstr "Název zdroje (nebo jméno webu, ze kterého pochází tento zdroj)."
+
+#: modules/aggregator/aggregator.admin.inc:73
+msgid "The fully-qualified URL of the feed."
+msgstr "Plně kvalifikované URL zdroje."
+
+#: modules/aggregator/aggregator.admin.inc:77
+msgid "Update interval"
+msgstr "Interval obnovy"
+
+#: modules/aggregator/aggregator.admin.inc:80
+msgid ""
+"The length of time between feed updates. (Requires a correctly configured <a "
+"href=\"@cron\">cron maintenance task</a>.)"
+msgstr ""
+"Čas mezi jednotlivými updaty. (Vyžaduje správně nastavený <a href=\"@cron"
+"\">cron</a>.)"
+
+#: modules/aggregator/aggregator.admin.inc:93
+msgid "Categorize news items"
+msgstr "Kategorizace položek novinek"
+
+#: modules/aggregator/aggregator.admin.inc:96
+msgid "New feed items are automatically filed in the checked categories."
+msgstr ""
+"Nové položky zdroje jsou automaticky doplněny do zaškrtnutých kategorií."
+
+#: modules/aggregator/aggregator.admin.inc:116
+msgid ""
+"The URL %url is invalid. Please enter a fully-qualified URL, such as http://"
+"www.example.com/feed.xml."
+msgstr ""
+"URL %url je chybné. Napište prosím plné URL, např. http://www.example.com/"
+"feed.xml."
+
+#: modules/aggregator/aggregator.admin.inc:127
+msgid "A feed named %feed already exists. Please enter a unique title."
+msgstr "Zdroj %feed již existuje. Je třeba zvolit jiný název."
+
+#: modules/aggregator/aggregator.admin.inc:130
+msgid "A feed with this URL %url already exists. Please enter a unique URL."
+msgstr "Zdroj s URL %url již existuje. Je třeba zvolit jiný název."
+
+#: modules/aggregator/aggregator.admin.inc:150
+msgid "The feed %feed has been updated."
+msgstr "Zdroj %feed byl aktualizován."
+
+#: modules/aggregator/aggregator.admin.inc:162
+msgid "The feed %feed has been deleted."
+msgstr "Zdroj %feed byl smazán."
+
+#: modules/aggregator/aggregator.admin.inc:175
+msgid "The feed %feed has been added."
+msgstr "Zdroj %feed byl přidán."
+
+#: modules/aggregator/aggregator.admin.inc:230
+msgid ""
+"A space-separated list of HTML tags allowed in the content of feed items. "
+"(Tags in this list are not removed by Drupal.)"
+msgstr ""
+"Seznam HTML značek povolených v obsahu položek zdroje. (Značky nejsou ze "
+"zdroje Drupalem odstraňovány.)"
+
+#: modules/aggregator/aggregator.admin.inc:234
+msgid "Items shown in sources and categories pages"
+msgstr "Položky zobrazené na stránkách kategorií a zdrojů"
+
+#: modules/aggregator/aggregator.admin.inc:236
+msgid "Number of feed items displayed in feed and category summary pages."
+msgstr "Počet položek zdroje zobrazených na stránkách kategorií a zdrojů."
+
+#: modules/aggregator/aggregator.admin.inc:240
+msgid "Discard items older than"
+msgstr "Smazat položky starší než"
+
+#: modules/aggregator/aggregator.admin.inc:242
+msgid ""
+"The length of time to retain feed items before discarding. (Requires a "
+"correctly configured <a href=\"@cron\">cron maintenance task</a>.)"
+msgstr ""
+"Jak dlouho zachovávat staré položky zdroje. (Vyžaduje správně nastavený <a "
+"href=\"@cron\">cron</a>.)"
+
+#: modules/aggregator/aggregator.admin.inc:246
+msgid "Category selection type"
+msgstr "Způsob výběru typu kategorie"
+
+#: modules/aggregator/aggregator.admin.inc:247
+msgid "checkboxes"
+msgstr "zaškrtávací pole"
+
+#: modules/aggregator/aggregator.admin.inc:247
+msgid "multiple selector"
+msgstr "vícenásobný výběr"
+
+#: modules/aggregator/aggregator.admin.inc:248
+msgid ""
+"The type of category selection widget displayed on categorization pages. "
+"(For a small number of categories, checkboxes are easier to use, while a "
+"multiple selector work well with large numbers of categories.)"
+msgstr ""
+"Typ výběru zobrazených na kategorizačních stránkách. Pro menší počet "
+"kategorií je lepší použít zaškrtávací pole, pro větší počet kategorií je "
+"vhodnější použít výběrová pole."
+
+#: modules/aggregator/aggregator.admin.inc:295
+msgid "A category named %category already exists. Please enter a unique title."
+msgstr "Kategorie %category již existuje. Zvolte prosím jiný název."
+
+#: modules/aggregator/aggregator.admin.inc:314
+msgid "The category %category has been updated."
+msgstr "Kategorie %category byla aktualizována."
+
+#: modules/aggregator/aggregator.admin.inc:326
+msgid "The category %category has been deleted."
+msgstr "Kategorie %category byla smazána."
+
+#: modules/aggregator/aggregator.admin.inc:339
+msgid "The category %category has been added."
+msgstr "Kategorie %category byla přidána."
+
+#: modules/aggregator/aggregator.admin.inc:161
+msgid "Feed %feed deleted."
+msgstr "Zdroj %feed byl smazán."
+
+#: modules/aggregator/aggregator.admin.inc:174
+msgid "Feed %feed added."
+msgstr "Zdroj %feed přidán."
+
+#: modules/aggregator/aggregator.admin.inc:325
+msgid "Category %category deleted."
+msgstr "Kategorie %category byla smazána."
+
+#: modules/aggregator/aggregator.admin.inc:338
+msgid "Category %category added."
+msgstr "Kategorie %category přidána."
+
+#: modules/aggregator/aggregator.pages.inc:68
+msgid "aggregator - @title"
+msgstr "agregátor - @title"
+
+#: modules/aggregator/aggregator.pages.inc:175
+msgid "Save categories"
+msgstr "Uložit kategorie"
+
+#: modules/aggregator/aggregator.pages.inc:185
+msgid "You are not allowed to categorize this feed item."
+msgstr "Nemáte oprávnění zařadit položku tohoto zdroje."
+
+#: modules/aggregator/aggregator.pages.inc:203
+msgid "The categories have been saved."
+msgstr "Kategorie byly uloženy."
+
+#: modules/aggregator/aggregator.pages.inc:262
+msgid "%ago ago"
+msgstr "%ago zpět"
+
+#: modules/aggregator/aggregator.pages.inc:377
+msgid "@site_name - aggregated feeds in category @title"
+msgstr "@site_name - agregované zdroje v kategorii @title"
+
+#: modules/aggregator/aggregator.pages.inc:377
+msgid "@site_name - aggregated feeds"
+msgstr "@site_name - agregované zdroje"
+
+#: modules/aggregator/aggregator.pages.inc:381
+msgid "@site_name aggregator"
+msgstr "Agregátor @site_name"
+
+#: modules/aggregator/aggregator.pages.inc:459
+msgid "%age old"
+msgstr "%age starý"
+
+#: modules/aggregator/aggregator.pages.inc:477
+msgid "!title feed"
+msgstr "zdroj !title"
+
+#: modules/aggregator/aggregator.module:15
+msgid ""
+"The aggregator is a powerful on-site syndicator and news reader that gathers "
+"fresh content from RSS-, RDF-, and Atom-based feeds made available across "
+"the web. Thousands of sites (particularly news sites and blogs) publish "
+"their latest headlines and posts in feeds, using a number of standardized "
+"XML-based formats. Formats supported by the aggregator include <a href=\"@rss"
+"\">RSS</a>, <a href=\"@rdf\">RDF</a>, and <a href=\"@atom\">Atom</a>."
+msgstr ""
+"Agregátor zdrojů poskytuje čerstvý obsah ze zdrojů založených na RSS-, RDF- "
+"a Atom formátu. Tisíce webů (hlavně ty zpravodajské) publikují své "
+"nejnovější články pomocí zdrojů. Formáty podporované agregátorem zahrnují <a "
+"href=\"@rss\">RSS</a>, <a href=\"@rdf\">RDF</a> a <a href=\"@atom\">Atom</a>."
+
+#: modules/aggregator/aggregator.module:16
+msgid ""
+"Feeds contain feed items, or individual posts published by the site "
+"providing the feed. Feeds may be grouped in categories, generally by topic. "
+"Users view feed items in the <a href=\"@aggregator\">main aggregator "
+"display</a> or by <a href=\"@aggregator-sources\">their source</a>. "
+"Administrators can <a href=\"@feededit\">add, edit and delete feeds</a> and "
+"choose how often to check each feed for newly updated items. The most recent "
+"items in either a feed or category can be displayed as a block through the "
+"<a href=\"@admin-block\">blocks administration page</a>. A <a href="
+"\"@aggregator-opml\">machine-readable OPML file</a> of all feeds is "
+"available. A correctly configured <a href=\"@cron\">cron maintenance task</"
+"a> is required to update feeds automatically."
+msgstr ""
+"Zdroje obsahují položky zdroje, nebo jednotlivé příspěvky publikované na "
+"webu, který poskytuje zdroj. Zdroje mohou být seskupovány do kategorií, "
+"většinou podle témat. Uživatelé si mohou prohlížet příspěvky na <a href="
+"\"@aggregator\">hlavní stránce agregátoru</a> nebo <a href=\"@aggregator-"
+"sources\">stránce zdroje</a>. Administrátoři mohou <a href=\"@feededit"
+"\">přidávat, upravovat a mazat zdroje</a>, a vybírat, jak často bude každý "
+"zdroj prověřovat nově změněné položky. Nejnovější položky každého zdroje "
+"nebo kategorie mohou být zobrazovány v bloku přes <a href=\"@admin-block"
+"\">administrační stránku bloků</a>. Také je dostupný <a href=\"@aggregator-"
+"opml\">strojově čitelný OPML soubor</a> všech zdrojů. Pro automatické plnění "
+"zdrojů je potřeba mít správně nakonfigurovaný <a href=\"@cron\">cron</a>."
+
+#: modules/aggregator/aggregator.module:17
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@aggregator"
+"\">Aggregator module</a>."
+msgstr ""
+"Více informací naleznete v online příručce pro <a href=\"@aggregator\">modul "
+"Aggregator</a>."
+
+#: modules/aggregator/aggregator.module:20
+msgid ""
+"Thousands of sites (particularly news sites and blogs) publish their latest "
+"headlines and posts in feeds, using a number of standardized XML-based "
+"formats. Formats supported by the aggregator include <a href=\"@rss\">RSS</"
+"a>, <a href=\"@rdf\">RDF</a>, and <a href=\"@atom\">Atom</a>."
+msgstr ""
+"Tisíce webů (hlavně ty zpravodajské) publikují své nejnovější články pomocí "
+"zdrojů. Formáty podporované agregátorem zahrnují <a href=\"@rss\">RSS</a>, "
+"<a href=\"@rdf\">RDF</a> a <a href=\"@atom\">Atom</a>."
+
+#: modules/aggregator/aggregator.module:21
+msgid ""
+"Current feeds are listed below, and <a href=\"@addfeed\">new feeds may be "
+"added</a>. For each feed or feed category, the <em>latest items</em> block "
+"may be enabled at the <a href=\"@block\">blocks administration page</a>."
+msgstr ""
+"Aktuální zdroje jsou vypsány níže. Můžete také <a href=\"@addfeed\">přidat "
+"nové zdroje</a>. Pro každý zdroj nebo kategorii zdrojů může být na stránce "
+"<a href=\"@block\">administrace bloků</a> povolen blok s nejnovějšími "
+"položkami."
+
+#: modules/aggregator/aggregator.module:24
+msgid "Add a feed in RSS, RDF or Atom format. A feed may only have one entry."
+msgstr ""
+"Přidání zdroje ve formátu RSS, RDF nebo Atom. Zdroj může mít pouze jeden "
+"vstup."
+
+#: modules/aggregator/aggregator.module:26
+msgid ""
+"Categories allow feed items from different feeds to be grouped together. For "
+"example, several sport-related feeds may belong to a category named "
+"<em>Sports</em>. Feed items may be grouped automatically (by selecting a "
+"category when creating or editing a feed) or manually (via the "
+"<em>Categorize</em> page available from feed item listings). Each category "
+"provides its own feed page and block."
+msgstr ""
+"Kategorie umožňují seskupování položek z různých zdrojů. Například několik "
+"zdrojů zabývajících se sportem může patřit do kategorie pojmenované "
+"<em>Sporty</em>. Položky zdrojů se mohou seskupovat automaticky (pokud je "
+"vybrána kategorie při vytvoření nebo úpravě zdroje), nebo ručně (přes "
+"stránku <em>Kategorizovat</em>, která je dostupná ve výpisu položek zdroje). "
+"Každá kategorie poskytuje svoji vlastní stránku zdrojů a blok."
+
+#: modules/aggregator/aggregator.module:306
+msgid "!title category latest items"
+msgstr "Poslední položky kategorie !title"
+
+#: modules/aggregator/aggregator.module:310
+msgid "!title feed latest items"
+msgstr "Poslední položky zdroje !title"
+
+#: modules/aggregator/aggregator.module:321
+msgid "Number of news items in block"
+msgstr "Počet položek v bloku"
+
+#: modules/aggregator/aggregator.module:340
+msgid "View this feed's recent news."
+msgstr "Zobrazit nejnovější zprávy kanálu."
+
+#: modules/aggregator/aggregator.module:348
+msgid "View this category's recent news."
+msgstr "Zobrazit nejnovější zprávy kategorie."
+
+#: modules/aggregator/aggregator.module:462
+msgid "The news items from %site have been removed."
+msgstr "Zprávy z %site byly odstraněny."
+
+#: modules/aggregator/aggregator.module:603
+msgid "There is no new syndicated content from %site."
+msgstr "%site nenabízí žádný nový obsah."
+
+#: modules/aggregator/aggregator.module:642,641
+msgid "There is new syndicated content from %site."
+msgstr "%site nabízí nový obsah."
+
+#: modules/aggregator/aggregator.module:645
+msgid "feed not parseable"
+msgstr "zdroj nelze přečíst."
+
+#: modules/aggregator/aggregator.module:649
+msgid "The feed from %site seems to be broken, because of error \"%error\"."
+msgstr "Zdroj %site je pravděpodobně špatně formátovaný, chyba: „%error“."
+
+#: modules/aggregator/aggregator.module:719
+msgid ""
+"The feed from %site seems to be broken, because of error \"%error\" on line %"
+"line."
+msgstr ""
+"Zdroj %site je pravděpodobně špatně formátovaný, chyba: „%error“ na řádku %"
+"line."
+
+#: modules/aggregator/aggregator.module:896
+msgid "blog it"
+msgstr "blogovat"
+
+#: modules/aggregator/aggregator.module:897
+msgid "Comment on this news item in your personal blog."
+msgstr "Okomentujte tuto zprávu ve svém osobním blogu."
+
+#: modules/aggregator/aggregator.module:607
+msgid "Updated URL for feed %title to %url."
+msgstr "Aktualizace URL pro zdroj %title na %url."
+
+#: modules/aggregator/aggregator.module:648
+msgid "The feed from %site seems to be broken, due to \"%error\"."
+msgstr "Zdroj %site je pravděpodobně špatně formátovaný, chyba: „%error“."
+
+#: modules/aggregator/aggregator.module:718
+msgid ""
+"The feed from %site seems to be broken, due to an error \"%error\" on line %"
+"line."
+msgstr ""
+"Zdroj %site je pravděpodobně špatně formátovaný, chyba: „%error“ na řádku %"
+"line."
+
+#: modules/aggregator/aggregator.module:281
+msgid "administer news feeds"
+msgstr "administrace zpráv"
+
+#: modules/aggregator/aggregator.module:281
+msgid "access news feeds"
+msgstr "přístup ke zprávám"
+
+#: modules/aggregator/aggregator.module:83,138
+msgid "Feed aggregator"
+msgstr "Agregátor zdrojů"
+
+#: modules/aggregator/aggregator.module:84
+msgid ""
+"Configure which content your site aggregates from other sites, how often it "
+"polls them, and how they're categorized."
+msgstr ""
+"Nastavit, jaký obsah bude agregován z jiných webů, jak často bude obnovován "
+"a jak bude kategorizován."
+
+#: modules/aggregator/aggregator.module:90
+msgid "Add feed"
+msgstr "Přidat zdroj"
+
+#: modules/aggregator/aggregator.module:116
+msgid "Update items"
+msgstr "Obnovit položky"
+
+#: modules/aggregator/aggregator.module:145
+msgid "Sources"
+msgstr "Zdroje"
+
+#: modules/aggregator/aggregator.module:231
+msgid "Edit feed"
+msgstr "Upravit zdroj"
+
+#: modules/aggregator/aggregator.module:239
+msgid "Edit category"
+msgstr "Upravit kategorii"
+
+#: modules/aggregator/aggregator.install:30
+msgid "Stores categories for aggregator feeds and feed items."
+msgstr "Ukládá kategorie pro zdroje agregátoru a položky zdroje."
+
+#: modules/aggregator/aggregator.install:35
+msgid "Primary Key: Unique aggregator category ID."
+msgstr "Primární klíč: Unikátní ID kategorie agregátoru."
+
+#: modules/aggregator/aggregator.install:42
+msgid "Title of the category."
+msgstr "Nadpis kategorie."
+
+#: modules/aggregator/aggregator.install:48
+msgid "Description of the category"
+msgstr "Popis kategorie"
+
+#: modules/aggregator/aggregator.install:55
+msgid "The number of recent items to show within the category block."
+msgstr "Počet nejnovějších položek které se mají zobrazit v bloku kategorií."
+
+#: modules/aggregator/aggregator.install:63
+msgid "Bridge table; maps feeds to categories."
+msgstr "Směrovací tabulka; mapuje zdroje na kategorie."
+
+#: modules/aggregator/aggregator.install:69
+msgid "The feed's {aggregator_feed}.fid."
+msgstr "{aggregator_feed}.fid zdroje."
+
+#: modules/aggregator/aggregator.install:75
+msgid "The {aggregator_category}.cid to which the feed is being assigned."
+msgstr "{aggregator_category}.cid ke kterému je zdroj připsán."
+
+#: modules/aggregator/aggregator.install:83
+msgid "Bridge table; maps feed items to categories."
+msgstr "Směrovací tabulka, mapuje položky zdrojů na kategorie."
+
+#: modules/aggregator/aggregator.install:89
+msgid "The feed item's {aggregator_item}.iid."
+msgstr "{aggregator_item}.iid položky zdroje."
+
+#: modules/aggregator/aggregator.install:95
+msgid "The {aggregator_category}.cid to which the feed item is being assigned."
+msgstr "{aggregator_category}.cid ke kterému je položka zdroje připsána."
+
+#: modules/aggregator/aggregator.install:103
+msgid "Stores feeds to be parsed by the aggregator."
+msgstr "Obsahuje zdroje, které mají být přečteny agregátorem."
+
+#: modules/aggregator/aggregator.install:108
+msgid "Primary Key: Unique feed ID."
+msgstr "Primární klíč: Unikátní ID zdroje."
+
+#: modules/aggregator/aggregator.install:115
+msgid "Title of the feed."
+msgstr "Nadpis zdroje."
+
+#: modules/aggregator/aggregator.install:122
+msgid "URL to the feed."
+msgstr "URL zdroje."
+
+#: modules/aggregator/aggregator.install:128
+msgid "How often to check for new feed items, in seconds."
+msgstr "Jak často zjišťovat nové položky zdroje, ve vteřinách."
+
+#: modules/aggregator/aggregator.install:134
+msgid "Last time feed was checked for new items, as Unix timestamp."
+msgstr "Časové razítko posledního zjišťování nových položek."
+
+#: modules/aggregator/aggregator.install:141
+msgid ""
+"The parent website of the feed; comes from the <link> element in the feed."
+msgstr "Rodičovský web zdroje, pochází z elementu <link> ve zdroji."
+
+#: modules/aggregator/aggregator.install:147
+msgid ""
+"The parent website's description; comes from the <description> element in "
+"the feed."
+msgstr "Popis rodičovského webu, pochází z elementu <description> ve zdroji."
+
+#: modules/aggregator/aggregator.install:153
+msgid "An image representing the feed."
+msgstr "Obrázek reprezentující zdroj."
+
+#: modules/aggregator/aggregator.install:160
+msgid "Entity tag HTTP response header, used for validating cache."
+msgstr "Entity tag HTTP hlavičky, používaný pro validaci cache."
+
+#: modules/aggregator/aggregator.install:166
+msgid "When the feed was last modified, as a Unix timestamp."
+msgstr "Časové razítko poslední změny zdroje."
+
+#: modules/aggregator/aggregator.install:173
+msgid "Number of items to display in the feed's block."
+msgstr "Počet položek které se mají zobrazit v bloku zdroje."
+
+#: modules/aggregator/aggregator.install:184
+msgid "Stores the individual items imported from feeds."
+msgstr "Uložení jednotlivých položek načtených ze zdroje."
+
+#: modules/aggregator/aggregator.install:189
+msgid "Primary Key: Unique ID for feed item."
+msgstr "Primární klíč: Unikátní ID položky zdroje."
+
+#: modules/aggregator/aggregator.install:195
+msgid "The {aggregator_feed}.fid to which this item belongs."
+msgstr "{aggregator_feed}.fid ke kterému tato položka patří."
+
+#: modules/aggregator/aggregator.install:202
+msgid "Title of the feed item."
+msgstr "Nadpis položky zdroje."
+
+#: modules/aggregator/aggregator.install:209
+msgid "Link to the feed item."
+msgstr "Odkaz na položku zdroje."
+
+#: modules/aggregator/aggregator.install:216
+msgid "Author of the feed item."
+msgstr "Autor položky zdroje."
+
+#: modules/aggregator/aggregator.install:222
+msgid "Body of the feed item."
+msgstr "Tělo položky zdroje."
+
+#: modules/aggregator/aggregator.install:227
+msgid "Post date of feed item, as a Unix timestamp."
+msgstr "Časové razítko položky zdroje."
+
+#: modules/aggregator/aggregator.install:233
+msgid "Unique identifier for the feed item."
+msgstr "Unikátní identifikátor položky zdroje."
+
+#: modules/aggregator/aggregator.admin.inc:187
+msgid "Are you sure you want to remove all items from the feed %feed?"
+msgstr "Opravdu odstranit všechny položky zdroje %feed?"
